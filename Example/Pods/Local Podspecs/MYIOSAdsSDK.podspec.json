@@ -3,20 +3,100 @@
   "version": "0.1.0",
   "summary": "A short description of MYIOSAdsSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zhulonghaigit/MYIOSAdsSDK",
+  "homepage": "https://github.com/shanghaimeiyue/MYIOSAdsSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "zhulonghaigit": "karl@edimob.com"
+    "shanghaimeiyue": "karl@edimob.com"
   },
   "source": {
-    "git": "https://github.com/zhulonghaigit/MYIOSAdsSDK.git",
+    "git": "git@github.com:shanghaimeiyue/MYIOSAdsSDK.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "MYIOSAdsSDK/Classes/**/*"
+  "static_framework": true,
+  "source_files": "MYIOSAdsSDK/Classes/**/*",
+  "public_header_files": "Pod/Classes/Headers/*.h",
+  "resource_bundles": {
+    "MYIOSAdsSDK": [
+      "MYIOSAdsSDK/Resources/*.bundle"
+    ]
+  },
+  "frameworks": [
+    "Accelerate",
+    "AdSupport",
+    "AppTrackingTransparency",
+    "AssetsLibrary",
+    "AudioToolbox",
+    "AVFoundation",
+    "AVKit",
+    "CoreData",
+    "CoreGraphics",
+    "CoreImage",
+    "CoreLocation",
+    "CoreMedia",
+    "CoreMotion",
+    "CoreServices",
+    "CoreTelephony",
+    "CoreText",
+    "DeviceCheck",
+    "EventKit",
+    "Foundation",
+    "ImageIO",
+    "JavaScriptCore",
+    "MapKit",
+    "MediaPlayer",
+    "MessageUI",
+    "MobileCoreServices",
+    "Photos",
+    "QuartzCore",
+    "QuickLook",
+    "SafariServices",
+    "Security",
+    "StoreKit",
+    "SystemConfiguration",
+    "UIKit",
+    "WebKit"
+  ],
+  "vendored_frameworks": [
+    "MYIOSAdsSDK/Frameworks/EdiMobSDK.framework",
+    "MYIOSAdsSDK/Frameworks/KSAdSDK.xcframework",
+    "MYIOSAdsSDK/Frameworks/KSCrash.framework",
+    "MYIOSAdsSDK/Frameworks/WechatOpenSDK-XCFramework.xcframework"
+  ],
+  "libraries": [
+    "bz2",
+    "c",
+    "c++",
+    "c++abi",
+    "iconv",
+    "resolv.9",
+    "sqlite3.0",
+    "sqlite3",
+    "xml2",
+    "z"
+  ],
+  "vendored_libraries": [
+    "MYIOSAdsSDK/Frameworks/libMYAdsSDK.a",
+    "MYIOSAdsSDK/Frameworks/libGDTMobSDK.a"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": [
+      "-ObjC",
+      "-all_load",
+      "-ld64"
+    ]
+  },
+  "dependencies": {
+    "Ads-Fusion-CN-Beta/BUAdSDK": [
+      "5.7.0.8"
+    ],
+    "Ads-Fusion-CN-Beta/CSJMediation": [
+      "5.7.0.8"
+    ]
+  }
 }

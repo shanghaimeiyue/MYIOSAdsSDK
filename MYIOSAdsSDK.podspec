@@ -48,6 +48,7 @@ TODO: Add long description of the pod here.
   s.vendored_libraries = 'MYIOSAdsSDK/Frameworks/libMYAdsSDK.a', 'MYIOSAdsSDK/Frameworks/libGDTMobSDK.a'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load', '-ld64'] }
   
-  s.dependency 'Ads-Fusion-CN-Beta','5.7.0.8', :subspecs => ['BUAdSDK', 'CSJMediation']
+  s.dependency 'Ads-Fusion-CN-Beta/BUAdSDK', '5.7.0.8'
+  s.dependency 'Ads-Fusion-CN-Beta/CSJMediation', '5.7.0.8'
   
 end

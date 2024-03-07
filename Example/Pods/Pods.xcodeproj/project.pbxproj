@@ -6,76 +6,271 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		2E1BAD87096BC74F166613641E5D5376 /* Ads-Fusion-CN-Beta */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 74E630794C1F3D785BD1F8D4932A9E07 /* Build configuration list for PBXAggregateTarget "Ads-Fusion-CN-Beta" */;
+			buildPhases = (
+				55B3BC27C298F4090D4EA89D710D691A /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				3D342CCF6DD7EFB7254F9C7D38673F95 /* PBXTargetDependency */,
+			);
+			name = "Ads-Fusion-CN-Beta";
+		};
+		A30112D48286DC34DCEF944BC33E1EC9 /* BURelyFoundation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9CAD962741FC0CFEDC9A3B1A9665D5BA /* Build configuration list for PBXAggregateTarget "BURelyFoundation" */;
+			buildPhases = (
+				AB4B6BF5CBD7C91EFB9A27E69317F45B /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = BURelyFoundation;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0EF2EE303C17377227B83B70977A8DFA /* Pods-MYIOSAdsSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E5A27409675526E0D03AE766CD214D /* Pods-MYIOSAdsSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		136180CB0CA8A3821B58982DCC15F295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		387717CE70EC4CD3A748BB7B5BE646CC /* Pods-MYIOSAdsSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F098CCA93598237966B64735DC1FD935 /* Pods-MYIOSAdsSDK_Example-dummy.m */; };
-		538C75CA2D072712171DBD9E3C59B449 /* MYIOSAdsSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1AF330C932454C773C79DF4D0E046E /* MYIOSAdsSDK-dummy.m */; };
-		659928660FDFB87857E266C52A643ABB /* Pods-MYIOSAdsSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD83D1CA0C3C045578215E8E861AF74 /* Pods-MYIOSAdsSDK_Tests-dummy.m */; };
-		7DBC2BFA90A4AF48523E975F58E65FAF /* MYIOSAdsSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B84B24FC5461CC91D476B8A6C6DEC5C /* MYIOSAdsSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6ABC7F2E6A7672FB4EA3D513774943F /* Pods-MYIOSAdsSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41747D4D3CEB0C74CE75B85EDEE49F0C /* Pods-MYIOSAdsSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01752ECA8FB9B453572E966D0127564C /* GDTSplashAd.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C08A93139D0B06BEFC58F0D5842026 /* GDTSplashAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02535295AC8B4DC974EF47C380E49D3D /* MYBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CBE863D81EB19E309DD0F97AE20B6F7 /* MYBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B812D634AA8C06DA1C941B5F9C90CBF /* MYRewardedVideoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7BB62DD32906679D645A36A23F87D9 /* MYRewardedVideoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EF2EE303C17377227B83B70977A8DFA /* Pods-MYIOSAdsSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF05E51407D0BAA3F40FFEB5E069817 /* Pods-MYIOSAdsSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		103F2E813FA793544AC9769C87915EB3 /* GDTRewardVideoAdNetworkAdapterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD5E0818015ACC0FE79BCBD35D41F8 /* GDTRewardVideoAdNetworkAdapterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		105B2EEBE3B1A160AD1C5CFAEE7E24AE /* GDTNativeExpressAdNetworkConnectorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2FE5FF225B776B2B7D9155470CDE85 /* GDTNativeExpressAdNetworkConnectorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		130E38B041B2F0054A46E1245A8D6266 /* MYIOSAdsSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E06F9B00FF41C4C1CD703FED4CBEF63C /* MYIOSAdsSDK-dummy.m */; };
+		23D4952082F780384C48420907A9EF21 /* GDTSplashAdNetworkConnectorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 184A6BA60979623AEF2735C5720B9B86 /* GDTSplashAdNetworkConnectorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24D24E343237EB92297CC1DDD3C4116E /* GDTLogoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6C398F3F3E48CF01AD7E453D4477BE /* GDTLogoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29D1486FB1EEB12FC43CAC9BC19A23BE /* MYIOSAdsSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D520482B88904398E5B2AE33400FE1 /* MYIOSAdsSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2F1ADAE8E47B9F653771ADA199D549 /* MYNativeAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87BD0A03D0080FA85AA2FDD56814A983 /* MYNativeAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31980B3840C6FB36FD08FB1F83BBE4B1 /* GDTVideoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8E8F9DE5B01346AD985B0858F59DC8 /* GDTVideoConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35521F9B6BE44C2E36B8801EC2200C8F /* GDTUnifiedInterstitialAdNetworkAdapterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 137EBECB1DB90B53FEA2BF946ACAEA9E /* GDTUnifiedInterstitialAdNetworkAdapterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36F0F30EC36465A97FA4455C496AAEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		376FFBF87B1C9FC4A74E19AC8A087CB1 /* GDTNativeExpressAdNetworkAdapterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F275724998844D644F469A9580C5C9F6 /* GDTNativeExpressAdNetworkAdapterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37D0B3B98C111CAF7A9908F713FE449C /* GDTAdTestSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A32C755BB1B5C2ACC7C002F0C2CC04B /* GDTAdTestSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38EF3633D8358CB234F68912A28DF32B /* GDTUnifiedBannerAdNetworkAdapterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C900E4784592D5976151F296639BD9 /* GDTUnifiedBannerAdNetworkAdapterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C0BCFD22A3D629351C6F5E6FAEBD258 /* GDTBaseAdNetworkAdapterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = EF53D794CD77CEAB01395D0F2E9DEDD8 /* GDTBaseAdNetworkAdapterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F8730E7B358C75020D491871097CD10 /* GDTSDKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 09252D4E0B2EDAFFBC5A640115D75084 /* GDTSDKConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44E10BD83CF823EA11F9A66756B701FA /* GDTMediaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 832FA49E13039A7AC48F848A428590BB /* GDTMediaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4508325BA4C158D4F0A4A2B42C76C1D0 /* MYNativeExpressAd.h in Headers */ = {isa = PBXBuildFile; fileRef = D91F30403C4B1A4AC29AC7A6910EE09B /* MYNativeExpressAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490382BA31C2D718AB3BC7B5F8595EDA /* GDTUnifiedNativeAdNetworkAdapterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EB346A7C70F0ECCBC8C30B4F409C55 /* GDTUnifiedNativeAdNetworkAdapterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4F02BBBD1C6EC0BEFCD59FB009A08D /* PrivacyInfo.xcprivacy in Sources */ = {isa = PBXBuildFile; fileRef = C8FAD2BE48362F977B9A610044945E11 /* PrivacyInfo.xcprivacy */; };
+		5A65E203668CC1CBEC40E8BBF8837B19 /* GDTUnifiedNativeAd.h in Headers */ = {isa = PBXBuildFile; fileRef = AE15973185AE2ED7810EE2D477EC64E3 /* GDTUnifiedNativeAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61B4E2B45195B0B3B6D8D2A1BD79965D /* GDTRewardVideoAdNetworkConnectorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8237CDD3E8B3A0176C611C4BE849982C /* GDTRewardVideoAdNetworkConnectorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64D610F30D0AACBD38A859AD3E9D2C6E /* GDTUnifiedBannerAdNetworkConnectorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C2C33442C97CFCCC9E1E2F1FC11291 /* GDTUnifiedBannerAdNetworkConnectorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		659928660FDFB87857E266C52A643ABB /* Pods-MYIOSAdsSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D13019998C9651D34F778E2D810FA67 /* Pods-MYIOSAdsSDK_Tests-dummy.m */; };
+		6A399851E06C1603B99D1ADE1D63563F /* GDTSDKDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C99FCCA9DC1A754C5D43BC2210D1736B /* GDTSDKDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		752C76BFA563582F5F5F0096B454AC4E /* GDTUnifiedInterstitialAdNetworkConnectorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AF9A47330986BA9696051BD3A74CD7 /* GDTUnifiedInterstitialAdNetworkConnectorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7736C7EFF126699CF0D817EE98362E2F /* GDTServerSideVerificationOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = C604B37FAFCD5083DEDC6CDF0C83DFCE /* GDTServerSideVerificationOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B4D5D0A5B850251008333AB8793A76 /* Pods-MYIOSAdsSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB09C57EC8D5BF01FFB2AABCC071960 /* Pods-MYIOSAdsSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DB669E6270D940CC1476713BEF9F07 /* MYInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = C359DE01A678AF67637DE75AC68F50C2 /* MYInterstitialAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88AA28BB387A0E4C290F0E9FB51FB560 /* Pods-MYIOSAdsSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F288F1856DA8921676B978E697959FB /* Pods-MYIOSAdsSDK_Example-dummy.m */; };
+		8C9BD1AB6EFA73F38E7B0AC38B110C09 /* GDTNativeExpressAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = D656F06B7B7C4A93DBCA769552BE39D6 /* GDTNativeExpressAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90EBA3F3FD2F45941BC2828676C8BA0F /* GDTNativeExpressAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 430BA59E717B24CAC505380907C82856 /* GDTNativeExpressAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94DFB35372C82FF4AA5753C41FF71314 /* GDTUnifiedInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CF461C5D29908446CA663B206F1132 /* GDTUnifiedInterstitialAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		975B8625F24669ACA5A2627304082E36 /* GDTAdParams.h in Headers */ = {isa = PBXBuildFile; fileRef = D544FD6D3B4D703710E47E3CF16958D3 /* GDTAdParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A98A79A7C229706763D2EA0406B4D0D0 /* GDTUnifiedNativeAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 569820891B7EF8C8109E68F571BF837C /* GDTUnifiedNativeAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACF4891B6FE579D4C488E614C6B70333 /* GDTAdProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 89206755B383FCE261574AF312FF07C8 /* GDTAdProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6B1262F53B526BA9347866EB51B13D /* GDTVideoAdReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D8D21CDF46C43F8F4442F6C42DB9C44 /* GDTVideoAdReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B22267B848D17FC2E4017745A9603674 /* MYSplashAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9658B20BCD3FC04E54C084107CAAA7 /* MYSplashAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6DD5E7DE0D13A4668CE39CA17C26E45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B9960FA7054F516765438E26B9585B0C /* GDTRewardVideoAd.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB5D925FC0A7FFFC275E1AAA407240B /* GDTRewardVideoAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCA173902A24724A70015053F4D7EC21 /* GDTSplashAdNetworkAdapterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9E2C9C789E4FC485AB0712E69EE0A8 /* GDTSplashAdNetworkAdapterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCD1C353FCC9A43D03800D065E80B885 /* GDTNativeExpressAdViewAdapterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF89B197F7983067523DD8547952785 /* GDTNativeExpressAdViewAdapterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3189AE94A1B30EDB4D9B209FE768981 /* MYRewardedVideoAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 81ADCB8512E5E2DC787AEECECCBFE3CC /* MYRewardedVideoAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C46856CD9E0C674B0D23670DB87F0053 /* GDTUnifiedNativeAdNetworkConnectorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 48C1A45864AA43566425D43E1E757EB3 /* GDTUnifiedNativeAdNetworkConnectorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C51B68283FB6403EE18499C8E1AF413F /* MYAdsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD86D4A9B1B6E285D62B91EDE494D787 /* MYAdsBundle.bundle */; };
+		C8D1C5537C66934D70E8B262E6CF191B /* GDTPrivacyConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 42532682DE04C5728842F54C3F9FA456 /* GDTPrivacyConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCC7193C835B1A417C842A25C634506A /* MYAdsConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 34770813E126B7A780B965E23B8E7A93 /* MYAdsConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE230C808419D023E174152FD887FB8A /* GDTUnifiedBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26FCC58BEA7182BB1B8931DDDD8E7CCA /* GDTUnifiedBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D052877D6020D8E3AC0DA6FAAAB8553F /* GDTUnifiedNativeAdDataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D522A07641BBA680A94A8EBE825D4A26 /* GDTUnifiedNativeAdDataObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC8C331122020A05EB36317270119F7C /* MYNativeAdDataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 631A49F43F8C862DF1B538AF8110E578 /* MYNativeAdDataObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE71BDF1275F6C707C6B4A320BDF4DB2 /* MYNativeExpressAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A0B4BD5EE6FCA93C7A888236D25DCC /* MYNativeExpressAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4D58AACEA1DFFBD86E01E794BA21A88 /* GDTLoadAdParams.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3244B803BA60A86A900F3965B36878 /* GDTLoadAdParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F678531D29FA89531D116B5816E08B42 /* MYNativeAd.h in Headers */ = {isa = PBXBuildFile; fileRef = A822BEC12E6D9FA74738E19A37EC9B4A /* MYNativeAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB0C967F17910854866DF30BB760B496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FB436AF733D6399EA6D369480B345281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FBA86F794D6C3C5CDA78AAF46C310EBB /* GDTServerBiddingResult.h in Headers */ = {isa = PBXBuildFile; fileRef = EAFA785C2C04B77F0C9DAD69D028EE74 /* GDTServerBiddingResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A561B8DCCBF78C366933355EC3EF850F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 851628ACACA1BC9D3AEC29E646B7966E;
-			remoteInfo = MYIOSAdsSDK;
-		};
-		DB035D03A184BD3C146A6DEB012D675D /* PBXContainerItemProxy */ = {
+		338B3BBDF14BEF1D300C0D00926EC7C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4D6021ACC58BEF18F10F808928E1A5D6;
 			remoteInfo = "Pods-MYIOSAdsSDK_Example";
 		};
+		5BC7304EB56CD246CC643194131D3D75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E1BAD87096BC74F166613641E5D5376;
+			remoteInfo = "Ads-Fusion-CN-Beta";
+		};
+		60ED862359FB0FEFB992F0F1AC0F650F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E1BAD87096BC74F166613641E5D5376;
+			remoteInfo = "Ads-Fusion-CN-Beta";
+		};
+		97664F1B97D7415DC6904E91128F8FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF143CC4927A4E2964D146D40BA1CD96;
+			remoteInfo = "MYIOSAdsSDK-MYIOSAdsSDK";
+		};
+		B534ECDF712B0FBB5C2640C63CF44D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30112D48286DC34DCEF944BC33E1EC9;
+			remoteInfo = BURelyFoundation;
+		};
+		CFB194425F2F2D21516B2C0900B317BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 851628ACACA1BC9D3AEC29E646B7966E;
+			remoteInfo = MYIOSAdsSDK;
+		};
+		E395F83E9940F2F5B174683B77E0A155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30112D48286DC34DCEF944BC33E1EC9;
+			remoteInfo = BURelyFoundation;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05AEB0A293D00C3F97366AA8725F62E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		08172754A9EE019D9D7FA11A60EFFA0D /* Pods-MYIOSAdsSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		0E2DED92314D0E8B8B5EDFA0A626F282 /* Pods-MYIOSAdsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYIOSAdsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0F3C301004B377E684587A08C0DFCBE0 /* Pods-MYIOSAdsSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		04618E2722FCB586980EEAE05E9EC88A /* MYIOSAdsSDK-MYIOSAdsSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MYIOSAdsSDK-MYIOSAdsSDK"; path = MYIOSAdsSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		09252D4E0B2EDAFFBC5A640115D75084 /* GDTSDKConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTSDKConfig.h; sourceTree = "<group>"; };
+		0C8DCD8948662F8AA45EDE3B61F0BE73 /* EdiMobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EdiMobSDK.framework; path = MYIOSAdsSDK/Frameworks/EdiMobSDK.framework; sourceTree = "<group>"; };
+		0E267BE9697869AF9B40396F31848C78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0F288F1856DA8921676B978E697959FB /* Pods-MYIOSAdsSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYIOSAdsSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		137EBECB1DB90B53FEA2BF946ACAEA9E /* GDTUnifiedInterstitialAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedInterstitialAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
 		1508483FB93F2B6A4B0DCF555FF9F27E /* Pods-MYIOSAdsSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MYIOSAdsSDK_Tests"; path = Pods_MYIOSAdsSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1751075D64495857A53A81C365D02891 /* Pods-MYIOSAdsSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYIOSAdsSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		38E5A27409675526E0D03AE766CD214D /* Pods-MYIOSAdsSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYIOSAdsSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3F48EC6024D09B5AAB8DC189C24D94FC /* MYIOSAdsSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MYIOSAdsSDK.modulemap; sourceTree = "<group>"; };
-		41747D4D3CEB0C74CE75B85EDEE49F0C /* Pods-MYIOSAdsSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYIOSAdsSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		460BFFCC7F25F11550C50E594B85F9C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5B84B24FC5461CC91D476B8A6C6DEC5C /* MYIOSAdsSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYIOSAdsSDK-umbrella.h"; sourceTree = "<group>"; };
-		5D1AF330C932454C773C79DF4D0E046E /* MYIOSAdsSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYIOSAdsSDK-dummy.m"; sourceTree = "<group>"; };
-		637C141151C1F53ADB2223B9B96CB42E /* MYIOSAdsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MYIOSAdsSDK-Info.plist"; sourceTree = "<group>"; };
-		66CADCC33156C2F504E6ADBB65E6518C /* Pods-MYIOSAdsSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYIOSAdsSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6ABA95C1B729D1DD5A5959A44026870D /* Pods-MYIOSAdsSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYIOSAdsSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6CD83D1CA0C3C045578215E8E861AF74 /* Pods-MYIOSAdsSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYIOSAdsSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		184A6BA60979623AEF2735C5720B9B86 /* GDTSplashAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTSplashAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		1AF3375E845891F05FC9ECADA4EFB5D9 /* MYIOSAdsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MYIOSAdsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D13019998C9651D34F778E2D810FA67 /* Pods-MYIOSAdsSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYIOSAdsSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		1F7BB62DD32906679D645A36A23F87D9 /* MYRewardedVideoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYRewardedVideoModel.h; sourceTree = "<group>"; };
+		21A0B4BD5EE6FCA93C7A888236D25DCC /* MYNativeExpressAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYNativeExpressAdView.h; sourceTree = "<group>"; };
+		26FCC58BEA7182BB1B8931DDDD8E7CCA /* GDTUnifiedBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedBannerView.h; sourceTree = "<group>"; };
+		2930819CA7F55FAF66D937D3CE439278 /* MYIOSAdsSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MYIOSAdsSDK.modulemap; sourceTree = "<group>"; };
+		2E9658B20BCD3FC04E54C084107CAAA7 /* MYSplashAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYSplashAd.h; sourceTree = "<group>"; };
+		34770813E126B7A780B965E23B8E7A93 /* MYAdsConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYAdsConfiguration.h; sourceTree = "<group>"; };
+		3A4D77BB3363B1A5140096BF4C50286C /* Pods-MYIOSAdsSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CBE863D81EB19E309DD0F97AE20B6F7 /* MYBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYBannerView.h; sourceTree = "<group>"; };
+		3CF89B197F7983067523DD8547952785 /* GDTNativeExpressAdViewAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAdViewAdapterProtocol.h; sourceTree = "<group>"; };
+		42532682DE04C5728842F54C3F9FA456 /* GDTPrivacyConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTPrivacyConfiguration.h; sourceTree = "<group>"; };
+		42D653D98E3B9347073B5BC3C987DBB6 /* Pods-MYIOSAdsSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYIOSAdsSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		430BA59E717B24CAC505380907C82856 /* GDTNativeExpressAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAd.h; sourceTree = "<group>"; };
+		44F63C188AD42A1CD8D5776D72A5C8E3 /* BURelyFoundationNETWork.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = BURelyFoundationNETWork.xcframework; path = Frameworks/SDK/BURelyFoundationNETWork/BURelyFoundationNETWork.xcframework; sourceTree = "<group>"; };
+		48C1A45864AA43566425D43E1E757EB3 /* GDTUnifiedNativeAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		4C6C398F3F3E48CF01AD7E453D4477BE /* GDTLogoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTLogoView.h; sourceTree = "<group>"; };
+		5021FFABE65CBFC126916305A875FB7E /* MYIOSAdsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYIOSAdsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		54B87D60CC68DED2F56D08D03B68E418 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYIOSAdsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		55FD5E0818015ACC0FE79BCBD35D41F8 /* GDTRewardVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		569820891B7EF8C8109E68F571BF837C /* GDTUnifiedNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdView.h; sourceTree = "<group>"; };
+		57C2C33442C97CFCCC9E1E2F1FC11291 /* GDTUnifiedBannerAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedBannerAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		57D520482B88904398E5B2AE33400FE1 /* MYIOSAdsSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYIOSAdsSDK-umbrella.h"; sourceTree = "<group>"; };
+		631A49F43F8C862DF1B538AF8110E578 /* MYNativeAdDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYNativeAdDataObject.h; sourceTree = "<group>"; };
+		64AF9A47330986BA9696051BD3A74CD7 /* GDTUnifiedInterstitialAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedInterstitialAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		689ADD34DFEC96C6AAF784C5AE45765A /* MYIOSAdsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MYIOSAdsSDK-Info.plist"; sourceTree = "<group>"; };
+		695174B3859EC8EA3CF5258763C08379 /* Pods-MYIOSAdsSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		69EB346A7C70F0ECCBC8C30B4F409C55 /* GDTUnifiedNativeAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		6A32C755BB1B5C2ACC7C002F0C2CC04B /* GDTAdTestSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTAdTestSetting.h; sourceTree = "<group>"; };
+		6A7156B92E5AFCD275E70855E926201E /* MYIOSAdsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MYIOSAdsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		6AD94E7BEA27CD7B4554617FC2A3249C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6E2FE5FF225B776B2B7D9155470CDE85 /* GDTNativeExpressAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		759AF0C7321FD41BE8F80E35FB9E95FC /* MYIOSAdsSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYIOSAdsSDK-prefix.pch"; sourceTree = "<group>"; };
-		848CC161D3C1F6B2BEB2BB24B0373B7C /* MYIOSAdsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYIOSAdsSDK.debug.xcconfig; sourceTree = "<group>"; };
-		8496AD5AA5E0A8DB59CA75594CD08658 /* Pods-MYIOSAdsSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		94FAB2559578E706E0B0CBD9CE5A21FD /* Pods-MYIOSAdsSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYIOSAdsSDK_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A84133C2E1EB2780E873EE2493108D7A /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYIOSAdsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AD729B8897271F2ED7D59ACA2270F69B /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYIOSAdsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B366A6633134A352003DC301CA2A1A0C /* Pods-MYIOSAdsSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYIOSAdsSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		BBEFC93B9C28465B849D7CB2A880AE8B /* MYIOSAdsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MYIOSAdsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CFE257908FFE2D232724A216F3530590 /* Pods-MYIOSAdsSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MYIOSAdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750503A4F72BBF4656DAFF02942EF318 /* Pods-MYIOSAdsSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		7B8E8F9DE5B01346AD985B0858F59DC8 /* GDTVideoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTVideoConfig.h; sourceTree = "<group>"; };
+		7E71EC6587975F408F5CD888998525E7 /* libMYAdsSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libMYAdsSDK.a; path = MYIOSAdsSDK/Frameworks/libMYAdsSDK.a; sourceTree = "<group>"; };
+		7E893D5E5F523815826216A1AB837C1B /* CSJAdSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CSJAdSDK.bundle; path = SDK/CSJAdSDK.bundle; sourceTree = "<group>"; };
+		7ED9E31C54EDE9A02EB626F3F4D0ED4D /* Pods-MYIOSAdsSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		81ADCB8512E5E2DC787AEECECCBFE3CC /* MYRewardedVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYRewardedVideoAd.h; sourceTree = "<group>"; };
+		81F3506EFFEE887A6B2F78691F973A70 /* ResourceBundle-MYIOSAdsSDK-MYIOSAdsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MYIOSAdsSDK-MYIOSAdsSDK-Info.plist"; sourceTree = "<group>"; };
+		8237CDD3E8B3A0176C611C4BE849982C /* GDTRewardVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		832FA49E13039A7AC48F848A428590BB /* GDTMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTMediaView.h; sourceTree = "<group>"; };
+		864CB9B5FAA319225E21BD26239CE71C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYIOSAdsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		87BD0A03D0080FA85AA2FDD56814A983 /* MYNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYNativeAdView.h; sourceTree = "<group>"; };
+		89206755B383FCE261574AF312FF07C8 /* GDTAdProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTAdProtocol.h; sourceTree = "<group>"; };
+		8E2E2C67108F108E314B1FB14C04B61C /* Pods-MYIOSAdsSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYIOSAdsSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		945F3635E5DBC65A6B1F58556A9D4A8F /* BURelyFoundationAFN.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = BURelyFoundationAFN.xcframework; path = Frameworks/SDK/BURelyFoundationAFN/BURelyFoundationAFN.xcframework; sourceTree = "<group>"; };
+		9A0FE2A4EAF949B5A3038AEAECDF1BE0 /* BURelyFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BURelyFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		9D8D21CDF46C43F8F4442F6C42DB9C44 /* GDTVideoAdReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTVideoAdReporter.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF05E51407D0BAA3F40FFEB5E069817 /* Pods-MYIOSAdsSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYIOSAdsSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A205912E437BA63617C76285E51D85F1 /* MYIOSAdsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYIOSAdsSDK.release.xcconfig; sourceTree = "<group>"; };
+		A32924AEF881F0871355BCE8159FCE72 /* Ads-Fusion-CN-Beta-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Ads-Fusion-CN-Beta-xcframeworks.sh"; sourceTree = "<group>"; };
+		A822BEC12E6D9FA74738E19A37EC9B4A /* MYNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYNativeAd.h; sourceTree = "<group>"; };
+		ADB5D925FC0A7FFFC275E1AAA407240B /* GDTRewardVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAd.h; sourceTree = "<group>"; };
+		AE15973185AE2ED7810EE2D477EC64E3 /* GDTUnifiedNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAd.h; sourceTree = "<group>"; };
+		B8A3EC5B212AA909EE50EED5A9C143C1 /* BURelyFoundation-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "BURelyFoundation-xcframeworks.sh"; sourceTree = "<group>"; };
+		B8CCBBAA166B60EE95CECC535BDF050B /* WechatOpenSDK-XCFramework.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = "WechatOpenSDK-XCFramework.xcframework"; path = "MYIOSAdsSDK/Frameworks/WechatOpenSDK-XCFramework.xcframework"; sourceTree = "<group>"; };
+		C2C900E4784592D5976151F296639BD9 /* GDTUnifiedBannerAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedBannerAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		C359DE01A678AF67637DE75AC68F50C2 /* MYInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYInterstitialAd.h; sourceTree = "<group>"; };
+		C3DE956645C11E6D13EF91A26C331A0E /* Ads-Fusion-CN-Beta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Ads-Fusion-CN-Beta.debug.xcconfig"; sourceTree = "<group>"; };
+		C4543F1838750BFFE559EC1C4F95A972 /* Ads-Fusion-CN-Beta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Ads-Fusion-CN-Beta.release.xcconfig"; sourceTree = "<group>"; };
+		C604B37FAFCD5083DEDC6CDF0C83DFCE /* GDTServerSideVerificationOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTServerSideVerificationOptions.h; sourceTree = "<group>"; };
+		C6AA5A656E4918C6D681C15ABCDBBD7B /* BURelyFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BURelyFoundation.release.xcconfig; sourceTree = "<group>"; };
+		C8C38611479450707BF2B65F38A68F7B /* Pods-MYIOSAdsSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYIOSAdsSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8FAD2BE48362F977B9A610044945E11 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C99FCCA9DC1A754C5D43BC2210D1736B /* GDTSDKDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTSDKDefines.h; sourceTree = "<group>"; };
+		CBB09C57EC8D5BF01FFB2AABCC071960 /* Pods-MYIOSAdsSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYIOSAdsSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		CCC049D0F5F71E5E069AAA7802D3003A /* CSJMediation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CSJMediation.xcframework; path = SDK/CSJMediation/CSJMediation.xcframework; sourceTree = "<group>"; };
+		D2D12E1575010707314CE56DB7F8D69D /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYIOSAdsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D522A07641BBA680A94A8EBE825D4A26 /* GDTUnifiedNativeAdDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdDataObject.h; sourceTree = "<group>"; };
+		D544FD6D3B4D703710E47E3CF16958D3 /* GDTAdParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTAdParams.h; sourceTree = "<group>"; };
+		D656F06B7B7C4A93DBCA769552BE39D6 /* GDTNativeExpressAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAdView.h; sourceTree = "<group>"; };
+		D91F30403C4B1A4AC29AC7A6910EE09B /* MYNativeExpressAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYNativeExpressAd.h; sourceTree = "<group>"; };
+		DA41E9A818ADEA3EBEBEA481994E4AD9 /* HM.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = HM.xcframework; path = Frameworks/SDK/HM/HM.xcframework; sourceTree = "<group>"; };
+		DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MYIOSAdsSDK; path = MYIOSAdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8916850FD3DF795D37AFC88EA74F25 /* Pods-MYIOSAdsSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MYIOSAdsSDK_Example"; path = Pods_MYIOSAdsSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E976980154CC3B10F4C0FDF5DD6A6CD9 /* MYIOSAdsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYIOSAdsSDK.release.xcconfig; sourceTree = "<group>"; };
-		F098CCA93598237966B64735DC1FD935 /* Pods-MYIOSAdsSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYIOSAdsSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		F86336805CDDDC4B8B6FAA23ED9BD720 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYIOSAdsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DF018587398C44A8B36580B616626A9B /* Pods-MYIOSAdsSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYIOSAdsSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E014CDD4CCF4241D40B446E59724DE0E /* libGDTMobSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGDTMobSDK.a; path = MYIOSAdsSDK/Frameworks/libGDTMobSDK.a; sourceTree = "<group>"; };
+		E06F9B00FF41C4C1CD703FED4CBEF63C /* MYIOSAdsSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYIOSAdsSDK-dummy.m"; sourceTree = "<group>"; };
+		E0A9B0D08CDB5C1E2313ED51BD50ACB9 /* BUAdSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = BUAdSDK.xcframework; path = SDK/BUAdSDK.xcframework; sourceTree = "<group>"; };
+		E0CF461C5D29908446CA663B206F1132 /* GDTUnifiedInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedInterstitialAd.h; sourceTree = "<group>"; };
+		E7779B25F07B5E06851478B037CD5B88 /* MYIOSAdsSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYIOSAdsSDK-prefix.pch"; sourceTree = "<group>"; };
+		E8C08A93139D0B06BEFC58F0D5842026 /* GDTSplashAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
+		E95761F8BE493102A9D813528B98012C /* BURelyFoundationHeader.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = BURelyFoundationHeader.xcframework; path = Frameworks/SDK/BURelyFoundationHeader/BURelyFoundationHeader.xcframework; sourceTree = "<group>"; };
+		EAFA785C2C04B77F0C9DAD69D028EE74 /* GDTServerBiddingResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTServerBiddingResult.h; sourceTree = "<group>"; };
+		EC32F502596D5106680EBFF992BF3748 /* Pods-MYIOSAdsSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYIOSAdsSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		EF3244B803BA60A86A900F3965B36878 /* GDTLoadAdParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTLoadAdParams.h; sourceTree = "<group>"; };
+		EF53D794CD77CEAB01395D0F2E9DEDD8 /* GDTBaseAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTBaseAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		EF9E2C9C789E4FC485AB0712E69EE0A8 /* GDTSplashAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTSplashAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		F00CFC9BE19C5C093599C357A125987A /* KSCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KSCrash.framework; path = MYIOSAdsSDK/Frameworks/KSCrash.framework; sourceTree = "<group>"; };
+		F275724998844D644F469A9580C5C9F6 /* GDTNativeExpressAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		F9B51105CB5DC33548ACAFF88E1259E1 /* KSAdSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = KSAdSDK.xcframework; path = MYIOSAdsSDK/Frameworks/KSAdSDK.xcframework; sourceTree = "<group>"; };
+		FD3AA5F5CD0734627A45A8A4413630CF /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYIOSAdsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD86D4A9B1B6E285D62B91EDE494D787 /* MYAdsBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MYAdsBundle.bundle; path = MYIOSAdsSDK/Resources/MYAdsBundle.bundle; sourceTree = "<group>"; };
+		FE21C39DA9791009012EF556F1B16518 /* Pods-MYIOSAdsSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYIOSAdsSDK_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30AAB64CAFA1F80FD4182C47E111C922 /* Frameworks */ = {
+		287D63EE197BDDF49D57FB52C9F64613 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB436AF733D6399EA6D369480B345281 /* Foundation.framework in Frameworks */,
+				B6DD5E7DE0D13A4668CE39CA17C26E45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5BB9827B9F4A264EE541E41FCDF92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F0F30EC36465A97FA4455C496AAEDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8A2283012EC5E1AA73FAF9ADD37CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,49 +282,154 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D612932D0B49E8FB986D818BA70A21CE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				136180CB0CA8A3821B58982DCC15F295 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E036222E56A35D7BE38AA2BD52ED1CB /* Development Pods */ = {
+		05E2678720A046724BC5044DBF1D10D9 /* Pods-MYIOSAdsSDK_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				64F32073D1E1632BAFF3ABFB9DED67AE /* MYIOSAdsSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		33BDD3F937247825C5D984A17C552384 /* Pods-MYIOSAdsSDK_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				B366A6633134A352003DC301CA2A1A0C /* Pods-MYIOSAdsSDK_Tests.modulemap */,
-				6ABA95C1B729D1DD5A5959A44026870D /* Pods-MYIOSAdsSDK_Tests-acknowledgements.markdown */,
-				0F3C301004B377E684587A08C0DFCBE0 /* Pods-MYIOSAdsSDK_Tests-acknowledgements.plist */,
-				6CD83D1CA0C3C045578215E8E861AF74 /* Pods-MYIOSAdsSDK_Tests-dummy.m */,
-				08172754A9EE019D9D7FA11A60EFFA0D /* Pods-MYIOSAdsSDK_Tests-Info.plist */,
-				38E5A27409675526E0D03AE766CD214D /* Pods-MYIOSAdsSDK_Tests-umbrella.h */,
-				AD729B8897271F2ED7D59ACA2270F69B /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */,
-				F86336805CDDDC4B8B6FAA23ED9BD720 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */,
+				EC32F502596D5106680EBFF992BF3748 /* Pods-MYIOSAdsSDK_Tests.modulemap */,
+				C8C38611479450707BF2B65F38A68F7B /* Pods-MYIOSAdsSDK_Tests-acknowledgements.markdown */,
+				3A4D77BB3363B1A5140096BF4C50286C /* Pods-MYIOSAdsSDK_Tests-acknowledgements.plist */,
+				1D13019998C9651D34F778E2D810FA67 /* Pods-MYIOSAdsSDK_Tests-dummy.m */,
+				695174B3859EC8EA3CF5258763C08379 /* Pods-MYIOSAdsSDK_Tests-Info.plist */,
+				9DF05E51407D0BAA3F40FFEB5E069817 /* Pods-MYIOSAdsSDK_Tests-umbrella.h */,
+				FD3AA5F5CD0734627A45A8A4413630CF /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */,
+				54B87D60CC68DED2F56D08D03B68E418 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */,
 			);
 			name = "Pods-MYIOSAdsSDK_Tests";
 			path = "Target Support Files/Pods-MYIOSAdsSDK_Tests";
 			sourceTree = "<group>";
 		};
-		4FFB7FCC92C3D3D1085804A405FB9C2E /* Pod */ = {
+		086D30F320AF0BDD6D90FA5476E66142 /* BUAdSDK */ = {
 			isa = PBXGroup;
 			children = (
-				460BFFCC7F25F11550C50E594B85F9C4 /* LICENSE */,
-				BBEFC93B9C28465B849D7CB2A880AE8B /* MYIOSAdsSDK.podspec */,
-				05AEB0A293D00C3F97366AA8725F62E9 /* README.md */,
+				D31445C57D627A2076EDF3395FB865BE /* Frameworks */,
+				D76CEB9C3BED7930C0C2881E955E3010 /* Resources */,
+			);
+			name = BUAdSDK;
+			sourceTree = "<group>";
+		};
+		15E90A766D99011B2AEF66C87FD1D41B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EC1A05D48684C87521CA0C3C086145E /* Pods-MYIOSAdsSDK_Example */,
+				05E2678720A046724BC5044DBF1D10D9 /* Pods-MYIOSAdsSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		195FB3717D5896CCBC4109F59D0EF5A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2930819CA7F55FAF66D937D3CE439278 /* MYIOSAdsSDK.modulemap */,
+				E06F9B00FF41C4C1CD703FED4CBEF63C /* MYIOSAdsSDK-dummy.m */,
+				689ADD34DFEC96C6AAF784C5AE45765A /* MYIOSAdsSDK-Info.plist */,
+				E7779B25F07B5E06851478B037CD5B88 /* MYIOSAdsSDK-prefix.pch */,
+				57D520482B88904398E5B2AE33400FE1 /* MYIOSAdsSDK-umbrella.h */,
+				6A7156B92E5AFCD275E70855E926201E /* MYIOSAdsSDK-xcframeworks.sh */,
+				5021FFABE65CBFC126916305A875FB7E /* MYIOSAdsSDK.debug.xcconfig */,
+				A205912E437BA63617C76285E51D85F1 /* MYIOSAdsSDK.release.xcconfig */,
+				81F3506EFFEE887A6B2F78691F973A70 /* ResourceBundle-MYIOSAdsSDK-MYIOSAdsSDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MYIOSAdsSDK";
+			sourceTree = "<group>";
+		};
+		3B097C9F0AF4380A1B2214FE1F00A77B /* GDTSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D544FD6D3B4D703710E47E3CF16958D3 /* GDTAdParams.h */,
+				89206755B383FCE261574AF312FF07C8 /* GDTAdProtocol.h */,
+				6A32C755BB1B5C2ACC7C002F0C2CC04B /* GDTAdTestSetting.h */,
+				EF53D794CD77CEAB01395D0F2E9DEDD8 /* GDTBaseAdNetworkAdapterProtocol.h */,
+				EF3244B803BA60A86A900F3965B36878 /* GDTLoadAdParams.h */,
+				4C6C398F3F3E48CF01AD7E453D4477BE /* GDTLogoView.h */,
+				832FA49E13039A7AC48F848A428590BB /* GDTMediaView.h */,
+				430BA59E717B24CAC505380907C82856 /* GDTNativeExpressAd.h */,
+				F275724998844D644F469A9580C5C9F6 /* GDTNativeExpressAdNetworkAdapterProtocol.h */,
+				6E2FE5FF225B776B2B7D9155470CDE85 /* GDTNativeExpressAdNetworkConnectorProtocol.h */,
+				D656F06B7B7C4A93DBCA769552BE39D6 /* GDTNativeExpressAdView.h */,
+				3CF89B197F7983067523DD8547952785 /* GDTNativeExpressAdViewAdapterProtocol.h */,
+				42532682DE04C5728842F54C3F9FA456 /* GDTPrivacyConfiguration.h */,
+				ADB5D925FC0A7FFFC275E1AAA407240B /* GDTRewardVideoAd.h */,
+				55FD5E0818015ACC0FE79BCBD35D41F8 /* GDTRewardVideoAdNetworkAdapterProtocol.h */,
+				8237CDD3E8B3A0176C611C4BE849982C /* GDTRewardVideoAdNetworkConnectorProtocol.h */,
+				09252D4E0B2EDAFFBC5A640115D75084 /* GDTSDKConfig.h */,
+				C99FCCA9DC1A754C5D43BC2210D1736B /* GDTSDKDefines.h */,
+				EAFA785C2C04B77F0C9DAD69D028EE74 /* GDTServerBiddingResult.h */,
+				C604B37FAFCD5083DEDC6CDF0C83DFCE /* GDTServerSideVerificationOptions.h */,
+				E8C08A93139D0B06BEFC58F0D5842026 /* GDTSplashAd.h */,
+				EF9E2C9C789E4FC485AB0712E69EE0A8 /* GDTSplashAdNetworkAdapterProtocol.h */,
+				184A6BA60979623AEF2735C5720B9B86 /* GDTSplashAdNetworkConnectorProtocol.h */,
+				C2C900E4784592D5976151F296639BD9 /* GDTUnifiedBannerAdNetworkAdapterProtocol.h */,
+				57C2C33442C97CFCCC9E1E2F1FC11291 /* GDTUnifiedBannerAdNetworkConnectorProtocol.h */,
+				26FCC58BEA7182BB1B8931DDDD8E7CCA /* GDTUnifiedBannerView.h */,
+				E0CF461C5D29908446CA663B206F1132 /* GDTUnifiedInterstitialAd.h */,
+				137EBECB1DB90B53FEA2BF946ACAEA9E /* GDTUnifiedInterstitialAdNetworkAdapterProtocol.h */,
+				64AF9A47330986BA9696051BD3A74CD7 /* GDTUnifiedInterstitialAdNetworkConnectorProtocol.h */,
+				AE15973185AE2ED7810EE2D477EC64E3 /* GDTUnifiedNativeAd.h */,
+				D522A07641BBA680A94A8EBE825D4A26 /* GDTUnifiedNativeAdDataObject.h */,
+				69EB346A7C70F0ECCBC8C30B4F409C55 /* GDTUnifiedNativeAdNetworkAdapterProtocol.h */,
+				48C1A45864AA43566425D43E1E757EB3 /* GDTUnifiedNativeAdNetworkConnectorProtocol.h */,
+				569820891B7EF8C8109E68F571BF837C /* GDTUnifiedNativeAdView.h */,
+				9D8D21CDF46C43F8F4442F6C42DB9C44 /* GDTVideoAdReporter.h */,
+				7B8E8F9DE5B01346AD985B0858F59DC8 /* GDTVideoConfig.h */,
+				C8FAD2BE48362F977B9A610044945E11 /* PrivacyInfo.xcprivacy */,
+			);
+			name = GDTSDK;
+			path = MYIOSAdsSDK/Classes/GDTSDK;
+			sourceTree = "<group>";
+		};
+		3DADF025E15CDE836EFE68B8ED70D0D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E95761F8BE493102A9D813528B98012C /* BURelyFoundationHeader.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4519C856CF1AB7F32A850AF2EC869445 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E267BE9697869AF9B40396F31848C78 /* LICENSE */,
+				1AF3375E845891F05FC9ECADA4EFB5D9 /* MYIOSAdsSDK.podspec */,
+				6AD94E7BEA27CD7B4554617FC2A3249C /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		4608A645F81ED208FB4791CC726BE6F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44F63C188AD42A1CD8D5776D72A5C8E3 /* BURelyFoundationNETWork.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C1AAD0D3CDF3449BBBBF495230A2FCE /* MYIOSAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FD86D4A9B1B6E285D62B91EDE494D787 /* MYAdsBundle.bundle */,
+				9266DFEC3197E1CE160804EB381C16E5 /* Frameworks */,
+				3B097C9F0AF4380A1B2214FE1F00A77B /* GDTSDK */,
+				7CBE0DC769EA6FE4424E151FABDF93C0 /* Headers */,
+				4519C856CF1AB7F32A850AF2EC869445 /* Pod */,
+				195FB3717D5896CCBC4109F59D0EF5A9 /* Support Files */,
+			);
+			name = MYIOSAdsSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		53E8CBD12F1328C13B6A2AAA230D4FFB /* Ads-Fusion-CN-Beta */ = {
+			isa = PBXGroup;
+			children = (
+				086D30F320AF0BDD6D90FA5476E66142 /* BUAdSDK */,
+				E015A4F7BCCF99151576A16741D1A8D4 /* CSJMediation */,
+				AEC40BCEA9935DC333011CE4E2ED0307 /* Support Files */,
+			);
+			name = "Ads-Fusion-CN-Beta";
+			path = "Ads-Fusion-CN-Beta";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -140,66 +440,173 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		64F32073D1E1632BAFF3ABFB9DED67AE /* MYIOSAdsSDK */ = {
+		5EC1A05D48684C87521CA0C3C086145E /* Pods-MYIOSAdsSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
-				4FFB7FCC92C3D3D1085804A405FB9C2E /* Pod */,
-				AEC9DE270F31464F320B419C2C688CB7 /* Support Files */,
-			);
-			name = MYIOSAdsSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		92C21384C0844F459D116CD199826F6C /* Pods-MYIOSAdsSDK_Example */ = {
-			isa = PBXGroup;
-			children = (
-				94FAB2559578E706E0B0CBD9CE5A21FD /* Pods-MYIOSAdsSDK_Example.modulemap */,
-				66CADCC33156C2F504E6ADBB65E6518C /* Pods-MYIOSAdsSDK_Example-acknowledgements.markdown */,
-				8496AD5AA5E0A8DB59CA75594CD08658 /* Pods-MYIOSAdsSDK_Example-acknowledgements.plist */,
-				F098CCA93598237966B64735DC1FD935 /* Pods-MYIOSAdsSDK_Example-dummy.m */,
-				1751075D64495857A53A81C365D02891 /* Pods-MYIOSAdsSDK_Example-frameworks.sh */,
-				CFE257908FFE2D232724A216F3530590 /* Pods-MYIOSAdsSDK_Example-Info.plist */,
-				41747D4D3CEB0C74CE75B85EDEE49F0C /* Pods-MYIOSAdsSDK_Example-umbrella.h */,
-				A84133C2E1EB2780E873EE2493108D7A /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */,
-				0E2DED92314D0E8B8B5EDFA0A626F282 /* Pods-MYIOSAdsSDK_Example.release.xcconfig */,
+				FE21C39DA9791009012EF556F1B16518 /* Pods-MYIOSAdsSDK_Example.modulemap */,
+				DF018587398C44A8B36580B616626A9B /* Pods-MYIOSAdsSDK_Example-acknowledgements.markdown */,
+				7ED9E31C54EDE9A02EB626F3F4D0ED4D /* Pods-MYIOSAdsSDK_Example-acknowledgements.plist */,
+				0F288F1856DA8921676B978E697959FB /* Pods-MYIOSAdsSDK_Example-dummy.m */,
+				42D653D98E3B9347073B5BC3C987DBB6 /* Pods-MYIOSAdsSDK_Example-frameworks.sh */,
+				750503A4F72BBF4656DAFF02942EF318 /* Pods-MYIOSAdsSDK_Example-Info.plist */,
+				8E2E2C67108F108E314B1FB14C04B61C /* Pods-MYIOSAdsSDK_Example-resources.sh */,
+				CBB09C57EC8D5BF01FFB2AABCC071960 /* Pods-MYIOSAdsSDK_Example-umbrella.h */,
+				D2D12E1575010707314CE56DB7F8D69D /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */,
+				864CB9B5FAA319225E21BD26239CE71C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */,
 			);
 			name = "Pods-MYIOSAdsSDK_Example";
 			path = "Target Support Files/Pods-MYIOSAdsSDK_Example";
 			sourceTree = "<group>";
 		};
-		AEC9DE270F31464F320B419C2C688CB7 /* Support Files */ = {
+		62A4C5A25728904E91DDF489798BBDA9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3F48EC6024D09B5AAB8DC189C24D94FC /* MYIOSAdsSDK.modulemap */,
-				5D1AF330C932454C773C79DF4D0E046E /* MYIOSAdsSDK-dummy.m */,
-				637C141151C1F53ADB2223B9B96CB42E /* MYIOSAdsSDK-Info.plist */,
-				759AF0C7321FD41BE8F80E35FB9E95FC /* MYIOSAdsSDK-prefix.pch */,
-				5B84B24FC5461CC91D476B8A6C6DEC5C /* MYIOSAdsSDK-umbrella.h */,
-				848CC161D3C1F6B2BEB2BB24B0373B7C /* MYIOSAdsSDK.debug.xcconfig */,
-				E976980154CC3B10F4C0FDF5DD6A6CD9 /* MYIOSAdsSDK.release.xcconfig */,
+				53E8CBD12F1328C13B6A2AAA230D4FFB /* Ads-Fusion-CN-Beta */,
+				6626342451922E0956A4878CA21D6360 /* BURelyFoundation */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MYIOSAdsSDK";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		AFF2E880753F7780705103B4E57A4018 /* Products */ = {
+		661223C7B289479630E10D4A02C8EA02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK.framework */,
-				DD8916850FD3DF795D37AFC88EA74F25 /* Pods-MYIOSAdsSDK_Example */,
-				1508483FB93F2B6A4B0DCF555FF9F27E /* Pods-MYIOSAdsSDK_Tests */,
+				CCC049D0F5F71E5E069AAA7802D3003A /* CSJMediation.xcframework */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6626342451922E0956A4878CA21D6360 /* BURelyFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				B46E2E55A9C3B8B9AA8F06B716E6D24C /* AFNetworking */,
+				93BDE94F3E21FBF3A6F25BBD708F9634 /* BURelyFoundationHeader */,
+				6FF4CF6EC843917E6D01CF83F22CB99D /* HM */,
+				69382838CF6192E0D086D205C6BFF1F8 /* NETWork */,
+				9551930ADD1A2E954DE7E24384FCC74D /* Support Files */,
+			);
+			name = BURelyFoundation;
+			path = BURelyFoundation;
+			sourceTree = "<group>";
+		};
+		69382838CF6192E0D086D205C6BFF1F8 /* NETWork */ = {
+			isa = PBXGroup;
+			children = (
+				4608A645F81ED208FB4791CC726BE6F4 /* Frameworks */,
+			);
+			name = NETWork;
+			sourceTree = "<group>";
+		};
+		6FF4CF6EC843917E6D01CF83F22CB99D /* HM */ = {
+			isa = PBXGroup;
+			children = (
+				A0457A34616888197CA67ED2E4A515C3 /* Frameworks */,
+			);
+			name = HM;
+			sourceTree = "<group>";
+		};
+		70DC8ECA068668637C31ADDF42828F36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				945F3635E5DBC65A6B1F58556A9D4A8F /* BURelyFoundationAFN.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76AC9AB86CE922B4B58857D27C4A614A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C1AAD0D3CDF3449BBBBF495230A2FCE /* MYIOSAdsSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7CBE0DC769EA6FE4424E151FABDF93C0 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				34770813E126B7A780B965E23B8E7A93 /* MYAdsConfiguration.h */,
+				3CBE863D81EB19E309DD0F97AE20B6F7 /* MYBannerView.h */,
+				C359DE01A678AF67637DE75AC68F50C2 /* MYInterstitialAd.h */,
+				A822BEC12E6D9FA74738E19A37EC9B4A /* MYNativeAd.h */,
+				631A49F43F8C862DF1B538AF8110E578 /* MYNativeAdDataObject.h */,
+				87BD0A03D0080FA85AA2FDD56814A983 /* MYNativeAdView.h */,
+				D91F30403C4B1A4AC29AC7A6910EE09B /* MYNativeExpressAd.h */,
+				21A0B4BD5EE6FCA93C7A888236D25DCC /* MYNativeExpressAdView.h */,
+				81ADCB8512E5E2DC787AEECECCBFE3CC /* MYRewardedVideoAd.h */,
+				1F7BB62DD32906679D645A36A23F87D9 /* MYRewardedVideoModel.h */,
+				2E9658B20BCD3FC04E54C084107CAAA7 /* MYSplashAd.h */,
+			);
+			name = Headers;
+			path = MYIOSAdsSDK/Classes/Headers;
+			sourceTree = "<group>";
+		};
+		9266DFEC3197E1CE160804EB381C16E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C8DCD8948662F8AA45EDE3B61F0BE73 /* EdiMobSDK.framework */,
+				F9B51105CB5DC33548ACAFF88E1259E1 /* KSAdSDK.xcframework */,
+				F00CFC9BE19C5C093599C357A125987A /* KSCrash.framework */,
+				E014CDD4CCF4241D40B446E59724DE0E /* libGDTMobSDK.a */,
+				7E71EC6587975F408F5CD888998525E7 /* libMYAdsSDK.a */,
+				B8CCBBAA166B60EE95CECC535BDF050B /* WechatOpenSDK-XCFramework.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93BDE94F3E21FBF3A6F25BBD708F9634 /* BURelyFoundationHeader */ = {
+			isa = PBXGroup;
+			children = (
+				3DADF025E15CDE836EFE68B8ED70D0D1 /* Frameworks */,
+			);
+			name = BURelyFoundationHeader;
+			sourceTree = "<group>";
+		};
+		9551930ADD1A2E954DE7E24384FCC74D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8A3EC5B212AA909EE50EED5A9C143C1 /* BURelyFoundation-xcframeworks.sh */,
+				9A0FE2A4EAF949B5A3038AEAECDF1BE0 /* BURelyFoundation.debug.xcconfig */,
+				C6AA5A656E4918C6D681C15ABCDBBD7B /* BURelyFoundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BURelyFoundation";
+			sourceTree = "<group>";
+		};
+		A0457A34616888197CA67ED2E4A515C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA41E9A818ADEA3EBEBEA481994E4AD9 /* HM.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEC40BCEA9935DC333011CE4E2ED0307 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A32924AEF881F0871355BCE8159FCE72 /* Ads-Fusion-CN-Beta-xcframeworks.sh */,
+				C3DE956645C11E6D13EF91A26C331A0E /* Ads-Fusion-CN-Beta.debug.xcconfig */,
+				C4543F1838750BFFE559EC1C4F95A972 /* Ads-Fusion-CN-Beta.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Ads-Fusion-CN-Beta";
+			sourceTree = "<group>";
+		};
+		B46E2E55A9C3B8B9AA8F06B716E6D24C /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				70DC8ECA068668637C31ADDF42828F36 /* Frameworks */,
+			);
+			name = AFNetworking;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2E036222E56A35D7BE38AA2BD52ED1CB /* Development Pods */,
+				76AC9AB86CE922B4B58857D27C4A614A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				AFF2E880753F7780705103B4E57A4018 /* Products */,
-				E9F5042D5D72529BF0A46137371AF304 /* Targets Support Files */,
+				62A4C5A25728904E91DDF489798BBDA9 /* Pods */,
+				F2EEE94B00C8D0F7DD76FCE7F531C576 /* Products */,
+				15E90A766D99011B2AEF66C87FD1D41B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,13 +618,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E9F5042D5D72529BF0A46137371AF304 /* Targets Support Files */ = {
+		D31445C57D627A2076EDF3395FB865BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				92C21384C0844F459D116CD199826F6C /* Pods-MYIOSAdsSDK_Example */,
-				33BDD3F937247825C5D984A17C552384 /* Pods-MYIOSAdsSDK_Tests */,
+				E0A9B0D08CDB5C1E2313ED51BD50ACB9 /* BUAdSDK.xcframework */,
 			);
-			name = "Targets Support Files";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D76CEB9C3BED7930C0C2881E955E3010 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E893D5E5F523815826216A1AB837C1B /* CSJAdSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E015A4F7BCCF99151576A16741D1A8D4 /* CSJMediation */ = {
+			isa = PBXGroup;
+			children = (
+				661223C7B289479630E10D4A02C8EA02 /* Frameworks */,
+			);
+			name = CSJMediation;
+			sourceTree = "<group>";
+		};
+		F2EEE94B00C8D0F7DD76FCE7F531C576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK */,
+				04618E2722FCB586980EEAE05E9EC88A /* MYIOSAdsSDK-MYIOSAdsSDK */,
+				DD8916850FD3DF795D37AFC88EA74F25 /* Pods-MYIOSAdsSDK_Example */,
+				1508483FB93F2B6A4B0DCF555FF9F27E /* Pods-MYIOSAdsSDK_Tests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,19 +664,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4481F0BF5341028B66AE8EB1AD3FF834 /* Headers */ = {
+		65E6C80619220513548D91587AD1450B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6ABC7F2E6A7672FB4EA3D513774943F /* Pods-MYIOSAdsSDK_Example-umbrella.h in Headers */,
+				79B4D5D0A5B850251008333AB8793A76 /* Pods-MYIOSAdsSDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9BB0157635D18C1538EF4F90805FF77 /* Headers */ = {
+		ADF3399814F140EBBF9815519110AFF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DBC2BFA90A4AF48523E975F58E65FAF /* MYIOSAdsSDK-umbrella.h in Headers */,
+				975B8625F24669ACA5A2627304082E36 /* GDTAdParams.h in Headers */,
+				ACF4891B6FE579D4C488E614C6B70333 /* GDTAdProtocol.h in Headers */,
+				37D0B3B98C111CAF7A9908F713FE449C /* GDTAdTestSetting.h in Headers */,
+				3C0BCFD22A3D629351C6F5E6FAEBD258 /* GDTBaseAdNetworkAdapterProtocol.h in Headers */,
+				E4D58AACEA1DFFBD86E01E794BA21A88 /* GDTLoadAdParams.h in Headers */,
+				24D24E343237EB92297CC1DDD3C4116E /* GDTLogoView.h in Headers */,
+				44E10BD83CF823EA11F9A66756B701FA /* GDTMediaView.h in Headers */,
+				90EBA3F3FD2F45941BC2828676C8BA0F /* GDTNativeExpressAd.h in Headers */,
+				376FFBF87B1C9FC4A74E19AC8A087CB1 /* GDTNativeExpressAdNetworkAdapterProtocol.h in Headers */,
+				105B2EEBE3B1A160AD1C5CFAEE7E24AE /* GDTNativeExpressAdNetworkConnectorProtocol.h in Headers */,
+				8C9BD1AB6EFA73F38E7B0AC38B110C09 /* GDTNativeExpressAdView.h in Headers */,
+				BCD1C353FCC9A43D03800D065E80B885 /* GDTNativeExpressAdViewAdapterProtocol.h in Headers */,
+				C8D1C5537C66934D70E8B262E6CF191B /* GDTPrivacyConfiguration.h in Headers */,
+				B9960FA7054F516765438E26B9585B0C /* GDTRewardVideoAd.h in Headers */,
+				103F2E813FA793544AC9769C87915EB3 /* GDTRewardVideoAdNetworkAdapterProtocol.h in Headers */,
+				61B4E2B45195B0B3B6D8D2A1BD79965D /* GDTRewardVideoAdNetworkConnectorProtocol.h in Headers */,
+				3F8730E7B358C75020D491871097CD10 /* GDTSDKConfig.h in Headers */,
+				6A399851E06C1603B99D1ADE1D63563F /* GDTSDKDefines.h in Headers */,
+				FBA86F794D6C3C5CDA78AAF46C310EBB /* GDTServerBiddingResult.h in Headers */,
+				7736C7EFF126699CF0D817EE98362E2F /* GDTServerSideVerificationOptions.h in Headers */,
+				01752ECA8FB9B453572E966D0127564C /* GDTSplashAd.h in Headers */,
+				BCA173902A24724A70015053F4D7EC21 /* GDTSplashAdNetworkAdapterProtocol.h in Headers */,
+				23D4952082F780384C48420907A9EF21 /* GDTSplashAdNetworkConnectorProtocol.h in Headers */,
+				38EF3633D8358CB234F68912A28DF32B /* GDTUnifiedBannerAdNetworkAdapterProtocol.h in Headers */,
+				64D610F30D0AACBD38A859AD3E9D2C6E /* GDTUnifiedBannerAdNetworkConnectorProtocol.h in Headers */,
+				CE230C808419D023E174152FD887FB8A /* GDTUnifiedBannerView.h in Headers */,
+				94DFB35372C82FF4AA5753C41FF71314 /* GDTUnifiedInterstitialAd.h in Headers */,
+				35521F9B6BE44C2E36B8801EC2200C8F /* GDTUnifiedInterstitialAdNetworkAdapterProtocol.h in Headers */,
+				752C76BFA563582F5F5F0096B454AC4E /* GDTUnifiedInterstitialAdNetworkConnectorProtocol.h in Headers */,
+				5A65E203668CC1CBEC40E8BBF8837B19 /* GDTUnifiedNativeAd.h in Headers */,
+				D052877D6020D8E3AC0DA6FAAAB8553F /* GDTUnifiedNativeAdDataObject.h in Headers */,
+				490382BA31C2D718AB3BC7B5F8595EDA /* GDTUnifiedNativeAdNetworkAdapterProtocol.h in Headers */,
+				C46856CD9E0C674B0D23670DB87F0053 /* GDTUnifiedNativeAdNetworkConnectorProtocol.h in Headers */,
+				A98A79A7C229706763D2EA0406B4D0D0 /* GDTUnifiedNativeAdView.h in Headers */,
+				AE6B1262F53B526BA9347866EB51B13D /* GDTVideoAdReporter.h in Headers */,
+				31980B3840C6FB36FD08FB1F83BBE4B1 /* GDTVideoConfig.h in Headers */,
+				CCC7193C835B1A417C842A25C634506A /* MYAdsConfiguration.h in Headers */,
+				02535295AC8B4DC974EF47C380E49D3D /* MYBannerView.h in Headers */,
+				83DB669E6270D940CC1476713BEF9F07 /* MYInterstitialAd.h in Headers */,
+				29D1486FB1EEB12FC43CAC9BC19A23BE /* MYIOSAdsSDK-umbrella.h in Headers */,
+				F678531D29FA89531D116B5816E08B42 /* MYNativeAd.h in Headers */,
+				DC8C331122020A05EB36317270119F7C /* MYNativeAdDataObject.h in Headers */,
+				2F2F1ADAE8E47B9F653771ADA199D549 /* MYNativeAdView.h in Headers */,
+				4508325BA4C158D4F0A4A2B42C76C1D0 /* MYNativeExpressAd.h in Headers */,
+				DE71BDF1275F6C707C6B4A320BDF4DB2 /* MYNativeExpressAdView.h in Headers */,
+				C3189AE94A1B30EDB4D9B209FE768981 /* MYRewardedVideoAd.h in Headers */,
+				0B812D634AA8C06DA1C941B5F9C90CBF /* MYRewardedVideoModel.h in Headers */,
+				B22267B848D17FC2E4017745A9603674 /* MYSplashAd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +742,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B848892C235DE5E3740AE09E5C40B7B4 /* PBXTargetDependency */,
+				8AF6286E10E72F3E4177725678DA7152 /* PBXTargetDependency */,
 			);
 			name = "Pods-MYIOSAdsSDK_Tests";
 			productName = Pods_MYIOSAdsSDK_Tests;
@@ -271,17 +751,19 @@
 		};
 		4D6021ACC58BEF18F10F808928E1A5D6 /* Pods-MYIOSAdsSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDF97F2BFA08C9BEA844B5E68F5DC6A9 /* Build configuration list for PBXNativeTarget "Pods-MYIOSAdsSDK_Example" */;
+			buildConfigurationList = 70229CF07B9968365EA1E3BF18016FED /* Build configuration list for PBXNativeTarget "Pods-MYIOSAdsSDK_Example" */;
 			buildPhases = (
-				4481F0BF5341028B66AE8EB1AD3FF834 /* Headers */,
-				D7E09A8CDD91D562740064069393FABB /* Sources */,
-				D612932D0B49E8FB986D818BA70A21CE /* Frameworks */,
-				2D0BB64ABEA0D3573384616ACE984791 /* Resources */,
+				65E6C80619220513548D91587AD1450B /* Headers */,
+				64D9BF714727F7D1637D6014A4F2E06D /* Sources */,
+				287D63EE197BDDF49D57FB52C9F64613 /* Frameworks */,
+				13DA0E249632C2B888B7ED201D8C5553 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7A8C67B7CA91DA5624904A8F5956DFAA /* PBXTargetDependency */,
+				8F3047E8F87BBB1B6394523FCBA29712 /* PBXTargetDependency */,
+				3D25C31090785E17CE6FCE85B25AEFA4 /* PBXTargetDependency */,
+				019CF53F5DF3A94C8949D3DF303DE1BF /* PBXTargetDependency */,
 			);
 			name = "Pods-MYIOSAdsSDK_Example";
 			productName = Pods_MYIOSAdsSDK_Example;
@@ -290,21 +772,41 @@
 		};
 		851628ACACA1BC9D3AEC29E646B7966E /* MYIOSAdsSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0438B24B2188B83EEFF5459365D5EF1 /* Build configuration list for PBXNativeTarget "MYIOSAdsSDK" */;
+			buildConfigurationList = 17EFA4539EC81A5BFF9060BFBA77BA57 /* Build configuration list for PBXNativeTarget "MYIOSAdsSDK" */;
 			buildPhases = (
-				D9BB0157635D18C1538EF4F90805FF77 /* Headers */,
-				7687A44E61CB84523194804A3063C945 /* Sources */,
-				30AAB64CAFA1F80FD4182C47E111C922 /* Frameworks */,
-				A960A64C90E235F0EEB2C83DC5211520 /* Resources */,
+				ADF3399814F140EBBF9815519110AFF0 /* Headers */,
+				8D2625D25D6C07C9E91FE230C33EE268 /* [CP] Copy XCFrameworks */,
+				C57215A35257F0782D16B412B317A44D /* Sources */,
+				3C5BB9827B9F4A264EE541E41FCDF92B /* Frameworks */,
+				F443F018E2458694FA5F04EB4A3F9032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA4D312B9E37165D6E745736B29EB34 /* PBXTargetDependency */,
+				1E1726D28F6A8F12A542A663513D6B8A /* PBXTargetDependency */,
+			);
+			name = MYIOSAdsSDK;
+			productName = MYIOSAdsSDK;
+			productReference = DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF143CC4927A4E2964D146D40BA1CD96 /* MYIOSAdsSDK-MYIOSAdsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF554F0CEAC63CE766FA2FEA76445F9 /* Build configuration list for PBXNativeTarget "MYIOSAdsSDK-MYIOSAdsSDK" */;
+			buildPhases = (
+				FFBBC6C182073DC7ABC110BDD923BEBA /* Sources */,
+				A6E8A2283012EC5E1AA73FAF9ADD37CE /* Frameworks */,
+				67FF4230F40CDA8610392D3524F54A6C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MYIOSAdsSDK;
+			name = "MYIOSAdsSDK-MYIOSAdsSDK";
 			productName = MYIOSAdsSDK;
-			productReference = DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 04618E2722FCB586980EEAE05E9EC88A /* MYIOSAdsSDK-MYIOSAdsSDK */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -324,11 +826,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AFF2E880753F7780705103B4E57A4018 /* Products */;
+			productRefGroup = F2EEE94B00C8D0F7DD76FCE7F531C576 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				2E1BAD87096BC74F166613641E5D5376 /* Ads-Fusion-CN-Beta */,
+				A30112D48286DC34DCEF944BC33E1EC9 /* BURelyFoundation */,
 				851628ACACA1BC9D3AEC29E646B7966E /* MYIOSAdsSDK */,
+				DF143CC4927A4E2964D146D40BA1CD96 /* MYIOSAdsSDK-MYIOSAdsSDK */,
 				4D6021ACC58BEF18F10F808928E1A5D6 /* Pods-MYIOSAdsSDK_Example */,
 				40FC5D961C5304BD34E267733F5386D2 /* Pods-MYIOSAdsSDK_Tests */,
 			);
@@ -336,7 +841,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2D0BB64ABEA0D3573384616ACE984791 /* Resources */ = {
+		13DA0E249632C2B888B7ED201D8C5553 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,7 +855,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A960A64C90E235F0EEB2C83DC5211520 /* Resources */ = {
+		67FF4230F40CDA8610392D3524F54A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51B68283FB6403EE18499C8E1AF413F /* MYAdsBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F443F018E2458694FA5F04EB4A3F9032 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,12 +872,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55B3BC27C298F4090D4EA89D710D691A /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Ads-Fusion-CN-Beta/Ads-Fusion-CN-Beta-xcframeworks.sh",
+				"${PODS_ROOT}/Ads-Fusion-CN-Beta/SDK/BUAdSDK.xcframework",
+				"${PODS_ROOT}/Ads-Fusion-CN-Beta/SDK/CSJMediation/CSJMediation.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Ads-Fusion-CN-Beta/BUAdSDK/BUAdSDK.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Ads-Fusion-CN-Beta/CSJMediation/CSJMediation.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Ads-Fusion-CN-Beta/Ads-Fusion-CN-Beta-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D2625D25D6C07C9E91FE230C33EE268 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-xcframeworks.sh",
+				"${PODS_ROOT}/../../MYIOSAdsSDK/Frameworks/KSAdSDK.xcframework",
+				"${PODS_ROOT}/../../MYIOSAdsSDK/Frameworks/WechatOpenSDK-XCFramework.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MYIOSAdsSDK/KSAdSDK.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MYIOSAdsSDK/WechatOpenSDK-XCFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB4B6BF5CBD7C91EFB9A27E69317F45B /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/BURelyFoundation/BURelyFoundation-xcframeworks.sh",
+				"${PODS_ROOT}/BURelyFoundation/Frameworks/SDK/BURelyFoundationAFN/BURelyFoundationAFN.xcframework",
+				"${PODS_ROOT}/BURelyFoundation/Frameworks/SDK/BURelyFoundationHeader/BURelyFoundationHeader.xcframework",
+				"${PODS_ROOT}/BURelyFoundation/Frameworks/SDK/HM/HM.xcframework",
+				"${PODS_ROOT}/BURelyFoundation/Frameworks/SDK/BURelyFoundationNETWork/BURelyFoundationNETWork.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation/AFNetworking/BURelyFoundationAFN.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation/BURelyFoundationHeader/BURelyFoundationHeader.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation/HM/HM.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BURelyFoundation/NETWork/BURelyFoundationNETWork.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/BURelyFoundation/BURelyFoundation-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		7687A44E61CB84523194804A3063C945 /* Sources */ = {
+		64D9BF714727F7D1637D6014A4F2E06D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				538C75CA2D072712171DBD9E3C59B449 /* MYIOSAdsSDK-dummy.m in Sources */,
+				88AA28BB387A0E4C290F0E9FB51FB560 /* Pods-MYIOSAdsSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,37 +956,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7E09A8CDD91D562740064069393FABB /* Sources */ = {
+		C57215A35257F0782D16B412B317A44D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387717CE70EC4CD3A748BB7B5BE646CC /* Pods-MYIOSAdsSDK_Example-dummy.m in Sources */,
+				130E38B041B2F0054A46E1245A8D6266 /* MYIOSAdsSDK-dummy.m in Sources */,
+				4C4F02BBBD1C6EC0BEFCD59FB009A08D /* PrivacyInfo.xcprivacy in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBBC6C182073DC7ABC110BDD923BEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7A8C67B7CA91DA5624904A8F5956DFAA /* PBXTargetDependency */ = {
+		019CF53F5DF3A94C8949D3DF303DE1BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MYIOSAdsSDK;
 			target = 851628ACACA1BC9D3AEC29E646B7966E /* MYIOSAdsSDK */;
-			targetProxy = A561B8DCCBF78C366933355EC3EF850F /* PBXContainerItemProxy */;
+			targetProxy = CFB194425F2F2D21516B2C0900B317BC /* PBXContainerItemProxy */;
 		};
-		B848892C235DE5E3740AE09E5C40B7B4 /* PBXTargetDependency */ = {
+		1E1726D28F6A8F12A542A663513D6B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MYIOSAdsSDK-MYIOSAdsSDK";
+			target = DF143CC4927A4E2964D146D40BA1CD96 /* MYIOSAdsSDK-MYIOSAdsSDK */;
+			targetProxy = 97664F1B97D7415DC6904E91128F8FF4 /* PBXContainerItemProxy */;
+		};
+		3D25C31090785E17CE6FCE85B25AEFA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BURelyFoundation;
+			target = A30112D48286DC34DCEF944BC33E1EC9 /* BURelyFoundation */;
+			targetProxy = E395F83E9940F2F5B174683B77E0A155 /* PBXContainerItemProxy */;
+		};
+		3D342CCF6DD7EFB7254F9C7D38673F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BURelyFoundation;
+			target = A30112D48286DC34DCEF944BC33E1EC9 /* BURelyFoundation */;
+			targetProxy = B534ECDF712B0FBB5C2640C63CF44D36 /* PBXContainerItemProxy */;
+		};
+		8AF6286E10E72F3E4177725678DA7152 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MYIOSAdsSDK_Example";
 			target = 4D6021ACC58BEF18F10F808928E1A5D6 /* Pods-MYIOSAdsSDK_Example */;
-			targetProxy = DB035D03A184BD3C146A6DEB012D675D /* PBXContainerItemProxy */;
+			targetProxy = 338B3BBDF14BEF1D300C0D00926EC7C2 /* PBXContainerItemProxy */;
+		};
+		8F3047E8F87BBB1B6394523FCBA29712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Ads-Fusion-CN-Beta";
+			target = 2E1BAD87096BC74F166613641E5D5376 /* Ads-Fusion-CN-Beta */;
+			targetProxy = 5BC7304EB56CD246CC643194131D3D75 /* PBXContainerItemProxy */;
+		};
+		DAA4D312B9E37165D6E745736B29EB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Ads-Fusion-CN-Beta";
+			target = 2E1BAD87096BC74F166613641E5D5376 /* Ads-Fusion-CN-Beta */;
+			targetProxy = 60ED862359FB0FEFB992F0F1AC0F650F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		14A50E102DBFEC5581C9A909AFB9908F /* Release */ = {
+		053990AE4D98997FFE58B118D46C0BC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E2DED92314D0E8B8B5EDFA0A626F282 /* Pods-MYIOSAdsSDK_Example.release.xcconfig */;
+			baseConfigurationReference = 5021FFABE65CBFC126916305A875FB7E /* MYIOSAdsSDK.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -416,29 +1033,75 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK.modulemap";
+				PRODUCT_MODULE_NAME = MYIOSAdsSDK;
+				PRODUCT_NAME = MYIOSAdsSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34CEDA3722069006363F278EFB0BA278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A205912E437BA63617C76285E51D85F1 /* MYIOSAdsSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MYIOSAdsSDK";
+				IBSC_MODULE = MYIOSAdsSDK;
+				INFOPLIST_FILE = "Target Support Files/MYIOSAdsSDK/ResourceBundle-MYIOSAdsSDK-MYIOSAdsSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = MYIOSAdsSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4BD9B97E607E1B0BB818229C40A9DB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4543F1838750BFFE559EC1C4F95A972 /* Ads-Fusion-CN-Beta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54F2C215EF9AB1B5F5712E677284E42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AA5A656E4918C6D681C15ABCDBBD7B /* BURelyFoundation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		65C3EEF6DDA875B85DDAA2BC8781172B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD729B8897271F2ED7D59ACA2270F69B /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = FD3AA5F5CD0734627A45A8A4413630CF /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -466,6 +1129,20 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C83B72F0238AFABC04E769BB517101B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0FE2A4EAF949B5A3038AEAECDF1BE0 /* BURelyFoundation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -524,15 +1201,100 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		95794FC7769CA58D06B5D1CF6A7049F9 /* Debug */ = {
+		95BD00ED33CEA280ADD42A43B1469889 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A84133C2E1EB2780E873EE2493108D7A /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = A205912E437BA63617C76285E51D85F1 /* MYIOSAdsSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK.modulemap";
+				PRODUCT_MODULE_NAME = MYIOSAdsSDK;
+				PRODUCT_NAME = MYIOSAdsSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2A5689B2B76D7B37233454879A29ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5021FFABE65CBFC126916305A875FB7E /* MYIOSAdsSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MYIOSAdsSDK";
+				IBSC_MODULE = MYIOSAdsSDK;
+				INFOPLIST_FILE = "Target Support Files/MYIOSAdsSDK/ResourceBundle-MYIOSAdsSDK-MYIOSAdsSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = MYIOSAdsSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B8A57C742AA908A40FC0B650A2F89FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864CB9B5FAA319225E21BD26239CE71C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA74944F6BCFB300597B0EA16AAD4AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D12E1575010707314CE56DB7F8D69D /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -563,66 +1325,17 @@
 			};
 			name = Debug;
 		};
-		9E6E95D8CAB2B25BCAB48A36B831DFD1 /* Release */ = {
+		D0E302787BEF2D3B5E9739181B26087B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E976980154CC3B10F4C0FDF5DD6A6CD9 /* MYIOSAdsSDK.release.xcconfig */;
+			baseConfigurationReference = C3DE956645C11E6D13EF91A26C331A0E /* Ads-Fusion-CN-Beta.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK.modulemap";
-				PRODUCT_MODULE_NAME = MYIOSAdsSDK;
-				PRODUCT_NAME = MYIOSAdsSDK;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C8290E3A42F52B8589B9F4F2D7E2AEF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 848CC161D3C1F6B2BEB2BB24B0373B7C /* MYIOSAdsSDK.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK.modulemap";
-				PRODUCT_MODULE_NAME = MYIOSAdsSDK;
-				PRODUCT_NAME = MYIOSAdsSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -694,7 +1407,7 @@
 		};
 		E762786A5C8E4CA39826402053DB488B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F86336805CDDDC4B8B6FAA23ED9BD720 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */;
+			baseConfigurationReference = 54B87D60CC68DED2F56D08D03B68E418 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -729,11 +1442,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		17EFA4539EC81A5BFF9060BFBA77BA57 /* Build configuration list for PBXNativeTarget "MYIOSAdsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053990AE4D98997FFE58B118D46C0BC0 /* Debug */,
+				95BD00ED33CEA280ADD42A43B1469889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70229CF07B9968365EA1E3BF18016FED /* Build configuration list for PBXNativeTarget "Pods-MYIOSAdsSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA74944F6BCFB300597B0EA16AAD4AA6 /* Debug */,
+				B8A57C742AA908A40FC0B650A2F89FD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -747,20 +1478,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDF97F2BFA08C9BEA844B5E68F5DC6A9 /* Build configuration list for PBXNativeTarget "Pods-MYIOSAdsSDK_Example" */ = {
+		74E630794C1F3D785BD1F8D4932A9E07 /* Build configuration list for PBXAggregateTarget "Ads-Fusion-CN-Beta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95794FC7769CA58D06B5D1CF6A7049F9 /* Debug */,
-				14A50E102DBFEC5581C9A909AFB9908F /* Release */,
+				D0E302787BEF2D3B5E9739181B26087B /* Debug */,
+				4BD9B97E607E1B0BB818229C40A9DB2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0438B24B2188B83EEFF5459365D5EF1 /* Build configuration list for PBXNativeTarget "MYIOSAdsSDK" */ = {
+		7DF554F0CEAC63CE766FA2FEA76445F9 /* Build configuration list for PBXNativeTarget "MYIOSAdsSDK-MYIOSAdsSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8290E3A42F52B8589B9F4F2D7E2AEF6 /* Debug */,
-				9E6E95D8CAB2B25BCAB48A36B831DFD1 /* Release */,
+				B2A5689B2B76D7B37233454879A29ABF /* Debug */,
+				34CEDA3722069006363F278EFB0BA278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CAD962741FC0CFEDC9A3B1A9665D5BA /* Build configuration list for PBXAggregateTarget "BURelyFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C83B72F0238AFABC04E769BB517101B /* Debug */,
+				54F2C215EF9AB1B5F5712E677284E42C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
