@@ -49,8 +49,7 @@ TODO: Add long description of the pod here.
   s.vendored_libraries = 'MYIOSAdsSDK/Frameworks/libMYAdsSDK.a', 'MYIOSAdsSDK/Frameworks/libGDTMobSDK.a'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load', '-ld64'] }
   
-  
-  s.dependency 'Ads-CN', '5.9.1.1'
+  s.dependency 'Ads-Global', '5.7.0.8'
   #s.dependency 'JADYun', '2.5.6'
   
 end
