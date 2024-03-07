@@ -63,7 +63,7 @@
 		B366A6633134A352003DC301CA2A1A0C /* Pods-MYIOSAdsSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYIOSAdsSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		BBEFC93B9C28465B849D7CB2A880AE8B /* MYIOSAdsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MYIOSAdsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CFE257908FFE2D232724A216F3530590 /* Pods-MYIOSAdsSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MYIOSAdsSDK; path = MYIOSAdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MYIOSAdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8916850FD3DF795D37AFC88EA74F25 /* Pods-MYIOSAdsSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MYIOSAdsSDK_Example"; path = Pods_MYIOSAdsSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E976980154CC3B10F4C0FDF5DD6A6CD9 /* MYIOSAdsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYIOSAdsSDK.release.xcconfig; sourceTree = "<group>"; };
 		F098CCA93598237966B64735DC1FD935 /* Pods-MYIOSAdsSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYIOSAdsSDK_Example-dummy.m"; sourceTree = "<group>"; };
@@ -185,7 +185,7 @@
 		AFF2E880753F7780705103B4E57A4018 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK */,
+				DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK.framework */,
 				DD8916850FD3DF795D37AFC88EA74F25 /* Pods-MYIOSAdsSDK_Example */,
 				1508483FB93F2B6A4B0DCF555FF9F27E /* Pods-MYIOSAdsSDK_Tests */,
 			);
@@ -303,7 +303,7 @@
 			);
 			name = MYIOSAdsSDK;
 			productName = MYIOSAdsSDK;
-			productReference = DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK */;
+			productReference = DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -579,7 +579,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK.modulemap";
 				PRODUCT_MODULE_NAME = MYIOSAdsSDK;
@@ -611,7 +611,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MYIOSAdsSDK/MYIOSAdsSDK.modulemap";
 				PRODUCT_MODULE_NAME = MYIOSAdsSDK;
