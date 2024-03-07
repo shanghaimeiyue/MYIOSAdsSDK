@@ -1,0 +1,6 @@
+framework module MYIOSAdsSDK {
+  umbrella header "MYIOSAdsSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

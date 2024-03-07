@@ -1,0 +1,6 @@
+framework module Pods_MYIOSAdsSDK_Example {
+  umbrella header "Pods-MYIOSAdsSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

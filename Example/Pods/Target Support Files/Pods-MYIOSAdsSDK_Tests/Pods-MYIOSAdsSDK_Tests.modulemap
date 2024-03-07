@@ -1,0 +1,6 @@
+framework module Pods_MYIOSAdsSDK_Tests {
+  umbrella header "Pods-MYIOSAdsSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
