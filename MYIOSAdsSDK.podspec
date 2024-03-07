@@ -46,7 +46,7 @@ TODO: Add long description of the pod here.
   
   s.libraries = 'bz2', 'c', 'c++', 'c++abi', 'iconv', 'resolv.9', 'sqlite3.0', 'sqlite3', 'xml2', 'z'
   s.vendored_libraries = 'MYIOSAdsSDK/Frameworks/libMYAdsSDK.a', 'MYIOSAdsSDK/Frameworks/libGDTMobSDK.a'
-  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load', '-ld64'] }
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load', '-ld64'], 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
   
   s.dependency 'Ads-Fusion-CN-Beta/BUAdSDK', '5.7.0.8'
   s.dependency 'Ads-Fusion-CN-Beta/CSJMediation', '5.7.0.8'
