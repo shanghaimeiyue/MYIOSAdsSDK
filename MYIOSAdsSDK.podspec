@@ -39,8 +39,7 @@ TODO: Add long description of the pod here.
   
   s.frameworks = 'Accelerate', 'AdSupport', 'AppTrackingTransparency', 'AssetsLibrary', 'AudioToolbox', 'AVFoundation', 'AVKit', 'CoreData', 'CoreGraphics', 'CoreImage', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreServices', 'CoreTelephony', 'CoreText', 'DeviceCheck', 'EventKit', 'Foundation', 'ImageIO', 'JavaScriptCore', 'MapKit', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'Photos', 'QuartzCore', 'QuickLook', 'SafariServices', 'Security', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
   
-  s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/CSJMediation.framework',
-  'MYIOSAdsSDK/Frameworks/EdiMobSDK.framework',
+  s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/EdiMobSDK.framework',
   'MYIOSAdsSDK/Frameworks/KSAdSDK.xcframework',
   'MYIOSAdsSDK/Frameworks/KSCrash.framework',
   'MYIOSAdsSDK/Frameworks/WechatOpenSDK-XCFramework.xcframework'
@@ -49,8 +48,6 @@ TODO: Add long description of the pod here.
   s.vendored_libraries = 'MYIOSAdsSDK/Frameworks/libMYAdsSDK.a', 'MYIOSAdsSDK/Frameworks/libGDTMobSDK.a'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load', '-ld64'] }
   
-  #pod 'Ads-Fusion-CN-Beta','5.7.0.8', :subspecs => ['BUAdSDK', 'CSJMediation']
   s.dependency 'Ads-Fusion-CN-Beta','5.7.0.8', :subspecs => ['BUAdSDK', 'CSJMediation']
-  #s.dependency 'JADYun', '2.5.6'
   
 end
