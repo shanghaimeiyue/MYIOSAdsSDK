@@ -30,13 +30,27 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
+  s.static_framework = true
   s.source_files = 'MYIOSAdsSDK/Classes/**/*'
+  s.public_header_files = 'Pod/Classes/Headers/*.h'
+  s.resource_bundles = {
+      'MYIOSAdsSDK' => ['MYIOSAdsSDK/Resources/*.bundle']
+  }
   
-  # s.resource_bundles = {
-  #   'MYIOSAdsSDK' => ['MYIOSAdsSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'Accelerate', 'AdSupport', 'AppTrackingTransparency', 'AssetsLibrary', 'AudioToolbox', 'AVFoundation', 'AVKit', 'CoreData', 'CoreGraphics', 'CoreImage', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreServices', 'CoreTelephony', 'CoreText', 'DeviceCheck', 'EventKit', 'Foundation', 'ImageIO', 'JavaScriptCore', 'MapKit', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'Photos', 'QuartzCore', 'QuickLook', 'SafariServices', 'Security', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
+  
+  s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/CSJMediation.framework',
+  'MYIOSAdsSDK/Frameworks/EdiMobSDK.framework',
+  'MYIOSAdsSDK/Frameworks/KSAdSDK.xcframework',
+  'MYIOSAdsSDK/Frameworks/KSCrash.framework',
+  'MYIOSAdsSDK/Frameworks/WechatOpenSDK-XCFramework.xcframework'
+  
+  s.libraries = 'bz2', 'c', 'c++', 'c++abi', 'iconv', 'resolv.9', 'sqlite3.0', 'sqlite3', 'xml2', 'z'
+  s.vendored_libraries = 'MYIOSAdsSDK/Frameworks/libMYAdsSDK.a', 'MYIOSAdsSDK/Frameworks/libGDTMobSDK.a'
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load', '-ld64'] }
+  
+  
+  s.dependency 'Ads-CN', '5.9.1.1'
+  #s.dependency 'JADYun', '2.5.6'
+  
 end
