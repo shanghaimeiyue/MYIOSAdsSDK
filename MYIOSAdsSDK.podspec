@@ -40,7 +40,6 @@ TODO: Add long description of the pod here.
   s.frameworks = 'Accelerate', 'AdSupport', 'AppTrackingTransparency', 'AssetsLibrary', 'AudioToolbox', 'AVFoundation', 'AVKit', 'CoreData', 'CoreGraphics', 'CoreImage', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreServices', 'CoreTelephony', 'CoreText', 'DeviceCheck', 'EventKit', 'Foundation', 'ImageIO', 'JavaScriptCore', 'MapKit', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'Photos', 'QuartzCore', 'QuickLook', 'SafariServices', 'Security', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
   
   s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/EdiMobSDK.framework',
-  'MYIOSAdsSDK/Frameworks/KSAdSDK.xcframework',
   'MYIOSAdsSDK/Frameworks/KSCrash.framework',
   'MYIOSAdsSDK/Frameworks/WechatOpenSDK-XCFramework.xcframework'
   
