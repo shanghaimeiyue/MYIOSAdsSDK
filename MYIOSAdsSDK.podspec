@@ -50,5 +50,6 @@ TODO: Add long description of the pod here.
   
   s.dependency 'Ads-Fusion-CN-Beta/BUAdSDK', '5.7.0.8'
   s.dependency 'Ads-Fusion-CN-Beta/CSJMediation', '5.7.0.8'
+  s.dependency 'KSAdSDK', '~> 3.3.57'
   
 end
