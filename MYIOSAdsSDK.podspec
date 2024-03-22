@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/shanghaimeiyue/MYIOSAdsSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shanghaimeiyue' => 'karl@edimob.com' }
-  s.source           = { :git => 'git@github.com:shanghaimeiyue/MYIOSAdsSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shanghaimeiyue/MYIOSAdsSDK.git', :tag => s.version.to_s }
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
