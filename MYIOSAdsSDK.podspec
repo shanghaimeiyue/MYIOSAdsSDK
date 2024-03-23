@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYIOSAdsSDK'
-  s.version          = '5.2.66'
+  s.version          = '5.2.67'
   s.summary          = 'A short description of MYIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -40,15 +40,16 @@ TODO: Add long description of the pod here.
   s.frameworks = 'Accelerate', 'AdSupport', 'AppTrackingTransparency', 'AssetsLibrary', 'AudioToolbox', 'AVFoundation', 'AVKit', 'CoreData', 'CoreGraphics', 'CoreImage', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreServices', 'CoreTelephony', 'CoreText', 'DeviceCheck', 'EventKit', 'Foundation', 'ImageIO', 'JavaScriptCore', 'MapKit', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'Photos', 'QuartzCore', 'QuickLook', 'SafariServices', 'Security', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
   
   s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/EdiMobSDK.framework',
-  'MYIOSAdsSDK/Frameworks/KSCrash.framework',
-  'MYIOSAdsSDK/Frameworks/WechatOpenSDK-XCFramework.xcframework'
+  'MYIOSAdsSDK/Frameworks/KSCrash.framework'
   
   s.libraries = 'bz2', 'c', 'c++', 'c++abi', 'iconv', 'resolv.9', 'sqlite3.0', 'sqlite3', 'xml2', 'z'
-  s.vendored_libraries = 'MYIOSAdsSDK/Frameworks/libMYAdsSDK.a', 'MYIOSAdsSDK/Frameworks/libGDTMobSDK.a'
+  s.vendored_libraries = 'MYIOSAdsSDK/Frameworks/libMYAdsSDK.a'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load', '-ld64'], 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
   
   s.dependency 'Ads-Fusion-CN-Beta/BUAdSDK', '5.7.0.8'
   s.dependency 'Ads-Fusion-CN-Beta/CSJMediation', '5.7.0.8'
   s.dependency 'KSAdSDK', '~> 3.3.57'
-  
+  s.dependency 'GDTMobSDK', '~> 4.14.60'
+  s.dependency 'WechatOpenSDK', '~> 2.0.2'
+
 end
