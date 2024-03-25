@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYIOSAdsSDK'
-  s.version          = '5.2.71'
+  s.version          = '5.2.72'
   s.summary          = 'A short description of MYIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -33,9 +33,10 @@ TODO: Add long description of the pod here.
   s.static_framework = true
   s.source_files = 'MYIOSAdsSDK/Classes/**/*'
   s.public_header_files = 'Pod/Classes/Headers/*.h'
-  s.resource_bundles = {
-      'MYIOSAdsSDK' => ['MYIOSAdsSDK/Resources/*.bundle']
-  }
+  s.resources = 'MYIOSAdsSDK/Resources/*.bundle'
+#  s.resource_bundles = {
+#      'MYIOSAdsSDK' => ['MYIOSAdsSDK/Resources/*.bundle']
+#  }
   
   s.frameworks = 'Accelerate', 'AdSupport', 'AppTrackingTransparency', 'AssetsLibrary', 'AudioToolbox', 'AVFoundation', 'AVKit', 'CoreData', 'CoreGraphics', 'CoreImage', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreServices', 'CoreTelephony', 'CoreText', 'DeviceCheck', 'EventKit', 'Foundation', 'ImageIO', 'JavaScriptCore', 'MapKit', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'Photos', 'QuartzCore', 'QuickLook', 'SafariServices', 'Security', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
   
@@ -52,5 +53,5 @@ TODO: Add long description of the pod here.
   s.dependency 'GDTMobSDK', '4.14.60'
   s.dependency 'WechatOpenSDK', '2.0.2'
   s.dependency 'JADYun', '2.4.6'
-
+  s.dependency 'SDWebImage'
 end
