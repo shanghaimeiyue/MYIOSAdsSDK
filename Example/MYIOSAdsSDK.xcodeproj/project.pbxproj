@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		17981957C958DBDDC1339C78 /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1EC4EDB356702E7AE06DC1FD /* MYIOSAdsSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MYIOSAdsSDK.podspec; path = ../MYIOSAdsSDK.podspec; sourceTree = "<group>"; };
+		1EC4EDB356702E7AE06DC1FD /* MYIOSAdsSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MYIOSAdsSDK.podspec; path = ../MYIOSAdsSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2DC8709D047AAAAC9E8E2CF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		31C8097B96696949A8C9BE7C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		412D88A24E160BA5DDE44034 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
