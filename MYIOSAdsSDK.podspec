@@ -48,8 +48,8 @@ TODO: Add long description of the pod here.
   
   s.dependency 'Ads-Fusion-CN-Beta/BUAdSDK', '5.7.0.8'
   s.dependency 'Ads-Fusion-CN-Beta/CSJMediation', '5.7.0.8'
-  s.dependency 'KSAdSDK', '~> 3.3.57'
-  s.dependency 'GDTMobSDK', '~> 4.14.60'
-  s.dependency 'WechatOpenSDK', '~> 2.0.2'
+  s.dependency 'KSAdSDK', '3.3.57'
+  s.dependency 'GDTMobSDK', '4.14.60'
+  s.dependency 'WechatOpenSDK', '2.0.2'
 
 end
