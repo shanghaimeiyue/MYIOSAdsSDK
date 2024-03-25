@@ -11,6 +11,7 @@
 
 /// 如果不允许使用IDFA请设置为YES
 @property (nonatomic, assign) BOOL nonIDFA;
+@property (nonatomic,   copy) NSString *idfa;
 /**
  *  配置类单例
  */

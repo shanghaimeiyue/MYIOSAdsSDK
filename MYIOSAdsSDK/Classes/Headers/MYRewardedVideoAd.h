@@ -37,6 +37,13 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)MY_showAdFromRootViewController:(UIViewController *)rootViewController;
 
+/**
+ 返回广告的eCPM，单位：分
+ 
+ @return 成功返回一个大于等于0的值，-1表示无权限或后台出现异常
+ */
+- (NSInteger)eCPM;
+
 @end
 
 @protocol MYRewardedVideoAdDelagate <NSObject>

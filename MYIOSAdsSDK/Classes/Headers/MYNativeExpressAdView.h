@@ -24,6 +24,7 @@
 
 /**以下方法和属性开发者无需调用和关心*/
 @property (nonatomic, weak) UIViewController *controller;
+@property (nonatomic, strong, readonly) id currentData;
 @property (nonatomic, assign) BOOL isUsed;
 @property (nonatomic, assign) BOOL OP;
 @property (nonatomic, assign) int index;

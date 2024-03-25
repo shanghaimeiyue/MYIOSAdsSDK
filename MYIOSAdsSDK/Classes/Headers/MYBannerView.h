@@ -54,6 +54,13 @@
 @property(nonatomic, weak) id<MYBannerViewDelegate> delegate;
 
 /**
+ 返回广告的eCPM，单位：分
+ 
+ @return 成功返回一个大于等于0的值，-1表示无权限或后台出现异常
+ */
+- (NSInteger)eCPM;
+
+/**
  *  构造方法
  *  详解：frame是广告banner展示的位置和大小，包含四个参数(x, y, width, height);
  *  推荐宽高比为6.4:1；传入过高或过低的高度会影响展示;
