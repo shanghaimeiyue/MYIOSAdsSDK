@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYIOSAdsSDK'
-  s.version          = '5.3.21'
+  s.version          = '5.3.211'
   s.summary          = 'A short description of MYIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.static_framework = true
   s.source_files = 'MYIOSAdsSDK/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/Headers/*.h'
+#  s.public_header_files = 'Pod/Classes/Headers/*.h'
   s.resources = 'MYIOSAdsSDK/Resources/*.bundle'
 #  s.resource_bundles = {
 #      'MYIOSAdsSDK' => ['MYIOSAdsSDK/Resources/*.bundle']
@@ -40,8 +40,7 @@ TODO: Add long description of the pod here.
   
   s.frameworks = 'Accelerate', 'AdSupport', 'AppTrackingTransparency', 'AssetsLibrary', 'AudioToolbox', 'AVFoundation', 'AVKit', 'CoreData', 'CoreGraphics', 'CoreImage', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreServices', 'CoreTelephony', 'CoreText', 'DeviceCheck', 'EventKit', 'Foundation', 'ImageIO', 'JavaScriptCore', 'MapKit', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'Photos', 'QuartzCore', 'QuickLook', 'SafariServices', 'Security', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
   
-  s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/EdiMobSDK.framework',
-  'MYIOSAdsSDK/Frameworks/KSCrash.framework'
+  s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/EdiMobSDK.framework','MYIOSAdsSDK/Frameworks/KSCrash.framework','MYIOSAdsSDK/Frameworks/MYAdsFramework.framework'
   
   s.libraries = 'bz2', 'c', 'c++', 'c++abi', 'iconv', 'resolv.9', 'sqlite3.0', 'sqlite3', 'xml2', 'z'
   s.vendored_libraries = 'MYIOSAdsSDK/Frameworks/libMYAdsSDK.a'

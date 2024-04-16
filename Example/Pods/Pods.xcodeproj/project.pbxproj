@@ -33,26 +33,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		02535295AC8B4DC974EF47C380E49D3D /* MYBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CBE863D81EB19E309DD0F97AE20B6F7 /* MYBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B812D634AA8C06DA1C941B5F9C90CBF /* MYRewardedVideoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7BB62DD32906679D645A36A23F87D9 /* MYRewardedVideoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EF2EE303C17377227B83B70977A8DFA /* Pods-MYIOSAdsSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF05E51407D0BAA3F40FFEB5E069817 /* Pods-MYIOSAdsSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		130E38B041B2F0054A46E1245A8D6266 /* MYIOSAdsSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E06F9B00FF41C4C1CD703FED4CBEF63C /* MYIOSAdsSDK-dummy.m */; };
 		29D1486FB1EEB12FC43CAC9BC19A23BE /* MYIOSAdsSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D520482B88904398E5B2AE33400FE1 /* MYIOSAdsSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F2F1ADAE8E47B9F653771ADA199D549 /* MYNativeAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87BD0A03D0080FA85AA2FDD56814A983 /* MYNativeAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36F0F30EC36465A97FA4455C496AAEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4508325BA4C158D4F0A4A2B42C76C1D0 /* MYNativeExpressAd.h in Headers */ = {isa = PBXBuildFile; fileRef = D91F30403C4B1A4AC29AC7A6910EE09B /* MYNativeExpressAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		659928660FDFB87857E266C52A643ABB /* Pods-MYIOSAdsSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D13019998C9651D34F778E2D810FA67 /* Pods-MYIOSAdsSDK_Tests-dummy.m */; };
 		79B4D5D0A5B850251008333AB8793A76 /* Pods-MYIOSAdsSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB09C57EC8D5BF01FFB2AABCC071960 /* Pods-MYIOSAdsSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83DB669E6270D940CC1476713BEF9F07 /* MYInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = C359DE01A678AF67637DE75AC68F50C2 /* MYInterstitialAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88AA28BB387A0E4C290F0E9FB51FB560 /* Pods-MYIOSAdsSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F288F1856DA8921676B978E697959FB /* Pods-MYIOSAdsSDK_Example-dummy.m */; };
-		B22267B848D17FC2E4017745A9603674 /* MYSplashAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9658B20BCD3FC04E54C084107CAAA7 /* MYSplashAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6DD5E7DE0D13A4668CE39CA17C26E45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C3189AE94A1B30EDB4D9B209FE768981 /* MYRewardedVideoAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 81ADCB8512E5E2DC787AEECECCBFE3CC /* MYRewardedVideoAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C51B68283FB6403EE18499C8E1AF413F /* MYAdsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD86D4A9B1B6E285D62B91EDE494D787 /* MYAdsBundle.bundle */; };
-		CCC7193C835B1A417C842A25C634506A /* MYAdsConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 34770813E126B7A780B965E23B8E7A93 /* MYAdsConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC8C331122020A05EB36317270119F7C /* MYNativeAdDataObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 631A49F43F8C862DF1B538AF8110E578 /* MYNativeAdDataObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE71BDF1275F6C707C6B4A320BDF4DB2 /* MYNativeExpressAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A0B4BD5EE6FCA93C7A888236D25DCC /* MYNativeExpressAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F678531D29FA89531D116B5816E08B42 /* MYNativeAd.h in Headers */ = {isa = PBXBuildFile; fileRef = A822BEC12E6D9FA74738E19A37EC9B4A /* MYNativeAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB0C967F17910854866DF30BB760B496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -110,38 +99,30 @@
 
 /* Begin PBXFileReference section */
 		04618E2722FCB586980EEAE05E9EC88A /* MYIOSAdsSDK-MYIOSAdsSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MYIOSAdsSDK-MYIOSAdsSDK"; path = MYIOSAdsSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		070C1EEC2BCE48B500F0B461 /* MYAdsFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MYAdsFramework.framework; path = MYIOSAdsSDK/Frameworks/MYAdsFramework.framework; sourceTree = "<group>"; };
 		0C8DCD8948662F8AA45EDE3B61F0BE73 /* EdiMobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EdiMobSDK.framework; path = MYIOSAdsSDK/Frameworks/EdiMobSDK.framework; sourceTree = "<group>"; };
 		0E267BE9697869AF9B40396F31848C78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0F288F1856DA8921676B978E697959FB /* Pods-MYIOSAdsSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYIOSAdsSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		1508483FB93F2B6A4B0DCF555FF9F27E /* Pods-MYIOSAdsSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MYIOSAdsSDK_Tests"; path = Pods_MYIOSAdsSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF3375E845891F05FC9ECADA4EFB5D9 /* MYIOSAdsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MYIOSAdsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1D13019998C9651D34F778E2D810FA67 /* Pods-MYIOSAdsSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYIOSAdsSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		1F7BB62DD32906679D645A36A23F87D9 /* MYRewardedVideoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYRewardedVideoModel.h; sourceTree = "<group>"; };
-		21A0B4BD5EE6FCA93C7A888236D25DCC /* MYNativeExpressAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYNativeExpressAdView.h; sourceTree = "<group>"; };
 		2930819CA7F55FAF66D937D3CE439278 /* MYIOSAdsSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MYIOSAdsSDK.modulemap; sourceTree = "<group>"; };
-		2E9658B20BCD3FC04E54C084107CAAA7 /* MYSplashAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYSplashAd.h; sourceTree = "<group>"; };
-		34770813E126B7A780B965E23B8E7A93 /* MYAdsConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYAdsConfiguration.h; sourceTree = "<group>"; };
 		3A4D77BB3363B1A5140096BF4C50286C /* Pods-MYIOSAdsSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3CBE863D81EB19E309DD0F97AE20B6F7 /* MYBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYBannerView.h; sourceTree = "<group>"; };
 		42D653D98E3B9347073B5BC3C987DBB6 /* Pods-MYIOSAdsSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYIOSAdsSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		44F63C188AD42A1CD8D5776D72A5C8E3 /* BURelyFoundationNETWork.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = BURelyFoundationNETWork.xcframework; path = Frameworks/SDK/BURelyFoundationNETWork/BURelyFoundationNETWork.xcframework; sourceTree = "<group>"; };
 		5021FFABE65CBFC126916305A875FB7E /* MYIOSAdsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYIOSAdsSDK.debug.xcconfig; sourceTree = "<group>"; };
 		54B87D60CC68DED2F56D08D03B68E418 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYIOSAdsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		57D520482B88904398E5B2AE33400FE1 /* MYIOSAdsSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYIOSAdsSDK-umbrella.h"; sourceTree = "<group>"; };
-		631A49F43F8C862DF1B538AF8110E578 /* MYNativeAdDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYNativeAdDataObject.h; sourceTree = "<group>"; };
 		689ADD34DFEC96C6AAF784C5AE45765A /* MYIOSAdsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MYIOSAdsSDK-Info.plist"; sourceTree = "<group>"; };
 		695174B3859EC8EA3CF5258763C08379 /* Pods-MYIOSAdsSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		6A7156B92E5AFCD275E70855E926201E /* MYIOSAdsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MYIOSAdsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		6AD94E7BEA27CD7B4554617FC2A3249C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		750503A4F72BBF4656DAFF02942EF318 /* Pods-MYIOSAdsSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		7E71EC6587975F408F5CD888998525E7 /* libMYAdsSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libMYAdsSDK.a; path = MYIOSAdsSDK/Frameworks/libMYAdsSDK.a; sourceTree = "<group>"; };
 		7E893D5E5F523815826216A1AB837C1B /* CSJAdSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CSJAdSDK.bundle; path = SDK/CSJAdSDK.bundle; sourceTree = "<group>"; };
 		7ED9E31C54EDE9A02EB626F3F4D0ED4D /* Pods-MYIOSAdsSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYIOSAdsSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		81ADCB8512E5E2DC787AEECECCBFE3CC /* MYRewardedVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYRewardedVideoAd.h; sourceTree = "<group>"; };
 		81F3506EFFEE887A6B2F78691F973A70 /* ResourceBundle-MYIOSAdsSDK-MYIOSAdsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MYIOSAdsSDK-MYIOSAdsSDK-Info.plist"; sourceTree = "<group>"; };
 		864CB9B5FAA319225E21BD26239CE71C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYIOSAdsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		87BD0A03D0080FA85AA2FDD56814A983 /* MYNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYNativeAdView.h; sourceTree = "<group>"; };
 		8E2E2C67108F108E314B1FB14C04B61C /* Pods-MYIOSAdsSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYIOSAdsSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		945F3635E5DBC65A6B1F58556A9D4A8F /* BURelyFoundationAFN.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = BURelyFoundationAFN.xcframework; path = Frameworks/SDK/BURelyFoundationAFN/BURelyFoundationAFN.xcframework; sourceTree = "<group>"; };
 		9A0FE2A4EAF949B5A3038AEAECDF1BE0 /* BURelyFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BURelyFoundation.debug.xcconfig; sourceTree = "<group>"; };
@@ -149,9 +130,7 @@
 		9DF05E51407D0BAA3F40FFEB5E069817 /* Pods-MYIOSAdsSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYIOSAdsSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A205912E437BA63617C76285E51D85F1 /* MYIOSAdsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYIOSAdsSDK.release.xcconfig; sourceTree = "<group>"; };
 		A32924AEF881F0871355BCE8159FCE72 /* Ads-Fusion-CN-Beta-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Ads-Fusion-CN-Beta-xcframeworks.sh"; sourceTree = "<group>"; };
-		A822BEC12E6D9FA74738E19A37EC9B4A /* MYNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYNativeAd.h; sourceTree = "<group>"; };
 		B8A3EC5B212AA909EE50EED5A9C143C1 /* BURelyFoundation-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "BURelyFoundation-xcframeworks.sh"; sourceTree = "<group>"; };
-		C359DE01A678AF67637DE75AC68F50C2 /* MYInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYInterstitialAd.h; sourceTree = "<group>"; };
 		C3DE956645C11E6D13EF91A26C331A0E /* Ads-Fusion-CN-Beta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Ads-Fusion-CN-Beta.debug.xcconfig"; sourceTree = "<group>"; };
 		C4543F1838750BFFE559EC1C4F95A972 /* Ads-Fusion-CN-Beta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Ads-Fusion-CN-Beta.release.xcconfig"; sourceTree = "<group>"; };
 		C6AA5A656E4918C6D681C15ABCDBBD7B /* BURelyFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BURelyFoundation.release.xcconfig; sourceTree = "<group>"; };
@@ -159,7 +138,6 @@
 		CBB09C57EC8D5BF01FFB2AABCC071960 /* Pods-MYIOSAdsSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYIOSAdsSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		CCC049D0F5F71E5E069AAA7802D3003A /* CSJMediation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = CSJMediation.xcframework; path = SDK/CSJMediation/CSJMediation.xcframework; sourceTree = "<group>"; };
 		D2D12E1575010707314CE56DB7F8D69D /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYIOSAdsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D91F30403C4B1A4AC29AC7A6910EE09B /* MYNativeExpressAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYNativeExpressAd.h; sourceTree = "<group>"; };
 		DA41E9A818ADEA3EBEBEA481994E4AD9 /* HM.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = HM.xcframework; path = Frameworks/SDK/HM/HM.xcframework; sourceTree = "<group>"; };
 		DD0BF85092A42EB50B1DD621A60267A2 /* MYIOSAdsSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MYIOSAdsSDK; path = MYIOSAdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8916850FD3DF795D37AFC88EA74F25 /* Pods-MYIOSAdsSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MYIOSAdsSDK_Example"; path = Pods_MYIOSAdsSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -292,7 +270,6 @@
 			children = (
 				FD86D4A9B1B6E285D62B91EDE494D787 /* MYAdsBundle.bundle */,
 				9266DFEC3197E1CE160804EB381C16E5 /* Frameworks */,
-				7CBE0DC769EA6FE4424E151FABDF93C0 /* Headers */,
 				4519C856CF1AB7F32A850AF2EC869445 /* Pod */,
 				195FB3717D5896CCBC4109F59D0EF5A9 /* Support Files */,
 			);
@@ -397,31 +374,12 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7CBE0DC769EA6FE4424E151FABDF93C0 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				34770813E126B7A780B965E23B8E7A93 /* MYAdsConfiguration.h */,
-				3CBE863D81EB19E309DD0F97AE20B6F7 /* MYBannerView.h */,
-				C359DE01A678AF67637DE75AC68F50C2 /* MYInterstitialAd.h */,
-				A822BEC12E6D9FA74738E19A37EC9B4A /* MYNativeAd.h */,
-				631A49F43F8C862DF1B538AF8110E578 /* MYNativeAdDataObject.h */,
-				87BD0A03D0080FA85AA2FDD56814A983 /* MYNativeAdView.h */,
-				D91F30403C4B1A4AC29AC7A6910EE09B /* MYNativeExpressAd.h */,
-				21A0B4BD5EE6FCA93C7A888236D25DCC /* MYNativeExpressAdView.h */,
-				81ADCB8512E5E2DC787AEECECCBFE3CC /* MYRewardedVideoAd.h */,
-				1F7BB62DD32906679D645A36A23F87D9 /* MYRewardedVideoModel.h */,
-				2E9658B20BCD3FC04E54C084107CAAA7 /* MYSplashAd.h */,
-			);
-			name = Headers;
-			path = MYIOSAdsSDK/Classes/Headers;
-			sourceTree = "<group>";
-		};
 		9266DFEC3197E1CE160804EB381C16E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				070C1EEC2BCE48B500F0B461 /* MYAdsFramework.framework */,
 				0C8DCD8948662F8AA45EDE3B61F0BE73 /* EdiMobSDK.framework */,
 				F00CFC9BE19C5C093599C357A125987A /* KSCrash.framework */,
-				7E71EC6587975F408F5CD888998525E7 /* libMYAdsSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -550,18 +508,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCC7193C835B1A417C842A25C634506A /* MYAdsConfiguration.h in Headers */,
-				02535295AC8B4DC974EF47C380E49D3D /* MYBannerView.h in Headers */,
-				83DB669E6270D940CC1476713BEF9F07 /* MYInterstitialAd.h in Headers */,
 				29D1486FB1EEB12FC43CAC9BC19A23BE /* MYIOSAdsSDK-umbrella.h in Headers */,
-				F678531D29FA89531D116B5816E08B42 /* MYNativeAd.h in Headers */,
-				DC8C331122020A05EB36317270119F7C /* MYNativeAdDataObject.h in Headers */,
-				2F2F1ADAE8E47B9F653771ADA199D549 /* MYNativeAdView.h in Headers */,
-				4508325BA4C158D4F0A4A2B42C76C1D0 /* MYNativeExpressAd.h in Headers */,
-				DE71BDF1275F6C707C6B4A320BDF4DB2 /* MYNativeExpressAdView.h in Headers */,
-				C3189AE94A1B30EDB4D9B209FE768981 /* MYRewardedVideoAd.h in Headers */,
-				0B812D634AA8C06DA1C941B5F9C90CBF /* MYRewardedVideoModel.h in Headers */,
-				B22267B848D17FC2E4017745A9603674 /* MYSplashAd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
