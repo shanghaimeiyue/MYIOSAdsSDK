@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '12.0'
 
   s.static_framework = true
-  s.source_files = 'MYIOSAdsSDK/Classes/**/*'
+#  s.source_files = 'MYIOSAdsSDK/Classes/**/*'
 #  s.public_header_files = 'Pod/Classes/Headers/*.h'
   s.resources = 'MYIOSAdsSDK/Resources/*.bundle'
 #  s.resource_bundles = {
