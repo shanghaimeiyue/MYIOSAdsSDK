@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MYAdsConfiguration.h</key>
 		<data>
-		U93GfyaN7Q92mmkBddJbpMnqHQI=
+		mRnZznbBn7IGRQ9nbAox35vBJp4=
 		</data>
 		<key>Headers/MYAdsFramework.h</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Headers/MYSplashAd.h</key>
 		<data>
-		i7sGyQVARMRS6c2eDq0zqaLRnCg=
+		sXPqEk4gS+sE0ue1IkRXUFov6sA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+vr7D6gktWAhS8L2yO9axXiaY10=
+		XAJYbF17EMg5iGMo+uNiJqSi4XI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,11 +55,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U93GfyaN7Q92mmkBddJbpMnqHQI=
+			mRnZznbBn7IGRQ9nbAox35vBJp4=
 			</data>
 			<key>hash2</key>
 			<data>
-			67jz/rKA+IUx1UY27l4eefHjZHBp3KLnCA+YnOTGANU=
+			PjS2RkU1Y2DEaQOXz5LHjRmUDScN80a/tSMuHoe397w=
 			</data>
 		</dict>
 		<key>Headers/MYAdsFramework.h</key>
@@ -143,11 +143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i7sGyQVARMRS6c2eDq0zqaLRnCg=
+			sXPqEk4gS+sE0ue1IkRXUFov6sA=
 			</data>
 			<key>hash2</key>
 			<data>
-			kgqIEIqUQroxv3aBCA3/9mjivU41mPF75x0FAYi8ayE=
+			dAtks3pOprnYGoF3bkBiexPs2+xnOnPiL8SQTbfE2nw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

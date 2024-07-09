@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <EdiMobSDK/EMAdsProtocol.h>
+
 @protocol EMInterstitialAdDelegate <NSObject>
 
 @optional
@@ -45,7 +47,7 @@
 
 @end
 
-@interface EMInterstitialAd : NSObject
+@interface EMInterstitialAd : NSObject<EMAdsProtocol>
 
 /**
  *  委托对象

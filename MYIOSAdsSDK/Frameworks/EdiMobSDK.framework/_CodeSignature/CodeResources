@@ -4,17 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/EMAdsProtocol.h</key>
+		<data>
+		hra5DScLNO5Av3s7Re7++nLeG2M=
+		</data>
 		<key>Headers/EMBannerView.h</key>
 		<data>
-		VvI8kd5h1fbwHmpgL5CFyaVD5IY=
+		Qk6APSjYy7NLGfkvRAiwhLOKTQo=
 		</data>
 		<key>Headers/EMInterstitialAd.h</key>
 		<data>
-		tv0Uy0LPLb4iU/PPNB7PnL4CFyQ=
+		KNRozzcgRaS4Ttv42sKClc4U9aw=
 		</data>
 		<key>Headers/EMNativeAd.h</key>
 		<data>
-		cLX7NyngdA05+qlcZvkgtiR0W5w=
+		2hPse9hCP6lDEDpXyYd0SFxYXAA=
 		</data>
 		<key>Headers/EMNativeAdDataObject.h</key>
 		<data>
@@ -26,7 +30,7 @@
 		</data>
 		<key>Headers/EMNativeExpressAd.h</key>
 		<data>
-		QbXBdCy94RWQR1oMun6L4HtWIqs=
+		jS2C4nZbBBkrqvIlUid0gSWjV5M=
 		</data>
 		<key>Headers/EMNativeExpressAdView.h</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>Headers/EMRewardedVideoAd.h</key>
 		<data>
-		AVzZY+ZU2r2CuiWy3dk+VQpkUic=
+		n+epibnI/7a/0spCW/x4zC9ZYjQ=
 		</data>
 		<key>Headers/EMRewardedVideoModel.h</key>
 		<data>
@@ -46,15 +50,15 @@
 		</data>
 		<key>Headers/EMSplashAd.h</key>
 		<data>
-		1hZRyOTJrREubgYzlpidgf8n+4s=
+		YKlIRx78KkNwzrClszrZA52AS0g=
 		</data>
 		<key>Headers/EdiMobSDK.h</key>
 		<data>
-		UcY4aAKoLpzQtXkATSQTfSzZaTQ=
+		wssR/E2F3vFrwoIrQgF28COYpSE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cnEVaU2EC+pArsMVrFz/WYEufeA=
+		uYEXjCcBn5q9Z6UslwUj/fRgRn0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,37 +67,48 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/EMAdsProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hra5DScLNO5Av3s7Re7++nLeG2M=
+			</data>
+			<key>hash2</key>
+			<data>
+			f8eihK2BowbQ3gxciDz8n19pk5G2jt//I49AHrw5MBs=
+			</data>
+		</dict>
 		<key>Headers/EMBannerView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VvI8kd5h1fbwHmpgL5CFyaVD5IY=
+			Qk6APSjYy7NLGfkvRAiwhLOKTQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			w0vbvOigGKPIClmede8nJWN2qJMNuJSRHysQyodR8kc=
+			3YXBcpzrgR/k9vEV58D6Kx5YwxcpFCcL3za9rgpmsCw=
 			</data>
 		</dict>
 		<key>Headers/EMInterstitialAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tv0Uy0LPLb4iU/PPNB7PnL4CFyQ=
+			KNRozzcgRaS4Ttv42sKClc4U9aw=
 			</data>
 			<key>hash2</key>
 			<data>
-			LSeGnEOMsPlV//5jNNxjhT9E9H9RwJhIJdzxD7Ps5XI=
+			u7pZevip8JYAoznCZLUfr4dYLnSahHlTTWM7odAc38E=
 			</data>
 		</dict>
 		<key>Headers/EMNativeAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cLX7NyngdA05+qlcZvkgtiR0W5w=
+			2hPse9hCP6lDEDpXyYd0SFxYXAA=
 			</data>
 			<key>hash2</key>
 			<data>
-			RC36wuXH1tD+fRJafvGXQ+c8TNH1ykPnIkejTVNJ6ZQ=
+			8qJ1MYCoxLJ9z9VV7odfjSmjtxEXL6RmrsYzqE/FZN4=
 			</data>
 		</dict>
 		<key>Headers/EMNativeAdDataObject.h</key>
@@ -122,11 +137,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QbXBdCy94RWQR1oMun6L4HtWIqs=
+			jS2C4nZbBBkrqvIlUid0gSWjV5M=
 			</data>
 			<key>hash2</key>
 			<data>
-			axh5TdH1euTSuWCxP9bXPHGLlwxzwJWguQDm0Pmp0SM=
+			u7DvLQ/jhx2QziRJsxORpEgQtghLHynk+eDFht61qgE=
 			</data>
 		</dict>
 		<key>Headers/EMNativeExpressAdView.h</key>
@@ -144,11 +159,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AVzZY+ZU2r2CuiWy3dk+VQpkUic=
+			n+epibnI/7a/0spCW/x4zC9ZYjQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			xO24kL655uhjvVZ9HFXJyseTCfjxMsDI3pbbiGbc4JY=
+			NXFcw9ZiVMqdvUSQ/BVsCzorwsCc/+hyrNNTy7CVDWE=
 			</data>
 		</dict>
 		<key>Headers/EMRewardedVideoModel.h</key>
@@ -177,22 +192,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1hZRyOTJrREubgYzlpidgf8n+4s=
+			YKlIRx78KkNwzrClszrZA52AS0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			XbksOmZwTpywIWmxM7iHFQr+acMLPiTmliwb2BMvLR8=
+			Lmlecolc+o+vWLoO19W1V2QggF69n27rgsgSbff/vzY=
 			</data>
 		</dict>
 		<key>Headers/EdiMobSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UcY4aAKoLpzQtXkATSQTfSzZaTQ=
+			wssR/E2F3vFrwoIrQgF28COYpSE=
 			</data>
 			<key>hash2</key>
 			<data>
-			WVaRPFDDeiGnBV6QvvtvpECOLYz8pFK1+mFXaihB+3A=
+			T+VJJ5ktbGRoQrJNm61Vuk/ZNXrbdrVvesMrmfrsEqQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

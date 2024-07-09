@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <EdiMobSDK/EMAdsProtocol.h>
+
 @class EMNativeExpressAdView;
 
 @protocol EMNativeExpressAdDelegate <NSObject>
@@ -44,7 +46,7 @@
 @end
 
 
-@interface EMNativeExpressAd : NSObject
+@interface EMNativeExpressAd : NSObject<EMAdsProtocol>
 
 @property (nonatomic, weak) id<EMNativeExpressAdDelegate> delegate;
 

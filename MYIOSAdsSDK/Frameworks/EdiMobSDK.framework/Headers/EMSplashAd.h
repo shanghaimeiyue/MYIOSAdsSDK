@@ -5,6 +5,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EdiMobSDK/EMAdsProtocol.h>
+
 @protocol EMSplashAdDelegate <NSObject>
 
 @optional
@@ -54,7 +56,7 @@
 - (void)EM_splashDetailPageClose;
 @end
 
-@interface EMSplashAd : NSObject
+@interface EMSplashAd : NSObject<EMAdsProtocol>
 
 /**
  *  委托对象

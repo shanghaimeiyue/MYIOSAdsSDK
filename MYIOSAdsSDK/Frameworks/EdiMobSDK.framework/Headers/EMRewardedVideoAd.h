@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EdiMobSDK/EMAdsProtocol.h>
+
 @protocol EMRewardedVideoAdDelagate;
 @class EMRewardedVideoModel;
 
-@interface EMRewardedVideoAd : NSObject
+@interface EMRewardedVideoAd : NSObject<EMAdsProtocol>
 
 @property (nonatomic, strong) EMRewardedVideoModel *rewardVieoModel;
 

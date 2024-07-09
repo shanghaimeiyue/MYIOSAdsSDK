@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYIOSAdsSDK'
-  s.version          = '5.3.26'
+  s.version          = '5.3.27'
   s.summary          = 'A short description of MYIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -43,14 +43,15 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/EdiMobSDK.framework','MYIOSAdsSDK/Frameworks/KSCrash.framework','MYIOSAdsSDK/Frameworks/MYAdsFramework.framework'
   
   s.libraries = 'bz2', 'c', 'c++', 'c++abi', 'iconv', 'resolv.9', 'sqlite3.0', 'sqlite3', 'xml2', 'z'
-  s.vendored_libraries = 'MYIOSAdsSDK/Frameworks/libMYAdsSDK.a'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load', '-ld64'], 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
   
-  s.dependency 'Ads-Fusion-CN-Beta/BUAdSDK', '6.1.1.0'
-  s.dependency 'Ads-Fusion-CN-Beta/CSJMediation', '6.1.1.0'
-  s.dependency 'KSAdSDK', '3.3.64.5'
-  s.dependency 'GDTMobSDK', '4.14.76'
+  s.dependency 'Ads-Fusion-CN-Beta/BUAdSDK', '6.1.3.4'
+  s.dependency 'Ads-Fusion-CN-Beta/CSJMediation', '6.1.3.4'
+  s.dependency 'KSAdSDK', '3.3.66'
+  s.dependency 'GDTMobSDK', '4.14.81'
+  s.dependency 'JADYun', '2.6.0'
+  s.dependency 'OctopusSDK', '1.6.0.5'
   s.dependency 'WechatOpenSDK_UnPay'
-  s.dependency 'JADYun', '2.5.12'
   s.dependency 'SDWebImage'
+  s.dependency 'Masonry'
 end

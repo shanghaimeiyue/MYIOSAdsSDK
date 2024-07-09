@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <EdiMobSDK/EMAdsProtocol.h>
+
 @class EMNativeAdDataObject;
 
 @protocol EMNativeAdDelegate <NSObject>
@@ -22,7 +24,7 @@
 
 @end
 
-@interface EMNativeAd : NSObject
+@interface EMNativeAd : NSObject<EMAdsProtocol>
 
 @property (nonatomic, weak) id<EMNativeAdDelegate> delegate;
 

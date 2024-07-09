@@ -11,7 +11,6 @@
 
 /// 如果不允许使用IDFA请设置为YES
 @property (nonatomic, assign) BOOL nonIDFA;
-@property (nonatomic,   copy) NSString *idfa;
 /**
  *  配置类单例
  */
@@ -42,7 +41,7 @@
  */
 - (void)setPersonalizedState:(NSInteger)state;
 
-/// 外部媒体通过该接口传递IDFA，如果不允许传@""
+/// 外部媒体通过该接口传递IDFA
 /// @param idfa 外部传入的idfa
 - (void)setSDKIDFA:(NSString *)idfa;
 

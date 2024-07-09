@@ -57,7 +57,7 @@
 @property (nonatomic, weak) id<MYSplashAdDelegate> delegate;
 
 /**
- *  拉取广告超时时间，默认为4秒,建议不超过5s。
+ *  拉取广告超时时间，默认为5秒,建议不超过5s。
  */
 @property (nonatomic, assign) CGFloat fetchDelay;
 

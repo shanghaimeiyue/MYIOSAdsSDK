@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EdiMobSDK/EMAdsProtocol.h>
+
 @protocol EMBannerViewDelegate <NSObject>
 
 @optional
@@ -38,7 +40,7 @@
 
 @end
 
-@interface EMBannerView : UIView
+@interface EMBannerView : UIView<EMAdsProtocol>
 
 /**
  *  父视图
