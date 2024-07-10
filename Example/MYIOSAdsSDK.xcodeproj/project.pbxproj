@@ -249,7 +249,7 @@
 				ORGANIZATIONNAME = zhulonghaigit;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 3H69R3G362;
+						DevelopmentTeam = L7KZ6B2WSV;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -353,16 +353,12 @@
 				"${PODS_ROOT}/Ads-Fusion-CN-Beta/SDK/CSJAdSDK.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle",
 				"${PODS_ROOT}/../../MYIOSAdsSDK/Resources/MYAdsBundle.bundle",
-				"${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctAdSDK.bundle",
-				"${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctCore.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CSJAdSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JADYun.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MYAdsBundle.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OctAdSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OctCore.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -528,7 +524,7 @@
 			baseConfigurationReference = 17981957C958DBDDC1339C78 /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3H69R3G362;
+				DEVELOPMENT_TEAM = L7KZ6B2WSV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MYIOSAdsSDK/MYIOSAdsSDK-Prefix.pch";
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
@@ -545,7 +541,7 @@
 			baseConfigurationReference = 31C8097B96696949A8C9BE7C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3H69R3G362;
+				DEVELOPMENT_TEAM = L7KZ6B2WSV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MYIOSAdsSDK/MYIOSAdsSDK-Prefix.pch";
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";

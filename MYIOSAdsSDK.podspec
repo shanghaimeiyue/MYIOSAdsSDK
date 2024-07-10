@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYIOSAdsSDK'
-  s.version          = '5.3.28'
+  s.version          = '5.3.30'
   s.summary          = 'A short description of MYIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -50,7 +50,7 @@ TODO: Add long description of the pod here.
   s.dependency 'KSAdSDK', '3.3.66'
   s.dependency 'GDTMobSDK', '4.14.81'
   s.dependency 'JADYun', '2.6.0'
-  s.dependency 'OctopusSDK', '1.6.0.5'
+  #s.dependency 'OctopusSDK', '1.6.0.5'
   s.dependency 'WechatOpenSDK_UnPay'
   s.dependency 'SDWebImage'
   s.dependency 'Masonry'
