@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYIOSAdsSDK'
-  s.version          = '5.3.30.3'
+  s.version          = '5.3.31'
   s.summary          = 'A short description of MYIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'shanghaimeiyue' => 'karl@edimob.com' }
   s.source           = { :git => 'https://github.com/shanghaimeiyue/MYIOSAdsSDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '11.0'
 
   s.static_framework = true
   s.resources = 'MYIOSAdsSDK/Resources/*.bundle'
