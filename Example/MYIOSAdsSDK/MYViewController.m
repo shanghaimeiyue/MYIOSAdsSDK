@@ -7,6 +7,8 @@
 //
 
 #import "MYViewController.h"
+#import "MYAdsFramework/MYAdsFramework.h"
+#import <EdiMobSDK/EdiMobSDK.h>
 
 @interface MYViewController ()
 
@@ -18,6 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"sdkVersion - %@",[MYAdsConfiguration.shareInstance sdkVersion]);
+    NSLog(@"sdkVersion - %@",[EMSDKConfig.shareInstance sdkVersion]);
 }
 
 - (void)didReceiveMemoryWarning

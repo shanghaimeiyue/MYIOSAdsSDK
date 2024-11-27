@@ -69,6 +69,11 @@
 @property (nonatomic, assign) CGFloat fetchDelay;
 
 /**
+ *  开屏广告跳过时间，默认为5秒,建议不超过5s。
+ */
+@property (nonatomic, assign) double skipTime;
+
+/**
  *  构造方法
  */
 -(instancetype)initWithSlotId:(NSString *)slotId;

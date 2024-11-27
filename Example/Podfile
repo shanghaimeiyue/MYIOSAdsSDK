@@ -4,6 +4,19 @@ platform :ios, '12.0'
 
 target 'MYIOSAdsSDK_Example' do
   pod 'MYIOSAdsSDK', :path => '../'
+  
+  pod 'Ads-CN-Beta','6.5.0.1', :subspecs => ['BUAdSDK', 'CSJMediation']
+  pod 'KSAdSDK', '~> 3.3.69.3'
+  pod 'GDTMobSDK', '4.14.76'
+  pod 'UBiXMerakSDK', '2.5.0'
+  pod 'UBiXMBaiduAdapter', '5.371.0'
+  pod 'JADYun', '2.6.2'
+  pod 'OctopusSDK', '1.6.1.5'
+  
+  pod 'WechatOpenSDK_UnPay'
+  pod 'CocoaAsyncSocket'
+  pod 'SDWebImage'
+  pod 'Masonry'
 
   target 'MYIOSAdsSDK_Tests' do
     inherit! :search_paths

@@ -1,38 +1,66 @@
 PODS:
-  - Ads-Fusion-CN-Beta/BUAdSDK (6.1.3.4)
-  - Ads-Fusion-CN-Beta/CSJMediation (6.1.3.4):
-    - Ads-Fusion-CN-Beta/BUAdSDK
-  - GDTMobSDK (4.14.81):
-    - GDTMobSDK/GDTMobSDK (= 4.14.81)
-  - GDTMobSDK/GDTMobSDK (4.14.81)
-  - JADYun (2.6.0)
-  - KSAdSDK (3.3.66)
+  - Ads-CN-Beta/BUAdSDK (6.5.0.1)
+  - Ads-CN-Beta/CSJMediation (6.5.0.1):
+    - Ads-CN-Beta/BUAdSDK
+  - BaiduMobAdSDK (5.371)
+  - CocoaAsyncSocket (7.6.5)
+  - GDTMobSDK (4.14.76):
+    - GDTMobSDK/GDTMobSDK (= 4.14.76)
+  - GDTMobSDK/GDTMobSDK (4.14.76)
+  - JADYun (2.6.2)
+  - KSAdSDK (3.3.69.3)
   - Masonry (1.1.0)
-  - MYIOSAdsSDK (5.3.30):
-    - Ads-Fusion-CN-Beta/BUAdSDK (= 6.1.3.4)
-    - Ads-Fusion-CN-Beta/CSJMediation (= 6.1.3.4)
-    - GDTMobSDK (= 4.14.81)
-    - JADYun (= 2.6.0)
-    - KSAdSDK (= 3.3.66)
+  - MYIOSAdsSDK (5.3.53):
+    - CocoaAsyncSocket
     - Masonry
     - SDWebImage
     - WechatOpenSDK_UnPay
+  - OctopusSDK (1.6.1.5):
+    - OctopusSDK/OctopusBaseSDK (= 1.6.1.5)
+  - OctopusSDK/OctopusBaseSDK (1.6.1.5)
   - SDWebImage (5.19.4):
     - SDWebImage/Core (= 5.19.4)
   - SDWebImage/Core (5.19.4)
+  - UBiXDaq (2.3.1)
+  - UBiXMBaiduAdapter (5.371.0):
+    - BaiduMobAdSDK (= 5.371)
+    - UBiXMediationSDK
+  - UBiXMediationSDK (2.6.3):
+    - UBiXDaq
+  - UBiXMerakSDK (2.5.0):
+    - UBiXDaq (~> 2.3.1)
   - WechatOpenSDK_UnPay (1.8.7.1)
 
 DEPENDENCIES:
+  - Ads-CN-Beta/BUAdSDK (= 6.5.0.1)
+  - Ads-CN-Beta/CSJMediation (= 6.5.0.1)
+  - CocoaAsyncSocket
+  - GDTMobSDK (= 4.14.76)
+  - JADYun (= 2.6.2)
+  - KSAdSDK (~> 3.3.69.3)
+  - Masonry
   - MYIOSAdsSDK (from `../`)
+  - OctopusSDK (= 1.6.1.5)
+  - SDWebImage
+  - UBiXMBaiduAdapter (= 5.371.0)
+  - UBiXMerakSDK (= 2.5.0)
+  - WechatOpenSDK_UnPay
 
 SPEC REPOS:
   trunk:
-    - Ads-Fusion-CN-Beta
+    - Ads-CN-Beta
+    - BaiduMobAdSDK
+    - CocoaAsyncSocket
     - GDTMobSDK
     - JADYun
     - KSAdSDK
     - Masonry
+    - OctopusSDK
     - SDWebImage
+    - UBiXDaq
+    - UBiXMBaiduAdapter
+    - UBiXMediationSDK
+    - UBiXMerakSDK
     - WechatOpenSDK_UnPay
 
 EXTERNAL SOURCES:
@@ -40,15 +68,22 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Ads-Fusion-CN-Beta: 1d3cbf88c8dafde4dc968d78e6b9b4078f58b7d1
-  GDTMobSDK: 3e4b9e9edb6b0b6874aa4f869dc1856262efecd2
-  JADYun: 3c3aa6c6c05c598997ab4ae9d170972f9357109c
-  KSAdSDK: 2b7d0715bb848a9f5b5cb46a5ae25555e109aca0
+  Ads-CN-Beta: d57e2841fee59417cffa6d4b963b05d84d560bc3
+  BaiduMobAdSDK: 0a7d62ecdd0b25228bb6d3e46770e78bbe58ba34
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  GDTMobSDK: 037a4e91a91d277d7864fa0f413599acecc6e8f4
+  JADYun: b1657537724c346fe99069455e4672aa992422aa
+  KSAdSDK: a43b039755299f770f7fc81cba0ebf64ae4f03a8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MYIOSAdsSDK: 20d30216907028f9e413d8923e60f4f8fc340887
+  MYIOSAdsSDK: c18fbdf3516b4714e1838f8a3e0ca0e2a2f4ad6b
+  OctopusSDK: 7fe133de1c70d89203419c0535597b307ac60227
   SDWebImage: 066c47b573f408f18caa467d71deace7c0f8280d
+  UBiXDaq: ad9dd2af2dc4cff6d9380b3f5881276b70f7d751
+  UBiXMBaiduAdapter: 2d998a291c5e987364412d7062aaf4694d19d49e
+  UBiXMediationSDK: b82a3b0e21868014543ed34736295a5826123205
+  UBiXMerakSDK: 17c8ea6915f73949487c5aed02de49ede775e588
   WechatOpenSDK_UnPay: 676bbc44d7309dce90697c2426f5b67304f42a2a
 
-PODFILE CHECKSUM: abf5d2605a772e6c9d6570bee908de6c51bb9e75
+PODFILE CHECKSUM: abce25380e6c7a199e09ddd052e0b98813ca2e8a
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.16.2
