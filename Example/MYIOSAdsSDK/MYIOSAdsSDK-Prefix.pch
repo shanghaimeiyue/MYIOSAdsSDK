@@ -14,3 +14,10 @@
     @import UIKit;
     @import Foundation;
 #endif
+
+#define MYMobAdsAppID @"1601"
+#define SplashID @"6865"
+#define BannerID @"6867"
+#define InterID @"6868"
+#define NativeID @"10530"
+#define VideoID @"6870"

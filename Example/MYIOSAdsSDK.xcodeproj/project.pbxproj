@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0479BCD12CF81EBA0016A7CC /* MYInterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0479BCC82CF81EBA0016A7CC /* MYInterstitialViewController.xib */; };
+		0479BCD22CF81EBA0016A7CC /* MYBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0479BCC52CF81EBA0016A7CC /* MYBannerViewController.xib */; };
+		0479BCD32CF81EBA0016A7CC /* MYNativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0479BCCD2CF81EBA0016A7CC /* MYNativeViewController.xib */; };
+		0479BCD42CF81EBA0016A7CC /* MYInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479BCC72CF81EBA0016A7CC /* MYInterstitialViewController.m */; };
+		0479BCD52CF81EBA0016A7CC /* MYVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479BCCF2CF81EBA0016A7CC /* MYVideoViewController.m */; };
+		0479BCD62CF81EBA0016A7CC /* MYNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479BCCC2CF81EBA0016A7CC /* MYNativeViewController.m */; };
+		0479BCD72CF81EBA0016A7CC /* MYBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479BCC42CF81EBA0016A7CC /* MYBannerViewController.m */; };
+		0479BCD82CF81EBA0016A7CC /* MYNativeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479BCCA2CF81EBA0016A7CC /* MYNativeTableViewCell.m */; };
+		0479BCDB2CF81F110016A7CC /* MYAdInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479BCDA2CF81F110016A7CC /* MYAdInfoViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0479BCC32CF81EBA0016A7CC /* MYBannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYBannerViewController.h; sourceTree = "<group>"; };
+		0479BCC42CF81EBA0016A7CC /* MYBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYBannerViewController.m; sourceTree = "<group>"; };
+		0479BCC52CF81EBA0016A7CC /* MYBannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MYBannerViewController.xib; sourceTree = "<group>"; };
+		0479BCC62CF81EBA0016A7CC /* MYInterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYInterstitialViewController.h; sourceTree = "<group>"; };
+		0479BCC72CF81EBA0016A7CC /* MYInterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYInterstitialViewController.m; sourceTree = "<group>"; };
+		0479BCC82CF81EBA0016A7CC /* MYInterstitialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MYInterstitialViewController.xib; sourceTree = "<group>"; };
+		0479BCC92CF81EBA0016A7CC /* MYNativeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYNativeTableViewCell.h; sourceTree = "<group>"; };
+		0479BCCA2CF81EBA0016A7CC /* MYNativeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYNativeTableViewCell.m; sourceTree = "<group>"; };
+		0479BCCB2CF81EBA0016A7CC /* MYNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYNativeViewController.h; sourceTree = "<group>"; };
+		0479BCCC2CF81EBA0016A7CC /* MYNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYNativeViewController.m; sourceTree = "<group>"; };
+		0479BCCD2CF81EBA0016A7CC /* MYNativeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MYNativeViewController.xib; sourceTree = "<group>"; };
+		0479BCCE2CF81EBA0016A7CC /* MYVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYVideoViewController.h; sourceTree = "<group>"; };
+		0479BCCF2CF81EBA0016A7CC /* MYVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYVideoViewController.m; sourceTree = "<group>"; };
+		0479BCD92CF81F110016A7CC /* MYAdInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYAdInfoViewController.h; sourceTree = "<group>"; };
+		0479BCDA2CF81F110016A7CC /* MYAdInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYAdInfoViewController.m; sourceTree = "<group>"; };
 		17981957C958DBDDC1339C78 /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1EC4EDB356702E7AE06DC1FD /* MYIOSAdsSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MYIOSAdsSDK.podspec; path = ../MYIOSAdsSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2DC8709D047AAAAC9E8E2CF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -95,6 +119,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0479BCD02CF81EBA0016A7CC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0479BCC32CF81EBA0016A7CC /* MYBannerViewController.h */,
+				0479BCC42CF81EBA0016A7CC /* MYBannerViewController.m */,
+				0479BCC52CF81EBA0016A7CC /* MYBannerViewController.xib */,
+				0479BCC62CF81EBA0016A7CC /* MYInterstitialViewController.h */,
+				0479BCC72CF81EBA0016A7CC /* MYInterstitialViewController.m */,
+				0479BCC82CF81EBA0016A7CC /* MYInterstitialViewController.xib */,
+				0479BCC92CF81EBA0016A7CC /* MYNativeTableViewCell.h */,
+				0479BCCA2CF81EBA0016A7CC /* MYNativeTableViewCell.m */,
+				0479BCCB2CF81EBA0016A7CC /* MYNativeViewController.h */,
+				0479BCCC2CF81EBA0016A7CC /* MYNativeViewController.m */,
+				0479BCCD2CF81EBA0016A7CC /* MYNativeViewController.xib */,
+				0479BCCE2CF81EBA0016A7CC /* MYVideoViewController.h */,
+				0479BCCF2CF81EBA0016A7CC /* MYVideoViewController.m */,
+				0479BCD92CF81F110016A7CC /* MYAdInfoViewController.h */,
+				0479BCDA2CF81F110016A7CC /* MYAdInfoViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +178,7 @@
 		6003F593195388D20070C39A /* Example for MYIOSAdsSDK */ = {
 			isa = PBXGroup;
 			children = (
+				0479BCD02CF81EBA0016A7CC /* ViewController */,
 				6003F59C195388D20070C39A /* MYAppDelegate.h */,
 				6003F59D195388D20070C39A /* MYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -284,6 +331,9 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				0479BCD12CF81EBA0016A7CC /* MYInterstitialViewController.xib in Resources */,
+				0479BCD22CF81EBA0016A7CC /* MYBannerViewController.xib in Resources */,
+				0479BCD32CF81EBA0016A7CC /* MYNativeViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -405,7 +455,13 @@
 			files = (
 				6003F59E195388D20070C39A /* MYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MYViewController.m in Sources */,
+				0479BCDB2CF81F110016A7CC /* MYAdInfoViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0479BCD42CF81EBA0016A7CC /* MYInterstitialViewController.m in Sources */,
+				0479BCD52CF81EBA0016A7CC /* MYVideoViewController.m in Sources */,
+				0479BCD62CF81EBA0016A7CC /* MYNativeViewController.m in Sources */,
+				0479BCD72CF81EBA0016A7CC /* MYBannerViewController.m in Sources */,
+				0479BCD82CF81EBA0016A7CC /* MYNativeTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,7 +630,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/MYIOSAdsSDK/Example/Tests/Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -600,7 +656,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/MYIOSAdsSDK/Example/Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

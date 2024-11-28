@@ -13,8 +13,6 @@
 
 #define kScreenWidth [[UIApplication sharedApplication]keyWindow].bounds.size.width
 #define kScreenHeight [[UIApplication sharedApplication]keyWindow].bounds.size.height
-#define MYMobAdsAppID @"1601"
-#define SplashID @"6865"
 
 @interface MYAppDelegate ()<MYSplashAdDelegate>
 
@@ -33,11 +31,12 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    Class view = NSClassFromString(@"ViewController");
+    Class view = NSClassFromString(@"MYViewController");
     UIViewController *vc = [[view alloc]init];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
+    
     [[MYAdsConfiguration shareInstance] initConfigurationWithAppId:MYMobAdsAppID];
     _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
     _splash.delegate = self;
