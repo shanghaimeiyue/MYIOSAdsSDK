@@ -11,5 +11,6 @@
 @interface MYAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong, readonly) UILabel *toastLab;
 
 @end

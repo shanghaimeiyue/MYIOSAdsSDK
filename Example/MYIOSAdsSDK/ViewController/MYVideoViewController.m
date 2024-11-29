@@ -52,6 +52,11 @@
 }
 - (void)MY_rewardedVideoAdDidClickDownload{
     NSLog(@"激励视频点击下载");
+    MYAppDelegate *delegate = (MYAppDelegate *)[UIApplication sharedApplication].delegate;
+    delegate.toastLab.text = @"激励视频点击下载";
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(6.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        delegate.toastLab.text = @"";
+    });
 }
 - (void)MY_rewardedVideoAdDidFailWithError:(NSError *)error{
     NSLog(@"激励视频素材加载失败");

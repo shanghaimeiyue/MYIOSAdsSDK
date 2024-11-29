@@ -22,6 +22,8 @@
 
 @property (nonatomic, strong) UIView *bottomView;
 
+@property (nonatomic, strong) UILabel *toastLab;
+
 @end
 
 @implementation MYAppDelegate
@@ -45,6 +47,14 @@
     _splash.customBottomView = self.bottomView;
     [_splash MY_loadAd];
     [self.window addSubview:self.splashImage];
+    
+    self.toastLab = [[UILabel alloc] initWithFrame:CGRectMake(0, self.window.bounds.size.height - 150, self.window.bounds.size.width, 150)];
+    self.toastLab.backgroundColor = [UIColor.redColor colorWithAlphaComponent:0.1];
+    self.toastLab.textAlignment = NSTextAlignmentCenter;
+    self.toastLab.font = [UIFont systemFontOfSize:20];
+    self.toastLab.textColor = UIColor.blackColor;
+    [self.window addSubview:self.toastLab];
+    
     return YES;
 }
 
@@ -107,6 +117,10 @@
 }
 - (void)MY_splashAdClicked{
     NSLog(@"开屏广告点击");
+    self.toastLab.text = @"开屏广告点击";
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(30.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        self.toastLab.text = @"";
+    });
 }
 - (void)MY_splashAdExposured{
     NSLog(@"开屏广告曝光");

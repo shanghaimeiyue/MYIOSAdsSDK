@@ -21,3 +21,5 @@
 #define InterID @"6868"
 #define NativeID @"10530"
 #define VideoID @"6870"
+
+#import "MYAppDelegate.h"
