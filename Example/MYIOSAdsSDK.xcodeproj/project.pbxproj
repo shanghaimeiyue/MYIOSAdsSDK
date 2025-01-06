@@ -296,7 +296,7 @@
 				ORGANIZATIONNAME = zhulonghaigit;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = L7KZ6B2WSV;
+						DevelopmentTeam = 8UR33FSGUM;
 					};
 					6003F5AD195388D20070C39A = {
 						DevelopmentTeam = 8UR33FSGUM;
@@ -405,8 +405,6 @@
 				"${PODS_ROOT}/BaiduMobAdSDK/baidumobadsdk.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/JADYun/JADYun.bundle",
 				"${PODS_ROOT}/../../MYIOSAdsSDK/Resources/MYAdsBundle.bundle",
-				"${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctAdSDK.bundle",
-				"${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctCore.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -414,8 +412,6 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/baidumobadsdk.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JADYun.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MYAdsBundle.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OctAdSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OctCore.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -589,7 +585,7 @@
 			baseConfigurationReference = 17981957C958DBDDC1339C78 /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L7KZ6B2WSV;
+				DEVELOPMENT_TEAM = 8UR33FSGUM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MYIOSAdsSDK/MYIOSAdsSDK-Prefix.pch";
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
@@ -606,7 +602,7 @@
 			baseConfigurationReference = 31C8097B96696949A8C9BE7C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L7KZ6B2WSV;
+				DEVELOPMENT_TEAM = 8UR33FSGUM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MYIOSAdsSDK/MYIOSAdsSDK-Prefix.pch";
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
