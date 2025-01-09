@@ -17,12 +17,8 @@
 @interface MYAppDelegate ()<MYSplashAdDelegate>
 
 @property (nonatomic, strong)MYSplashAd *splash;
-
-@property (nonatomic, strong)UIImageView *splashImage;
-
 @property (nonatomic, strong) UIView *bottomView;
-
-@property (nonatomic, strong) UILabel *toastLab;
+@property (nonatomic, strong) UIWindow *adWindow;
 
 @end
 
@@ -42,18 +38,9 @@
     [[MYAdsConfiguration shareInstance] initConfigurationWithAppId:MYMobAdsAppID];
     _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
     _splash.delegate = self;
-    _splash.zoomController = nav; // 传入app的首页。
-    /** 当需要设置自定义的BottomView时，必须先设置这个参数后再掉用load广告  */
+    _splash.zoomController = nav;
     _splash.customBottomView = self.bottomView;
     [_splash MY_loadAd];
-    [self.window addSubview:self.splashImage];
-    
-    self.toastLab = [[UILabel alloc] initWithFrame:CGRectMake(0, self.window.bounds.size.height - 150, self.window.bounds.size.width, 150)];
-    self.toastLab.backgroundColor = [UIColor.redColor colorWithAlphaComponent:0.1];
-    self.toastLab.textAlignment = NSTextAlignmentCenter;
-    self.toastLab.font = [UIFont systemFontOfSize:20];
-    self.toastLab.textColor = UIColor.blackColor;
-    [self.window addSubview:self.toastLab];
     
     return YES;
 }
@@ -99,28 +86,28 @@
 
 #pragma mark - delegate
 - (void)MY_splashAdDidLoad {
-    [_splash MY_showInWindow:self.window withBottomView:self.bottomView];
+    [_splash MY_showInWindow:self.adWindow withBottomView:self.bottomView];
 }
 - (void)MY_splashAdFailToPresent:(NSError *)error{
     NSLog(@"开屏无填充=====%@",error);
-    [self.splashImage removeFromSuperview];
+    [self rmoveAdWindow];
+    self.splash = nil;
+    self.splash.delegate = nil;
 }
 - (void)MY_splashAdSuccessPresentScreen{
    NSLog(@"开屏广告加载成功");
-    [self.splashImage removeFromSuperview];
 }
 - (void)MY_splashAdWillClose{
     NSLog(@"开屏广告即将关闭");
 }
 - (void)MY_splashAdClosed{
     NSLog(@"开屏广告关闭");
+    [self rmoveAdWindow];
+    self.splash = nil;
+    self.splash.delegate = nil;
 }
 - (void)MY_splashAdClicked{
     NSLog(@"开屏广告点击");
-    self.toastLab.text = @"开屏广告点击";
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(30.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        self.toastLab.text = @"";
-    });
 }
 - (void)MY_splashAdExposured{
     NSLog(@"开屏广告曝光");
@@ -130,13 +117,6 @@
 }
 
 #pragma mark - lazy
-- (UIImageView *)splashImage{
-    if (!_splashImage) {
-        _splashImage = [[UIImageView alloc]initWithFrame:[UIScreen mainScreen].bounds];
-        _splashImage.image = [UIImage imageNamed:@"LunchImage.jpeg"];
-    }
-    return _splashImage;
-}
 - (UIView *)bottomView {
     if (!_bottomView) {
         CGRect spRect = CGRectMake(0, 0, kScreenWidth, 120);
@@ -149,6 +129,30 @@
         [_bottomView addSubview:label];
     }
     return _bottomView;
+}
+
+#pragma mark - 懒加载
+- (UIWindow *)adWindow {
+    if (!_adWindow) {
+        _adWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        _adWindow.backgroundColor = [UIColor clearColor];
+        _adWindow.windowLevel = UIWindowLevelStatusBar + 1;
+        UIViewController *adViewController = [UIViewController new];
+        adViewController.view.backgroundColor = [UIColor redColor];
+        _adWindow.rootViewController = adViewController;
+        _adWindow.hidden = NO;
+    }
+    return _adWindow;
+}
+
+- (void)rmoveAdWindow {
+    if (_adWindow) {
+        _adWindow.hidden = YES;
+        _adWindow.windowLevel = UIWindowLevelStatusBar - 1;
+        [_adWindow resignKeyWindow];
+        [_adWindow removeFromSuperview];
+        _adWindow = nil;
+    }
 }
 
 @end

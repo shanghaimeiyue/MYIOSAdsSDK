@@ -10,7 +10,7 @@ PODS:
   - JADYun (2.6.6)
   - KSAdSDK (3.3.69.3)
   - Masonry (1.1.0)
-  - MYIOSAdsSDK (5.5.11):
+  - MYIOSAdsSDK (5.5.11.1):
     - CocoaAsyncSocket
     - Masonry
     - SDWebImage
@@ -71,7 +71,7 @@ SPEC CHECKSUMS:
   JADYun: ee47d9a4d8de06fdc51d904103d156037cbb34d8
   KSAdSDK: a43b039755299f770f7fc81cba0ebf64ae4f03a8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MYIOSAdsSDK: e07e00f2bf38af1285611b00b23658b774ff1f51
+  MYIOSAdsSDK: b0400e7dd0a5b3506d93e4c2064650e475c6bb2e
   SDWebImage: 066c47b573f408f18caa467d71deace7c0f8280d
   UBiXDaq: ad9dd2af2dc4cff6d9380b3f5881276b70f7d751
   UBiXMBaiduAdapter: 2d998a291c5e987364412d7062aaf4694d19d49e
