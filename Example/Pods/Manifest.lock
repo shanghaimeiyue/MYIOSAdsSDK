@@ -5,7 +5,7 @@ PODS:
   - JADYun (2.6.6)
   - KSAdSDK (3.3.69.3)
   - Masonry (1.1.0)
-  - MYIOSAdsSDK (5.6.11):
+  - MYIOSAdsSDK (5.6.12):
     - Masonry
     - SDWebImage
   - SDWebImage (5.21.0):
@@ -46,7 +46,7 @@ SPEC CHECKSUMS:
   JADYun: ee47d9a4d8de06fdc51d904103d156037cbb34d8
   KSAdSDK: a43b039755299f770f7fc81cba0ebf64ae4f03a8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MYIOSAdsSDK: 83ca2851d285ae64d56cbed3e96fb46f1349b514
+  MYIOSAdsSDK: f31d822bb48b7f096ac920b125c8af77ba459fc2
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
   WechatOpenSDK_UnPay: 676bbc44d7309dce90697c2426f5b67304f42a2a
 
