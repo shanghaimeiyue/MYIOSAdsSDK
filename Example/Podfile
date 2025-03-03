@@ -5,9 +5,11 @@ platform :ios, '12.0'
 target 'MYIOSAdsSDK_Example' do
   pod 'MYIOSAdsSDK', :path => '../'
   
-  pod 'Ads-CN-Beta','6.6.0.0', :subspecs => ['BUAdSDK', 'CSJMediation']
+#  pod 'Ads-CN-Beta','6.6.0.0', :subspecs => ['BUAdSDK', 'CSJMediation']
   pod 'KSAdSDK', '3.3.69.3'
-  pod 'GDTMobSDK', '4.14.90'
+#  pod 'GDTMobSDK', '4.14.90'
+  pod 'GDTMobSDK', '4.15.22'
+#  pod 'KSAdSDK', :path => './'
   pod 'JADYun', '2.6.6'
   pod 'BaiduMobAdSDK', '~> 5.371'
 #  pod 'UBiXMerakSDK', '2.5.0'
@@ -22,5 +24,15 @@ target 'MYIOSAdsSDK_Example' do
     inherit! :search_paths
 
     
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if ['Masonry', 'MBProgressHUD'].include?(target.name)
+      target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+      end
+    end
   end
 end

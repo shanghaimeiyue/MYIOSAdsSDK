@@ -1,16 +1,11 @@
 PODS:
-  - Ads-CN-Beta/BUAdSDK (6.6.0.0)
-  - Ads-CN-Beta/CSJMediation (6.6.0.0):
-    - Ads-CN-Beta/BUAdSDK
   - BaiduMobAdSDK (5.371)
   - CocoaAsyncSocket (7.6.5)
-  - GDTMobSDK (4.14.90):
-    - GDTMobSDK/GDTMobSDK (= 4.14.90)
-  - GDTMobSDK/GDTMobSDK (4.14.90)
+  - GDTMobSDK (4.15.22)
   - JADYun (2.6.6)
   - KSAdSDK (3.3.69.3)
   - Masonry (1.1.0)
-  - MYIOSAdsSDK (5.6.10):
+  - MYIOSAdsSDK (5.6.11):
     - Masonry
     - SDWebImage
   - SDWebImage (5.21.0):
@@ -19,11 +14,9 @@ PODS:
   - WechatOpenSDK_UnPay (1.8.7.1)
 
 DEPENDENCIES:
-  - Ads-CN-Beta/BUAdSDK (= 6.6.0.0)
-  - Ads-CN-Beta/CSJMediation (= 6.6.0.0)
   - BaiduMobAdSDK (~> 5.371)
   - CocoaAsyncSocket
-  - GDTMobSDK (= 4.14.90)
+  - GDTMobSDK (= 4.15.22)
   - JADYun (= 2.6.6)
   - KSAdSDK (= 3.3.69.3)
   - Masonry
@@ -33,7 +26,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - Ads-CN-Beta
     - BaiduMobAdSDK
     - CocoaAsyncSocket
     - GDTMobSDK
@@ -48,17 +40,16 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Ads-CN-Beta: d5271285b2ee327dd2fb8b2db71f03e291069db0
   BaiduMobAdSDK: 0a7d62ecdd0b25228bb6d3e46770e78bbe58ba34
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
-  GDTMobSDK: cb7162e527f2db41f97786f3fb6498544d5d10e7
+  GDTMobSDK: 315eb8ed9e888f097ef6d0cd9c3df1788fe5ce7a
   JADYun: ee47d9a4d8de06fdc51d904103d156037cbb34d8
   KSAdSDK: a43b039755299f770f7fc81cba0ebf64ae4f03a8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MYIOSAdsSDK: 355bcdbefddb113f09ebe6ba1323b237b44ce405
+  MYIOSAdsSDK: 83ca2851d285ae64d56cbed3e96fb46f1349b514
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
   WechatOpenSDK_UnPay: 676bbc44d7309dce90697c2426f5b67304f42a2a
 
-PODFILE CHECKSUM: f1e03660c700242c683d4b34509910076d46134b
+PODFILE CHECKSUM: c450f50c7a3c4ead054f884182114aeb6672a218
 
 COCOAPODS: 1.16.2
