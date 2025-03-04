@@ -35,7 +35,7 @@
     [self.view addSubview:self.adList];
     
     NSLog(@"sdkVersion - %@",[MYAdsConfiguration.shareInstance sdkVersion]);
-    NSLog(@"sdkVersion - %@",[EMSDKConfig.shareInstance sdkVersion]);
+//    NSLog(@"sdkVersion - %@",[EMSDKConfig.shareInstance sdkVersion]);
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
