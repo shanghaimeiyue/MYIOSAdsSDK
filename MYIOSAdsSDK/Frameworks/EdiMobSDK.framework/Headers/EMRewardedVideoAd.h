@@ -18,6 +18,8 @@
 
 @property (nonatomic, weak) id<EMRewardedVideoAdDelagate> delegate;
 
+@property (nonatomic, copy) NSString *requestUid;
+
 /**
  * 构造方法
 

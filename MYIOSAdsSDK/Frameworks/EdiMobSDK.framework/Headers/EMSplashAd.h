@@ -73,6 +73,8 @@
  */
 @property (nonatomic, assign) double skipTime;
 
+@property (nonatomic, copy) NSString *requestUid;
+
 /**
  *  构造方法
  */

@@ -54,6 +54,7 @@
  */
 @property(nonatomic, weak) id<EMBannerViewDelegate> delegate;
 
+@property (nonatomic, copy) NSString *requestUid;
 
 /**
  *  构造方法

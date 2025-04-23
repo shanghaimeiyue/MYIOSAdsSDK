@@ -14,6 +14,9 @@ typedef NS_ENUM(NSInteger, EMAdsLossReason) {
 };
 
 @protocol EMAdsProtocol <NSObject>
+
+@property (nonatomic, copy) NSString *requestUid;
+
 /**
  *  竞胜之后调用, 需要在调用广告 show 之前调用
  *

@@ -28,6 +28,7 @@
 
 @property (nonatomic, weak) id<EMNativeAdDelegate> delegate;
 
+@property (nonatomic, copy) NSString *requestUid;
 
 /**
  *  构造方法

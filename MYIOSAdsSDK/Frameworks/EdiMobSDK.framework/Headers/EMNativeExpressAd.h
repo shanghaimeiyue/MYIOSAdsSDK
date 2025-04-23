@@ -56,6 +56,8 @@
  */
 @property (nonatomic, weak) UIViewController *currentController;
 
+@property (nonatomic, copy) NSString *requestUid;
+
 /**
  *  构造方法
  *  详解：slotId   - 广告位 ID

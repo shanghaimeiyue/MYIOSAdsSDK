@@ -15,11 +15,11 @@
     @import Foundation;
 #endif
 
-#define MYMobAdsAppID @"1601"
-#define SplashID @"11692"
+#define MYMobAdsAppID @"1850"
+#define SplashID @"12120"
 #define BannerID @"6867"
 #define InterID @"6868"
-#define NativeID @"11694"
+#define NativeID @"12121"
 #define VideoID @"6870"
 
 #import "MYAppDelegate.h"

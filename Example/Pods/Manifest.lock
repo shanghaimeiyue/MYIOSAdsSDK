@@ -1,58 +1,118 @@
 PODS:
-  - Ads-CN-Beta/BUAdSDK (6.7.0.3)
-  - Ads-CN-Beta/CSJMediation (6.7.0.3):
+  - Ads-CN-Beta/BUAdSDK (6.8.0.5)
+  - Ads-CN-Beta/CSJMediation (6.8.0.5):
     - Ads-CN-Beta/BUAdSDK
-  - BaiduMobAdSDK (5.371)
+  - BeiZiSDK-iOS/BeiZiSDK-iOS (4.90.4.30)
   - CocoaAsyncSocket (7.6.5)
   - GDTMobSDK (4.15.22)
-  - JADYun (2.6.8)
-  - KSAdSDK (3.3.74)
+  - HRAdSDK/HR (1.7.19.0)
+  - JADYun (2.6.4)
+  - KSAdSDK (3.3.75)
+  - KSCrash (1.17.7):
+    - KSCrash/Installations (= 1.17.7)
+  - KSCrash/Installations (1.17.7):
+    - KSCrash/Recording
+    - KSCrash/Reporting
+  - KSCrash/Recording (1.17.7):
+    - KSCrash/Recording/Tools (= 1.17.7)
+  - KSCrash/Recording/Tools (1.17.7)
+  - KSCrash/Reporting (1.17.7):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters (= 1.17.7)
+    - KSCrash/Reporting/MessageUI (= 1.17.7)
+    - KSCrash/Reporting/Sinks (= 1.17.7)
+    - KSCrash/Reporting/Tools (= 1.17.7)
+  - KSCrash/Reporting/Filters (1.17.7):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Alert (= 1.17.7)
+    - KSCrash/Reporting/Filters/AppleFmt (= 1.17.7)
+    - KSCrash/Reporting/Filters/Base (= 1.17.7)
+    - KSCrash/Reporting/Filters/Basic (= 1.17.7)
+    - KSCrash/Reporting/Filters/GZip (= 1.17.7)
+    - KSCrash/Reporting/Filters/JSON (= 1.17.7)
+    - KSCrash/Reporting/Filters/Sets (= 1.17.7)
+    - KSCrash/Reporting/Filters/Stringify (= 1.17.7)
+    - KSCrash/Reporting/Filters/Tools (= 1.17.7)
+  - KSCrash/Reporting/Filters/Alert (1.17.7):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/AppleFmt (1.17.7):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Base (1.17.7):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Filters/Basic (1.17.7):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/GZip (1.17.7):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/JSON (1.17.7):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Sets (1.17.7):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/AppleFmt
+    - KSCrash/Reporting/Filters/Base
+    - KSCrash/Reporting/Filters/Basic
+    - KSCrash/Reporting/Filters/GZip
+    - KSCrash/Reporting/Filters/JSON
+    - KSCrash/Reporting/Filters/Stringify
+  - KSCrash/Reporting/Filters/Stringify (1.17.7):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Tools (1.17.7):
+    - KSCrash/Recording
+  - KSCrash/Reporting/MessageUI (1.17.7):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Sinks (1.17.7):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters
+    - KSCrash/Reporting/Tools
+  - KSCrash/Reporting/Tools (1.17.7):
+    - KSCrash/Recording
   - Masonry (1.1.0)
-  - MYIOSAdsSDK (5.6.12):
+  - MYIOSAdsSDK (5.5.16):
+    - CocoaAsyncSocket
+    - KSCrash (~> 1.17.7)
     - Masonry
     - SDWebImage
+  - OctopusSDK (1.6.2.13):
+    - OctopusSDK/OctopusBaseSDK (= 1.6.2.13)
+  - OctopusSDK/OctopusBaseSDK (1.6.2.13)
+  - QuMengAdSDK (1.3.4)
   - SDWebImage (5.21.0):
     - SDWebImage/Core (= 5.21.0)
   - SDWebImage/Core (5.21.0)
-  - UBiXDaq (2.4.0)
-  - UBiXMediationSDK (2.7.1):
-    - UBiXDaq
-  - UBiXMerakSDK (2.5.1):
-    - UBiXDaq (~> 2.4.0)
-  - UBiXMUBiXAdapter (2.5.1.0):
-    - UBiXMediationSDK
-    - UBiXMerakSDK (= 2.5.1.0)
   - WechatOpenSDK_UnPay (1.8.7.1)
 
 DEPENDENCIES:
-  - Ads-CN-Beta/BUAdSDK (= 6.7.0.3)
-  - Ads-CN-Beta/CSJMediation (= 6.7.0.3)
-  - BaiduMobAdSDK (~> 5.371)
-  - CocoaAsyncSocket
-  - GDTMobSDK (= 4.15.22)
-  - JADYun (= 2.6.8)
-  - KSAdSDK (= 3.3.74)
-  - Masonry
+  - Ads-CN-Beta/BUAdSDK (~> 6.8.0.4)
+  - Ads-CN-Beta/CSJMediation (~> 6.8.0.4)
+  - BeiZiSDK-iOS/BeiZiSDK-iOS (= 4.90.4.30)
+  - GDTMobSDK (~> 4.15.10)
+  - HRAdSDK/HR (= 1.7.19.0)
+  - JADYun (= 2.6.4)
+  - KSAdSDK (~> 3.3.75)
   - MYIOSAdsSDK (from `../`)
-  - SDWebImage
-  - UBiXMediationSDK (= 2.7.1)
-  - UBiXMUBiXAdapter (= 2.5.1.0)
+  - OctopusSDK (= 1.6.2.13)
+  - QuMengAdSDK (= 1.3.4)
   - WechatOpenSDK_UnPay
 
 SPEC REPOS:
   trunk:
     - Ads-CN-Beta
-    - BaiduMobAdSDK
+    - BeiZiSDK-iOS
     - CocoaAsyncSocket
     - GDTMobSDK
+    - HRAdSDK
     - JADYun
     - KSAdSDK
+    - KSCrash
     - Masonry
+    - OctopusSDK
+    - QuMengAdSDK
     - SDWebImage
-    - UBiXDaq
-    - UBiXMediationSDK
-    - UBiXMerakSDK
-    - UBiXMUBiXAdapter
     - WechatOpenSDK_UnPay
 
 EXTERNAL SOURCES:
@@ -60,21 +120,21 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Ads-CN-Beta: e8d837177f53d71d18fa17b7248bd309f1edd78d
-  BaiduMobAdSDK: 0a7d62ecdd0b25228bb6d3e46770e78bbe58ba34
+  Ads-CN-Beta: 1ae80bd2aad1debf18579a948ec6d1f341fe5d1a
+  BeiZiSDK-iOS: 89dd02c63f36d4539678ee1d0b24cac934a16d48
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   GDTMobSDK: 315eb8ed9e888f097ef6d0cd9c3df1788fe5ce7a
-  JADYun: fe7f107f9baa699ef768fd3bb74d2b0aee70bb48
-  KSAdSDK: bf5dcb9cc6a3dc83e5d4fcc44d96e94c16630b1c
+  HRAdSDK: 09312f6d54397da0e0b3929eeb522039a869930c
+  JADYun: aebe6e9ee5d65258ea2b68d8babc2e7667fa1c94
+  KSAdSDK: ed3b441ff4facc1eaea7cad10de5fd23807d2186
+  KSCrash: ea6fc545b7dbb916a141aaadd4343fb891141290
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MYIOSAdsSDK: f31d822bb48b7f096ac920b125c8af77ba459fc2
+  MYIOSAdsSDK: 38626d519c4e0c49ace9c2614280479146363139
+  OctopusSDK: 3e96776e4dbee8f10968ba1cb667519cd04d470c
+  QuMengAdSDK: 5901936867999aa2f18fbfadc8d78e0be482abf1
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
-  UBiXDaq: 8cadda28547c9ea8124cdbcfc9da63493b168858
-  UBiXMediationSDK: f1dcd518d1318c0a8acd10db510b5314d6fc66a1
-  UBiXMerakSDK: 08b6aa72606569f14b8be95a09d7f30970ba466f
-  UBiXMUBiXAdapter: 697217e018e437d03bf96c9f354e16b1ad68bbbe
   WechatOpenSDK_UnPay: 676bbc44d7309dce90697c2426f5b67304f42a2a
 
-PODFILE CHECKSUM: 65b1df62121644dee21f5afcdf1844c6d3e7d899
+PODFILE CHECKSUM: 5cdb04c969e6e80212ac83938012ad6ea637ff3e
 
 COCOAPODS: 1.16.2

@@ -62,6 +62,8 @@
  */
 @property (nonatomic, weak) UIViewController *viewController;
 
+@property (nonatomic, copy) NSString *requestUid;
+
 /**
  *  构造方法
  */
