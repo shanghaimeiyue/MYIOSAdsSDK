@@ -4,7 +4,7 @@ PODS:
     - Ads-CN-Beta/BUAdSDK
   - BeiZiSDK-iOS/BeiZiSDK-iOS (4.90.4.30)
   - CocoaAsyncSocket (7.6.5)
-  - GDTMobSDK (4.15.22)
+  - GDTMobSDK (4.15.30)
   - HRAdSDK/HR (1.7.19.0)
   - JADYun (2.6.4)
   - KSAdSDK (3.3.75)
@@ -72,7 +72,7 @@ PODS:
   - KSCrash/Reporting/Tools (1.17.7):
     - KSCrash/Recording
   - Masonry (1.1.0)
-  - MYIOSAdsSDK (5.5.16):
+  - MYIOSAdsSDK (5.6.16):
     - CocoaAsyncSocket
     - KSCrash (~> 1.17.7)
     - Masonry
@@ -80,7 +80,7 @@ PODS:
   - OctopusSDK (1.6.2.13):
     - OctopusSDK/OctopusBaseSDK (= 1.6.2.13)
   - OctopusSDK/OctopusBaseSDK (1.6.2.13)
-  - QuMengAdSDK (1.3.4)
+  - QMAdSDK (1.3.4)
   - SDWebImage (5.21.0):
     - SDWebImage/Core (= 5.21.0)
   - SDWebImage/Core (5.21.0)
@@ -96,7 +96,7 @@ DEPENDENCIES:
   - KSAdSDK (~> 3.3.75)
   - MYIOSAdsSDK (from `../`)
   - OctopusSDK (= 1.6.2.13)
-  - QuMengAdSDK (= 1.3.4)
+  - QMAdSDK (= 1.3.4)
   - WechatOpenSDK_UnPay
 
 SPEC REPOS:
@@ -111,7 +111,7 @@ SPEC REPOS:
     - KSCrash
     - Masonry
     - OctopusSDK
-    - QuMengAdSDK
+    - QMAdSDK
     - SDWebImage
     - WechatOpenSDK_UnPay
 
@@ -123,18 +123,18 @@ SPEC CHECKSUMS:
   Ads-CN-Beta: 1ae80bd2aad1debf18579a948ec6d1f341fe5d1a
   BeiZiSDK-iOS: 89dd02c63f36d4539678ee1d0b24cac934a16d48
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
-  GDTMobSDK: 315eb8ed9e888f097ef6d0cd9c3df1788fe5ce7a
+  GDTMobSDK: ee16d8b3c06825c09c0be89a443c1a909fdb86b3
   HRAdSDK: 09312f6d54397da0e0b3929eeb522039a869930c
   JADYun: aebe6e9ee5d65258ea2b68d8babc2e7667fa1c94
   KSAdSDK: ed3b441ff4facc1eaea7cad10de5fd23807d2186
   KSCrash: ea6fc545b7dbb916a141aaadd4343fb891141290
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MYIOSAdsSDK: 38626d519c4e0c49ace9c2614280479146363139
+  MYIOSAdsSDK: 52105c13acf4f7bd4be8dfe71fa019ad978c1739
   OctopusSDK: 3e96776e4dbee8f10968ba1cb667519cd04d470c
-  QuMengAdSDK: 5901936867999aa2f18fbfadc8d78e0be482abf1
+  QMAdSDK: 4af9116596cc11095bb80b194aa155e50ee6b325
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
   WechatOpenSDK_UnPay: 676bbc44d7309dce90697c2426f5b67304f42a2a
 
-PODFILE CHECKSUM: 5cdb04c969e6e80212ac83938012ad6ea637ff3e
+PODFILE CHECKSUM: 919712fc74020c3e627fb6b7b675dd45894820d8
 
 COCOAPODS: 1.16.2

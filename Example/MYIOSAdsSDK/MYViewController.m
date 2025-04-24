@@ -15,6 +15,15 @@
 #import "MYVideoViewController.h"
 #import "MYAdInfoViewController.h"
 
+#import <HRAdSDK/HRAdSDK.h>
+#import <BeiZiSDK/BeiZiSDK.h>
+#import <QMAdSDK/QMAdSDK.h>
+#import <OctAdSDK/OctAdManager.h>
+#import <JADYun/JADYun.h>
+#import <BUAdSDK/BUAdSDK.h>
+#import <GDTMobSDK/GDTMobSDK.h>
+#import <KSAdSDK/KSAdSDK.h>
+
 @interface MYViewController ()<UITableViewDelegate,UITableViewDataSource>{
     NSArray *listArray;
 }
@@ -34,8 +43,18 @@
     listArray = @[@"横幅广告",@"插屏广告",@"原生模板广告",@"激励视频",@"基础信息"];
     [self.view addSubview:self.adList];
     
-    NSLog(@"sdkVersion - %@",[MYAdsConfiguration.shareInstance sdkVersion]);
-//    NSLog(@"sdkVersion - %@",[EMSDKConfig.shareInstance sdkVersion]);
+    NSLog(@"MYAdsConfiguration sdkVersion - %@",[MYAdsConfiguration.shareInstance sdkVersion]);
+    NSLog(@"EMSDKConfig sdkVersion - %@",[EMSDKConfig.shareInstance sdkVersion]);
+    NSLog(@"[JADYunSDK sdkVersion] = %@",[JADYunSDK sdkVersion]);
+    NSLog(@"[QMAdSDKManager sdkVersion] = %@",[QMAdSDKManager sdkVersion]);
+    NSLog(@"[HRAdSDK sdkVersion] = %@",[HRAdSDK getVersionName]);
+    NSLog(@"[BeiZiSDKManager sdkVersion] = %@",[BeiZiSDKManager sdkVersion]);
+    NSLog(@"[OctAdManager sdkVersion] = %@",[OctAdManager sdkVersion]);
+    
+    NSLog(@"[KSAdSDKManager sdkVersion] = %@",[KSAdSDKManager SDKVersion]);
+    NSLog(@"[BUAdSDKManager sdkVersion] = %@",[BUAdSDKManager SDKVersion]);
+    NSLog(@"[GDTSDKConfig sdkVersion] = %@",[GDTSDKConfig sdkVersion]);
+
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
