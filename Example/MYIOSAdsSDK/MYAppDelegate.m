@@ -86,8 +86,7 @@
 
 #pragma mark - delegate
 - (void)MY_splashAdDidLoad {
-//    [_splash MY_showInWindow:self.adWindow withBottomView:self.bottomView];
-    [_splash MY_showInWindow:self.adWindow withBottomView:nil];
+    [_splash MY_showInWindow:self.adWindow withBottomView:self.bottomView];
 }
 - (void)MY_splashAdFailToPresent:(NSError *)error{
     NSLog(@"开屏无填充=====%@",error);

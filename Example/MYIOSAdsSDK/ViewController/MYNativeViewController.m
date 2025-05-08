@@ -125,6 +125,11 @@
     });
 }
 
+- (void)MY_nativeExpressAdViewClosed:(MYNativeExpressAdView *)nativeExpressAdView {
+    [_data removeObject:nativeExpressAdView];
+    [self.listTable reloadData];
+}
+
 #pragma mark - lazy
 - (MYNativeExpressAd *)expressAd{
     if (!_expressAd) {
