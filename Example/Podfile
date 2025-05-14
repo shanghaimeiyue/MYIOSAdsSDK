@@ -5,10 +5,10 @@ platform :ios, '12.0'
 target 'MYIOSAdsSDK_Example' do
   pod 'MYIOSAdsSDK', :path => '../'
   
-  pod 'Ads-CN-Beta', '~> 6.8.0.4', :subspecs => ['BUAdSDK', 'CSJMediation']
-  pod 'KSAdSDK', '~> 3.3.75'
-  pod 'GDTMobSDK', '~> 4.15.10'
-  pod 'JADYun', '2.6.4'
+  pod 'Ads-CN-Beta', '~> 6.9.0.3', :subspecs => ['BUAdSDK', 'CSJMediation']
+  pod 'KSAdSDK', '~> 3.3.76.5'
+  pod 'GDTMobSDK', '~> 4.15.40'
+  pod 'JADYun', '2.6.8'
   pod 'BeiZiSDK-iOS/BeiZiSDK-iOS', '4.90.4.30'
   pod 'HRAdSDK/HR','1.7.19.0'
   pod 'OctopusSDK', '1.6.2.13'
