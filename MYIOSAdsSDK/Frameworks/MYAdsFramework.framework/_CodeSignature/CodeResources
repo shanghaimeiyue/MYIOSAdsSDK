@@ -523,23 +523,23 @@
 		</data>
 		<key>Headers/MYBannerView.h</key>
 		<data>
-		Q58plW0A5TypoEF9msACz/vLrTY=
+		xt4zIxFxTEZ0JfgDKClUXhZpfIM=
 		</data>
 		<key>Headers/MYInterstitialAd.h</key>
 		<data>
-		pI1P3PKZpnWf+mJuUFJlViA1sIY=
+		dME4VkayPSDIfVp5lBz27CX/1zA=
 		</data>
 		<key>Headers/MYNativeExpressAd.h</key>
 		<data>
-		xyaW2RdYkSG9RUE8yVVC2b/tqHQ=
+		JXIvMvjwm10SvpQJm5wib5lU+RQ=
 		</data>
 		<key>Headers/MYNativeExpressAdView.h</key>
 		<data>
-		QMPlzGl6L2Es9bmIOGvZmRM9VKo=
+		txVIzrPoVgPhMLKHCp3HYqzDmkY=
 		</data>
 		<key>Headers/MYRewardedVideoAd.h</key>
 		<data>
-		C0fX7ixoeJbPrNyrByHSyCsxEFE=
+		Dv/rMsZwWq1ruaBhs+wM5KKr0xQ=
 		</data>
 		<key>Headers/MYRewardedVideoModel.h</key>
 		<data>
@@ -547,11 +547,15 @@
 		</data>
 		<key>Headers/MYSplashAd.h</key>
 		<data>
-		sXPqEk4gS+sE0ue1IkRXUFov6sA=
+		EQqlCF+4ZVZpdmWCZ6zkVd9Co3g=
+		</data>
+		<key>Headers/MyAdProtocol.h</key>
+		<data>
+		rrZnmBs/0hwfzRlJ20ToJ+2v6w0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qclnGi8HpVaCHQnU0RQ8ONhnd8s=
+		tpCc2Ebn911UZiv+/PLMu3QdAls=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1927,55 +1931,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q58plW0A5TypoEF9msACz/vLrTY=
+			xt4zIxFxTEZ0JfgDKClUXhZpfIM=
 			</data>
 			<key>hash2</key>
 			<data>
-			raELtkE0378rnQk2BI9aYbOQjJY43I3K9Lm+VLTKhFc=
+			P8Q5bo8ngiHp6XxCka4hbi+eWHSKlbSt9Gjej7MvcnI=
 			</data>
 		</dict>
 		<key>Headers/MYInterstitialAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pI1P3PKZpnWf+mJuUFJlViA1sIY=
+			dME4VkayPSDIfVp5lBz27CX/1zA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZV59rNZoWk+6zP8tqdCrWJ6Z+hJY4iD5hyo8euSAfzE=
+			5SpUXz45DDwgQTj4Oc+s/P0MrveMMKNYnd81gj3czBs=
 			</data>
 		</dict>
 		<key>Headers/MYNativeExpressAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xyaW2RdYkSG9RUE8yVVC2b/tqHQ=
+			JXIvMvjwm10SvpQJm5wib5lU+RQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			qh6bePM4ENC9E93lZvk9tRJU4NANRhwq8Mh4jHOjczg=
+			zrxxYIjCCsoj5Um3kteWy7ILIilu+57SULlmSog3NY4=
 			</data>
 		</dict>
 		<key>Headers/MYNativeExpressAdView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QMPlzGl6L2Es9bmIOGvZmRM9VKo=
+			txVIzrPoVgPhMLKHCp3HYqzDmkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			h6tu04VntZ/Y0noXtj0upFq7wQ68B7Gmtt+PqzmEp5A=
+			hx+hioQpXiFWUVEhxk9Horwx19PLfGSVXxmwX6JJNwM=
 			</data>
 		</dict>
 		<key>Headers/MYRewardedVideoAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C0fX7ixoeJbPrNyrByHSyCsxEFE=
+			Dv/rMsZwWq1ruaBhs+wM5KKr0xQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			rDWUEjfnwH1RQREtWaiMiXrM6k0Q81tn7/S3bJmG99k=
+			bArH5BmFkjBhXmfxjr+fnQGQ+VpaePWWhBYjoKReeG4=
 			</data>
 		</dict>
 		<key>Headers/MYRewardedVideoModel.h</key>
@@ -1993,11 +1997,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sXPqEk4gS+sE0ue1IkRXUFov6sA=
+			EQqlCF+4ZVZpdmWCZ6zkVd9Co3g=
 			</data>
 			<key>hash2</key>
 			<data>
-			dAtks3pOprnYGoF3bkBiexPs2+xnOnPiL8SQTbfE2nw=
+			CqDXTZZJ3p+uAhRwVeUVOdnP708qVS+KJkl5IaxlwMo=
+			</data>
+		</dict>
+		<key>Headers/MyAdProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rrZnmBs/0hwfzRlJ20ToJ+2v6w0=
+			</data>
+			<key>hash2</key>
+			<data>
+			liLDmJhck9GY5Qe+i1alThxfdkPFocCE83xeF2xa3eI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

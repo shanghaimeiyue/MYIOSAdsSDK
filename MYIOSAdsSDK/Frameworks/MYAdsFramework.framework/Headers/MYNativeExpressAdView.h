@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyAdProtocol.h"
 
-@interface MYNativeExpressAdView : UIView
+@interface MYNativeExpressAdView : UIView<MyAdProtocol>
 /**
  *[必选]
  *原生模板广告渲染,在广告展示时调用,否则会影响收益;

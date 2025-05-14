@@ -40,6 +40,11 @@
  * 原生模板广告点击关闭按钮回调;
  */
 - (void)MY_nativeExpressAdViewClosed:(MYNativeExpressAdView *)nativeExpressAdView;
+
+/**
+ * 广告请求唯一ID
+ */
+- (void)MY_adReqId: (NSString *)reqId;
 @end
 
 

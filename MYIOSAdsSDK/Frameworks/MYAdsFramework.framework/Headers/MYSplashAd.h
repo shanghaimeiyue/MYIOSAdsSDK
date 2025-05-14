@@ -5,6 +5,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyAdProtocol.h"
 
 @protocol MYSplashAdDelegate <NSObject>
 
@@ -47,9 +48,14 @@
  * 开屏广告剩余时间回调
  */
 - (void)MY_splashAdLifeTime:(NSUInteger)time;
+
+/**
+ * 广告请求唯一ID
+ */
+- (void)MY_adReqId: (NSString *)reqId;
 @end
 
-@interface MYSplashAd : NSObject
+@interface MYSplashAd : NSObject<MyAdProtocol>
 
 /**
  *  委托对象

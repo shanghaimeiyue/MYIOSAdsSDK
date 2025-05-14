@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyAdProtocol.h"
+
 NS_ASSUME_NONNULL_BEGIN
 @protocol MYRewardedVideoAdDelagate;
 @class MYRewardedVideoModel;
 
-@interface MYRewardedVideoAd : NSObject
+@interface MYRewardedVideoAd : NSObject<MyAdProtocol>
 
 @property (nonatomic, strong) MYRewardedVideoModel *rewardVieoModel;
 
@@ -86,6 +88,11 @@ NS_ASSUME_NONNULL_BEGIN
  @param verify 有效性验证结果
  */
 - (void)MY_rewardedVideoAdServerRewardDidSucceed:(MYRewardedVideoModel *)rewardedVideoAd verify:(BOOL)verify;
+
+/**
+ * 广告请求唯一ID
+ */
+- (void)MY_adReqId: (NSString *)reqId;
 
 @end
 

@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "MyAdProtocol.h"
+
 @protocol MYInterstitialAdDelegate <NSObject>
 
 @optional
@@ -42,10 +44,14 @@
  */
 - (void)MY_interstitialClicked;
 
+/**
+ * 广告请求唯一ID
+ */
+- (void)MY_adReqId: (NSString *)reqId;
 
 @end
 
-@interface MYInterstitialAd : NSObject
+@interface MYInterstitialAd : NSObject<MyAdProtocol>
 
 /**
  *  委托对象

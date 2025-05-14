@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyAdProtocol.h"
 
 @protocol MYBannerViewDelegate <NSObject>
 
@@ -37,9 +38,14 @@
  */
 - (void)MY_bannerViewClicked;
 
+/**
+ * 广告请求唯一ID
+ */
+- (void)MY_adReqId: (NSString *)reqId;
+
 @end
 
-@interface MYBannerView : UIView
+@interface MYBannerView : UIView<MyAdProtocol>
 
 /**
  *  父视图
