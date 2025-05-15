@@ -1,9 +1,11 @@
 PODS:
-  - Ads-CN-Beta/BUAdSDK (6.8.0.6)
-  - Ads-CN-Beta/CSJMediation (6.8.0.6):
+  - Ads-CN-Beta/BUAdSDK (6.9.0.3)
+  - Ads-CN-Beta/CSJMediation (6.9.0.3):
     - Ads-CN-Beta/BUAdSDK
+  - BeiZiSDK-iOS/BeiZiSDK-iOS (4.90.4.30)
   - CocoaAsyncSocket (7.6.5)
   - GDTMobSDK (4.15.40)
+  - HRAdSDK/HR (1.7.19.0)
   - KSAdSDK (3.3.76.5)
   - KSCrash (1.17.7):
     - KSCrash/Installations (= 1.17.7)
@@ -69,50 +71,61 @@ PODS:
   - KSCrash/Reporting/Tools (1.17.7):
     - KSCrash/Recording
   - Masonry (1.1.0)
-  - MYIOSAdsSDK (5.6.19):
+  - MYIOSAdsSDK (5.7.12):
     - CocoaAsyncSocket
     - KSCrash (~> 1.17.7)
     - Masonry
     - SDWebImage
+  - QMAdSDK (1.3.4)
   - SDWebImage (5.21.0):
     - SDWebImage/Core (= 5.21.0)
   - SDWebImage/Core (5.21.0)
-  - WechatOpenSDK_UnPay (1.8.7.1)
+  - WechatOpenSDK (2.0.4)
 
 DEPENDENCIES:
-  - Ads-CN-Beta/BUAdSDK (~> 6.8.0.5)
-  - Ads-CN-Beta/CSJMediation (~> 6.8.0.5)
-  - GDTMobSDK (~> 4.15.30)
+  - Ads-CN-Beta/BUAdSDK (~> 6.9.0.3)
+  - Ads-CN-Beta/CSJMediation (~> 6.9.0.3)
+  - BeiZiSDK-iOS/BeiZiSDK-iOS (= 4.90.4.30)
+  - GDTMobSDK (~> 4.15.40)
+  - HRAdSDK/HR (= 1.7.19.0)
   - KSAdSDK (~> 3.3.76.5)
+  - KSCrash (~> 1.17.7)
   - MYIOSAdsSDK (from `../`)
-  - WechatOpenSDK_UnPay
+  - QMAdSDK (~> 1.3.4)
+  - WechatOpenSDK
 
 SPEC REPOS:
   trunk:
     - Ads-CN-Beta
+    - BeiZiSDK-iOS
     - CocoaAsyncSocket
     - GDTMobSDK
+    - HRAdSDK
     - KSAdSDK
     - KSCrash
     - Masonry
+    - QMAdSDK
     - SDWebImage
-    - WechatOpenSDK_UnPay
+    - WechatOpenSDK
 
 EXTERNAL SOURCES:
   MYIOSAdsSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Ads-CN-Beta: d60eb96212ab21533ce80247a28533c61aa9da45
+  Ads-CN-Beta: 5428fcbb80e6e84d38c36034a73663bd71c109d0
+  BeiZiSDK-iOS: 89dd02c63f36d4539678ee1d0b24cac934a16d48
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   GDTMobSDK: ec2e9b392268a556e4d5e6ade6d00885d76a2cc5
+  HRAdSDK: 09312f6d54397da0e0b3929eeb522039a869930c
   KSAdSDK: 209b3b1b6b392f06cb8b67966139cf6859174455
   KSCrash: ea6fc545b7dbb916a141aaadd4343fb891141290
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MYIOSAdsSDK: 35c7a21adad234ee7b770151221060871dd4765d
+  MYIOSAdsSDK: e8a75e505e900b5760ba7b4de92ad8856d91aaab
+  QMAdSDK: 4af9116596cc11095bb80b194aa155e50ee6b325
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
-  WechatOpenSDK_UnPay: 676bbc44d7309dce90697c2426f5b67304f42a2a
+  WechatOpenSDK: 290989072e87b79d52225a01bb4e5e58f6f88593
 
-PODFILE CHECKSUM: c92c431544da019cd7134f9262b808349f4dedda
+PODFILE CHECKSUM: 8b0c26dc40307aa548ec7913ea9f6a854e6dc63a
 
 COCOAPODS: 1.16.2
