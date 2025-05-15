@@ -2,7 +2,7 @@ PODS:
   - Ads-CN-Beta/BUAdSDK (6.9.0.3)
   - Ads-CN-Beta/CSJMediation (6.9.0.3):
     - Ads-CN-Beta/BUAdSDK
-  - BeiZiSDK-iOS/BeiZiSDK-iOS (4.90.4.30)
+  - BeiZiSDK-iOS/BeiZiSDK-iOS (4.90.4.35)
   - CocoaAsyncSocket (7.6.5)
   - GDTMobSDK (4.15.40)
   - HRAdSDK/HR (1.7.19.0)
@@ -85,7 +85,7 @@ PODS:
 DEPENDENCIES:
   - Ads-CN-Beta/BUAdSDK (~> 6.9.0.3)
   - Ads-CN-Beta/CSJMediation (~> 6.9.0.3)
-  - BeiZiSDK-iOS/BeiZiSDK-iOS (= 4.90.4.30)
+  - BeiZiSDK-iOS/BeiZiSDK-iOS (= 4.90.4.35)
   - GDTMobSDK (~> 4.15.40)
   - HRAdSDK/HR (= 1.7.19.0)
   - KSAdSDK (~> 3.3.76.5)
@@ -114,7 +114,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Ads-CN-Beta: 5428fcbb80e6e84d38c36034a73663bd71c109d0
-  BeiZiSDK-iOS: 89dd02c63f36d4539678ee1d0b24cac934a16d48
+  BeiZiSDK-iOS: 02995d3557b3196b14296eff832481bdd1c17f0d
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   GDTMobSDK: ec2e9b392268a556e4d5e6ade6d00885d76a2cc5
   HRAdSDK: 09312f6d54397da0e0b3929eeb522039a869930c
@@ -126,6 +126,6 @@ SPEC CHECKSUMS:
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
   WechatOpenSDK: 290989072e87b79d52225a01bb4e5e58f6f88593
 
-PODFILE CHECKSUM: 8b0c26dc40307aa548ec7913ea9f6a854e6dc63a
+PODFILE CHECKSUM: 6f0789770f766e1013724f5cddb0b0cbc7a3fdb2
 
 COCOAPODS: 1.16.2
