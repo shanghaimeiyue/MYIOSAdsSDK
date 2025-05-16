@@ -19,7 +19,7 @@
 //#import <BeiZiSDK/BeiZiSDK.h>
 //#import <QMAdSDK/QMAdSDK.h>
 //#import <OctAdSDK/OctAdManager.h>
-//#import <JADYun/JADYun.h>
+#import <JADYun/JADYun.h>
 //#import <BUAdSDK/BUAdSDK.h>
 //#import <GDTMobSDK/GDTMobSDK.h>
 //#import <KSAdSDK/KSAdSDK.h>
@@ -45,7 +45,7 @@
     
     NSLog(@"MYAdsConfiguration sdkVersion - %@",[MYAdsConfiguration.shareInstance sdkVersion]);
     NSLog(@"EMSDKConfig sdkVersion - %@",[EMSDKConfig.shareInstance sdkVersion]);
-//    NSLog(@"[JADYunSDK sdkVersion] = %@",[JADYunSDK sdkVersion]);
+    NSLog(@"[JADYunSDK sdkVersion] = %@",[JADYunSDK sdkVersion]);
 //    NSLog(@"[QMAdSDKManager sdkVersion] = %@",[QMAdSDKManager sdkVersion]);
 //    NSLog(@"[HRAdSDK sdkVersion] = %@",[HRAdSDK getVersionName]);
 //    NSLog(@"[BeiZiSDKManager sdkVersion] = %@",[BeiZiSDKManager sdkVersion]);

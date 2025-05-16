@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		xIvnqLLq9zC8gTFWhgz1bCLF3uM=
+		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		inGtVuDxW0ZoHiM54tkykI2lbCk=
+		1FpaCVPSBMEfqt6PvAIR8tnROBk=
 		</data>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -147,6 +151,10 @@
 		<key>CSJAdSDK.bundle/bu_play.png</key>
 		<data>
 		KvbQcSQr72Q69PEr/Ov/YALOJas=
+		</data>
+		<key>CSJAdSDK.bundle/bu_playable_loading.png</key>
+		<data>
+		dGi+ySoQQL6kA2TACQISI4Gq9Ig=
 		</data>
 		<key>CSJAdSDK.bundle/bu_replay.png</key>
 		<data>
@@ -343,6 +351,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>CSJAdSDK.bundle/playable_loading_bg.png</key>
+		<data>
+		RUykUHq104NGKKEdjvqIy6YvFeA=
+		</data>
 		<key>CSJAdSDK.bundle/setup.txt</key>
 		<data>
 		ZM3A57y/v18OGzuvfRFEJO3U2Co=
@@ -387,9 +399,13 @@
 		<data>
 		h6RnnQNTHAn/W+WmMSzPYNWgHTc=
 		</data>
+		<key>CSJAdSDK.bundle/uchain_dsl.bin</key>
+		<data>
+		VxwQ2w+O6dAlPZ2nMYJW6m4M7Yg=
+		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		AOLIiBpzVXTfcOag1EtYN2b/Kds=
+		4uQx/l5amopGjin85+M1okExoYY=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -409,6 +425,22 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Frameworks/SDWebImage.framework/Info.plist</key>
+		<data>
+		1XfJKDZ/bJZn8MlHjmN99GW1zeE=
+		</data>
+		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
+		<data>
+		25pmwolzedgRF87bWtcLt7snYeQ=
+		</data>
+		<key>Frameworks/SDWebImage.framework/SDWebImage.bundle/Info.plist</key>
+		<data>
+		V67iB4nV1kOLix3JoQXBEfoAjjg=
+		</data>
+		<key>Frameworks/SDWebImage.framework/SDWebImage.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		PFHYbs0V3eUFDWQyYQcwEetuqEk=
+		</data>
 		<key>HRAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		9mBNp6TjxMX/flIBAd1lrEvGEKM=
@@ -572,11 +604,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			inGtVuDxW0ZoHiM54tkykI2lbCk=
+			1FpaCVPSBMEfqt6PvAIR8tnROBk=
 			</data>
 			<key>hash2</key>
 			<data>
-			h6ntl16h5DIOeTahPyW3MfpOxcbN77J8alZ05zmjF6A=
+			XRcC5l6eRZDTi09CDvvsZpO2mpW6c/5gq2ANKlZzts4=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -962,6 +994,17 @@
 			<key>hash2</key>
 			<data>
 			n5MLkbblpIG15isReWt2Wi/X+U3mrelbIIiGvBjAFrU=
+			</data>
+		</dict>
+		<key>CSJAdSDK.bundle/bu_playable_loading.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dGi+ySoQQL6kA2TACQISI4Gq9Ig=
+			</data>
+			<key>hash2</key>
+			<data>
+			hcS4StHkUrz7BkgPT6qcE/7cbRc/A02iaKOHgOylR2k=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/bu_replay.png</key>
@@ -1465,6 +1508,17 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>CSJAdSDK.bundle/playable_loading_bg.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RUykUHq104NGKKEdjvqIy6YvFeA=
+			</data>
+			<key>hash2</key>
+			<data>
+			r1HT+xJGLwfdFUKq2C6KWYq+dS8owTwAAHYvIcK0L08=
+			</data>
+		</dict>
 		<key>CSJAdSDK.bundle/setup.txt</key>
 		<dict>
 			<key>hash</key>
@@ -1586,15 +1640,26 @@
 			32P5wHuBd4T5J4kEHQ7GnHrUoFdeQIl7ViYY+2eR2wE=
 			</data>
 		</dict>
+		<key>CSJAdSDK.bundle/uchain_dsl.bin</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VxwQ2w+O6dAlPZ2nMYJW6m4M7Yg=
+			</data>
+			<key>hash2</key>
+			<data>
+			SBsCtpWrS7xskx3GYITGChpiBgCf8u/pBZesqUbZ9Bw=
+			</data>
+		</dict>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AOLIiBpzVXTfcOag1EtYN2b/Kds=
+			4uQx/l5amopGjin85+M1okExoYY=
 			</data>
 			<key>hash2</key>
 			<data>
-			PwMEmSig1kbr+l6d9cM7m86qTD4q97dSH06gKXQnh7o=
+			LpyN5jtXuBAIJlz+/SBWL+v+m+7DIvhFYYK3sa6i1Xk=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -1622,6 +1687,50 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>Frameworks/SDWebImage.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1XfJKDZ/bJZn8MlHjmN99GW1zeE=
+			</data>
+			<key>hash2</key>
+			<data>
+			9VCzfy3KI1TK0d5mWyouXlDnkygNSwEABLGJIN0XBRY=
+			</data>
+		</dict>
+		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			25pmwolzedgRF87bWtcLt7snYeQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			k/dgLcEjc4u3awTKDYzFm2kriiZh/xrcq/XL328VTYA=
+			</data>
+		</dict>
+		<key>Frameworks/SDWebImage.framework/SDWebImage.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V67iB4nV1kOLix3JoQXBEfoAjjg=
+			</data>
+			<key>hash2</key>
+			<data>
+			YPW6m+gQ50cXKZhZ8J5p9aLGJY7LziSJeTjL3HY6VNg=
+			</data>
+		</dict>
+		<key>Frameworks/SDWebImage.framework/SDWebImage.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PFHYbs0V3eUFDWQyYQcwEetuqEk=
+			</data>
+			<key>hash2</key>
+			<data>
+			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
+			</data>
 		</dict>
 		<key>HRAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>

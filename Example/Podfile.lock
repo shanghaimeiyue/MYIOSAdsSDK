@@ -1,11 +1,12 @@
 PODS:
-  - Ads-CN-Beta/BUAdSDK (6.9.0.3)
-  - Ads-CN-Beta/CSJMediation (6.9.0.3):
+  - Ads-CN-Beta/BUAdSDK (6.9.0.4)
+  - Ads-CN-Beta/CSJMediation (6.9.0.4):
     - Ads-CN-Beta/BUAdSDK
   - BeiZiSDK-iOS/BeiZiSDK-iOS (4.90.4.35)
   - CocoaAsyncSocket (7.6.5)
   - GDTMobSDK (4.15.40)
   - HRAdSDK/HR (1.7.19.0)
+  - JADYun (2.6.8)
   - KSAdSDK (3.3.76.5)
   - KSCrash (1.17.7):
     - KSCrash/Installations (= 1.17.7)
@@ -88,6 +89,7 @@ DEPENDENCIES:
   - BeiZiSDK-iOS/BeiZiSDK-iOS (= 4.90.4.35)
   - GDTMobSDK (~> 4.15.40)
   - HRAdSDK/HR (= 1.7.19.0)
+  - JADYun (= 2.6.8)
   - KSAdSDK (~> 3.3.76.5)
   - KSCrash (~> 1.17.7)
   - MYIOSAdsSDK (from `../`)
@@ -101,6 +103,7 @@ SPEC REPOS:
     - CocoaAsyncSocket
     - GDTMobSDK
     - HRAdSDK
+    - JADYun
     - KSAdSDK
     - KSCrash
     - Masonry
@@ -113,11 +116,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Ads-CN-Beta: 5428fcbb80e6e84d38c36034a73663bd71c109d0
+  Ads-CN-Beta: 616af50f5e86fa9616a428be04242c9057bc7585
   BeiZiSDK-iOS: 02995d3557b3196b14296eff832481bdd1c17f0d
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   GDTMobSDK: ec2e9b392268a556e4d5e6ade6d00885d76a2cc5
   HRAdSDK: 09312f6d54397da0e0b3929eeb522039a869930c
+  JADYun: fe7f107f9baa699ef768fd3bb74d2b0aee70bb48
   KSAdSDK: 209b3b1b6b392f06cb8b67966139cf6859174455
   KSCrash: ea6fc545b7dbb916a141aaadd4343fb891141290
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -126,6 +130,6 @@ SPEC CHECKSUMS:
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
   WechatOpenSDK: 290989072e87b79d52225a01bb4e5e58f6f88593
 
-PODFILE CHECKSUM: 6f0789770f766e1013724f5cddb0b0cbc7a3fdb2
+PODFILE CHECKSUM: df4b86d9d46bcfce2514f000537a25922137ea28
 
 COCOAPODS: 1.16.2
