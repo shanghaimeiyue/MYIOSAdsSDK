@@ -616,7 +616,7 @@
 				GCC_PREFIX_HEADER = "MYIOSAdsSDK/MYIOSAdsSDK-Prefix.pch";
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiachufang.recipe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edimob.ssp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -637,7 +637,7 @@
 				GCC_PREFIX_HEADER = "MYIOSAdsSDK/MYIOSAdsSDK-Prefix.pch";
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiachufang.recipe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edimob.ssp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

@@ -10,6 +10,7 @@
 #import "MYAdsFramework/MYAdsFramework.h"
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import <AdSupport/ASIdentifierManager.h>
+#import "MYViewController.h"
 
 #define kScreenWidth [[UIApplication sharedApplication]keyWindow].bounds.size.width
 #define kScreenHeight [[UIApplication sharedApplication]keyWindow].bounds.size.height
@@ -29,18 +30,20 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    Class view = NSClassFromString(@"MYViewController");
-    UIViewController *vc = [[view alloc]init];
+//    Class view = NSClassFromString(@"MYViewController");
+    MYViewController *vc = [[MYViewController alloc]init];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
     [[MYAdsConfiguration shareInstance] initConfigurationWithAppId:MYMobAdsAppID];
     _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
+    _splash.fetchDelay = 10;
     _splash.delegate = self;
-    _splash.zoomController = nav;
+    _splash.zoomController = vc;
     _splash.customBottomView = self.bottomView;
     [_splash MY_loadAd];
+    
     
     return YES;
 }
