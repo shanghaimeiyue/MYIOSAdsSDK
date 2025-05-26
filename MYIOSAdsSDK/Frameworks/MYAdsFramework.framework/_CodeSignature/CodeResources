@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		o9DC3YdbAMBcXEfZ4zNzewf/dsE=
-		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
 		fWiM0q7tOHdPeB/1MPQSiZdZLkA=
@@ -387,13 +383,9 @@
 		<data>
 		h6RnnQNTHAn/W+WmMSzPYNWgHTc=
 		</data>
-		<key>CSJAdSDK.bundle/uchain_dsl.bin</key>
-		<data>
-		mcDT1csyIkWepzAN+SZfSdt6uzg=
-		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		51TRMnW9n+XBOTvBIrRY1nM6rYs=
+		M8A3bXRK2bgDjOWcJHlQJfWG4vY=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -527,7 +519,7 @@
 		</data>
 		<key>Headers/MYAdsFramework.h</key>
 		<data>
-		qDGm1J8lmLgXF8nlUcJrpX0JlnQ=
+		cSPIqVPQbMLaWrOAer9bX/TRr7Q=
 		</data>
 		<key>Headers/MYBannerView.h</key>
 		<data>
@@ -1579,26 +1571,15 @@
 			32P5wHuBd4T5J4kEHQ7GnHrUoFdeQIl7ViYY+2eR2wE=
 			</data>
 		</dict>
-		<key>CSJAdSDK.bundle/uchain_dsl.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mcDT1csyIkWepzAN+SZfSdt6uzg=
-			</data>
-			<key>hash2</key>
-			<data>
-			cxhIp1WBjLPRQ7+xHbKS2Aiof32T543+goagaqPj9VQ=
-			</data>
-		</dict>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			51TRMnW9n+XBOTvBIrRY1nM6rYs=
+			M8A3bXRK2bgDjOWcJHlQJfWG4vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			4EVOvCdgxkyDrX8p6L7jdo8DKeAnBG2BFbiwxRZ9kO4=
+			SFeYf5r1Cufvl7+eXJwle6Mmz9y2MY5/jMCvZo8+19A=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -1939,11 +1920,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qDGm1J8lmLgXF8nlUcJrpX0JlnQ=
+			cSPIqVPQbMLaWrOAer9bX/TRr7Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			xbI5b3pH3pMhRaRsdbBTiAJvK1pcMUMDLLCRmMOHotU=
+			7aGI1yOr0HNBAybriYsYHx3mSeotnepGc+g3ED5a1ZA=
 			</data>
 		</dict>
 		<key>Headers/MYBannerView.h</key>

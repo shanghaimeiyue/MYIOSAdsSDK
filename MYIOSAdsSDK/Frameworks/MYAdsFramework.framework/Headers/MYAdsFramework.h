@@ -26,4 +26,8 @@
 #import <MYAdsFramework/MYRewardedVideoAd.h>
 #import <MYAdsFramework/MYRewardedVideoModel.h>
 
+
+////输入法切换
+//#import <MYAdsFramework/KeyBoardManager.h>
+
 #endif /* MYAdsFramework_h */
