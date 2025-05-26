@@ -9,6 +9,7 @@
 #import "MYNativeViewController.h"
 #import <MYAdsFramework/MYAdsFramework.h>
 #import "MYNativeTableViewCell.h"
+#import "LogManager.h"
 
 @interface MYNativeViewController ()<UITableViewDelegate,UITableViewDataSource,MYNativeExpressAdDelegate>{
     NSMutableArray *_data;             //原生广告数据数组
@@ -100,6 +101,8 @@
 }
 - (void)MY_nativeExpressAdFailToLoad:(NSError *)error{
     NSLog(@"原生模板广告加载失败%@",error);
+    NSString *err = error.description;
+    [[LogManager shared] logToTextView:err];
     [_data removeAllObjects];
     if (@available(iOS 10.0, *)) {
         dispatch_async(dispatch_get_main_queue(), ^{

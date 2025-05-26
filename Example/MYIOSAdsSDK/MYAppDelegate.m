@@ -11,6 +11,7 @@
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import <AdSupport/ASIdentifierManager.h>
 #import "MYViewController.h"
+#import "LogManager.h"
 
 #define kScreenWidth [[UIApplication sharedApplication]keyWindow].bounds.size.width
 #define kScreenHeight [[UIApplication sharedApplication]keyWindow].bounds.size.height
@@ -96,6 +97,8 @@
     [self rmoveAdWindow];
     self.splash = nil;
     self.splash.delegate = nil;
+    NSString *err = error.description;
+    [[LogManager shared] logToTextView:err];
 }
 - (void)MY_splashAdSuccessPresentScreen{
    NSLog(@"开屏广告加载成功");

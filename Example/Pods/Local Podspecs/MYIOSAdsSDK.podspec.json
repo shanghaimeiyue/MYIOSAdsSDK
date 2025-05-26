@@ -1,6 +1,6 @@
 {
   "name": "MYIOSAdsSDK",
-  "version": "5.7.12",
+  "version": "5.7.16",
   "summary": "A short description of MYIOSAdsSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/shanghaimeiyue/MYIOSAdsSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/shanghaimeiyue/MYIOSAdsSDK.git",
-    "tag": "5.7.12"
+    "tag": "5.7.16"
   },
   "platforms": {
     "ios": "11.0"

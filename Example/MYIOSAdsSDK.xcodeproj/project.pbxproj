@@ -32,6 +32,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8C9EE3796433B00C1B5ED351 /* Pods_MYIOSAdsSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDF1445D576EFFBC3E4C23F /* Pods_MYIOSAdsSDK_Example.framework */; };
+		929B1BB92DE47B5A001244C6 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B1BB82DE47B5A001244C6 /* LogManager.m */; };
 		E4EF48DE64E4C49FEB6CB466 /* Pods_MYIOSAdsSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33A3EA3ED80A6C4545BF70F /* Pods_MYIOSAdsSDK_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +102,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		929B1BB72DE47B5A001244C6 /* LogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
+		929B1BB82DE47B5A001244C6 /* LogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
 		C33A3EA3ED80A6C4545BF70F /* Pods_MYIOSAdsSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYIOSAdsSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB2184857E38662C71AE27E /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDDF1445D576EFFBC3E4C23F /* Pods_MYIOSAdsSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYIOSAdsSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,6 +194,8 @@
 		6003F593195388D20070C39A /* Example for MYIOSAdsSDK */ = {
 			isa = PBXGroup;
 			children = (
+				929B1BB72DE47B5A001244C6 /* LogManager.h */,
+				929B1BB82DE47B5A001244C6 /* LogManager.m */,
 				0479BCD02CF81EBA0016A7CC /* ViewController */,
 				6003F59C195388D20070C39A /* MYAppDelegate.h */,
 				6003F59D195388D20070C39A /* MYAppDelegate.m */,
@@ -479,6 +484,7 @@
 				0479BCD52CF81EBA0016A7CC /* MYVideoViewController.m in Sources */,
 				0479BCD62CF81EBA0016A7CC /* MYNativeViewController.m in Sources */,
 				0479BCD72CF81EBA0016A7CC /* MYBannerViewController.m in Sources */,
+				929B1BB92DE47B5A001244C6 /* LogManager.m in Sources */,
 				0479BCD82CF81EBA0016A7CC /* MYNativeTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

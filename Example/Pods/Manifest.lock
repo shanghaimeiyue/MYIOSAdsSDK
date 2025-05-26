@@ -72,7 +72,7 @@ PODS:
   - KSCrash/Reporting/Tools (1.17.7):
     - KSCrash/Recording
   - Masonry (1.1.0)
-  - MYIOSAdsSDK (5.7.12):
+  - MYIOSAdsSDK (5.7.16):
     - CocoaAsyncSocket
     - KSCrash (~> 1.17.7)
     - Masonry
@@ -81,6 +81,14 @@ PODS:
   - SDWebImage (5.21.0):
     - SDWebImage/Core (= 5.21.0)
   - SDWebImage/Core (5.21.0)
+  - UBiXDaq (2.4.0)
+  - UBiXMediationSDK (2.8.1):
+    - UBiXDaq
+  - UBiXMerakSDK (2.6.1.01):
+    - UBiXDaq (~> 2.4.0)
+  - UBiXMUBiXAdapter (2.6.1.01.0):
+    - UBiXMediationSDK
+    - UBiXMerakSDK (= 2.6.1.01)
   - WechatOpenSDK (2.0.4)
 
 DEPENDENCIES:
@@ -94,6 +102,8 @@ DEPENDENCIES:
   - KSCrash (~> 1.17.7)
   - MYIOSAdsSDK (from `../`)
   - QMAdSDK (~> 1.3.4)
+  - UBiXMediationSDK (= 2.8.1)
+  - UBiXMUBiXAdapter
   - WechatOpenSDK
 
 SPEC REPOS:
@@ -109,6 +119,10 @@ SPEC REPOS:
     - Masonry
     - QMAdSDK
     - SDWebImage
+    - UBiXDaq
+    - UBiXMediationSDK
+    - UBiXMerakSDK
+    - UBiXMUBiXAdapter
     - WechatOpenSDK
 
 EXTERNAL SOURCES:
@@ -125,11 +139,15 @@ SPEC CHECKSUMS:
   KSAdSDK: 209b3b1b6b392f06cb8b67966139cf6859174455
   KSCrash: ea6fc545b7dbb916a141aaadd4343fb891141290
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MYIOSAdsSDK: e8a75e505e900b5760ba7b4de92ad8856d91aaab
+  MYIOSAdsSDK: dc09ae9c36ce84a4b1b01e57092059ebff6bf523
   QMAdSDK: 4af9116596cc11095bb80b194aa155e50ee6b325
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
+  UBiXDaq: 8cadda28547c9ea8124cdbcfc9da63493b168858
+  UBiXMediationSDK: 23614be177fd9b8c0b58cd0a5821924d4cfeed99
+  UBiXMerakSDK: 4418fe5693b9aa3007b0ef496bb1760c3ba2ad09
+  UBiXMUBiXAdapter: dc0bd3536fd8002dae28398f3b388033e1de2084
   WechatOpenSDK: 290989072e87b79d52225a01bb4e5e58f6f88593
 
-PODFILE CHECKSUM: df4b86d9d46bcfce2514f000537a25922137ea28
+PODFILE CHECKSUM: 9432fbf8aeed479a5ec2f75cc0bd10165fd35219
 
 COCOAPODS: 1.16.2
