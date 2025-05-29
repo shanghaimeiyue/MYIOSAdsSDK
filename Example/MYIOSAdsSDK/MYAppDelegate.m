@@ -12,11 +12,13 @@
 #import <AdSupport/ASIdentifierManager.h>
 #import "MYViewController.h"
 #import "LogManager.h"
+#import<AnyThinkSplash/AnyThinkSplash.h>
 
 #define kScreenWidth [[UIApplication sharedApplication]keyWindow].bounds.size.width
 #define kScreenHeight [[UIApplication sharedApplication]keyWindow].bounds.size.height
+#define kAttSplashId @"b67f5f1575e8fd"
 
-@interface MYAppDelegate ()<MYSplashAdDelegate>
+@interface MYAppDelegate ()<MYSplashAdDelegate,ATAdLoadingDelegate, ATSplashDelegate>
 
 @property (nonatomic, strong)MYSplashAd *splash;
 @property (nonatomic, strong) UIView *bottomView;
@@ -43,11 +45,42 @@
     _splash.delegate = self;
     _splash.zoomController = vc;
     _splash.customBottomView = self.bottomView;
-    [_splash MY_loadAd];
-    
+//    [_splash MY_loadAd];
+    [self initTKSDK];
     
     return YES;
 }
+
+- (void)initTKSDK {
+    [ATAPI setLogEnabled:YES];
+    [ATAPI integrationChecking];
+    [[ATSDKGlobalSetting sharedManager] setHeaderBiddingTestModeDeviceID:@"7547B23E-F702-432D-B68B-6FD694C6A4FF"];
+    [[ATSDKGlobalSetting sharedManager] setSystemPlatformType:ATSystemPlatformTypeIOS];
+
+    // com.edimob.ssp
+    /// a671a04a9b8043  a093c0043a16fe385a639f65eb8fd6ecf  our
+    NSError *error;
+    [[ATAPI sharedInstance] startWithAppID:@"a671a04a9b8043" appKey:@"a093c0043a16fe385a639f65eb8fd6ecf" error:&error];
+//    [[ATAPI sharedInstance] startWithAppID:@"a647711f9ed10f" appKey:@"ab076e179e157b8abb8f28117664bffbb" error:&error];
+
+//    [[ATAPI sharedInstance] startWithAppID:@"a671a04a9b8043" appKey:@"a093c0043a16fe385a639f65eb8fd6ecf" error:&error];@"ab076e179e157b8abb8f28117664bffbb";
+
+    if (error) {
+        NSLog(@"----- %@", error);
+    }
+    
+//    咕咚APPKEY：ba7a082d22c3986dc380c74fd6f8022b
+//    广告位ID：b66612f3c0d9bc
+//    应用ID：a647711f9ed10f
+    
+    [self loadAd];
+}
+
+- (void)loadAd {
+    [[ATAdManager sharedManager] loadADWithPlacementID:kAttSplashId extra:@{} delegate:self containerView:self.bottomView];
+}
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -121,6 +154,113 @@
 - (void)MY_splashAdLifeTime:(NSUInteger)time{
     NSLog(@"开屏广告剩余时间：%lu",(unsigned long)time);
 }
+
+#pragma mark -- ATAdLoadingDelegate
+/// Callback when the successful loading of the ad
+- (void)didFinishLoadingADWithPlacementID:(NSString *)placementID {
+    NSLog(@"-----%s______%@", __func__, placementID);
+    
+}
+
+
+
+/// Callback of ad loading failure
+- (void)didFailToLoadADWithPlacementID:(NSString*)placementID
+                                 error:(NSError*)error {
+    NSLog(@"-----%s______%@", __func__, error);
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[LogManager shared] logToTextView:error.localizedDescription];
+//        if (!self.hasShowToast) {
+//            [self.window makeToast:error.localizedFailureReason];
+//        }
+    });
+}
+
+- (void)didFailBiddingADSourceWithPlacementID:(NSString *)placementID extra:(NSDictionary *)extra error:(NSError *)error {
+    NSLog(@"-----%s______%@", __func__, error);
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (error.localizedDescription.length > 0) {
+            [[LogManager shared] logToTextView:error.localizedDescription];
+//            Class view = NSClassFromString(@"ViewController");
+//            UIViewController *vc = [[view alloc]init];
+//            UIWindow *window = [UIApplication sharedApplication].keyWindow;
+//            [vc.view makeToast:error.localizedDescription];
+//            self.hasShowToast = YES;
+        }
+    });
+}
+
+
+- (void)didFailToLoadADSourceWithPlacementID:(NSString *)placementID extra:(NSDictionary *)extra error:(NSError *)error {
+    NSLog(@"-----%s______%@", __func__, error);
+    [[LogManager shared] logToTextView:error.localizedDescription];
+    
+}
+
+
+- (void)didFinishBiddingADSourceWithPlacementID:(NSString *)placementID extra:(NSDictionary *)extra {
+    NSLog(@"-----%s______", __func__);
+}
+
+
+- (void)didFinishLoadingADSourceWithPlacementID:(NSString *)placementID extra:(NSDictionary *)extra {
+    NSLog(@"-----%s______", __func__);
+}
+
+
+- (void)didRevenueForPlacementID:(NSString *)placementID extra:(NSDictionary *)extra {
+    NSLog(@"-----%s______", __func__);
+}
+
+
+- (void)didStartBiddingADSourceWithPlacementID:(NSString *)placementID extra:(NSDictionary *)extra {
+    NSLog(@"-----%s______", __func__);
+}
+
+
+- (void)didStartLoadingADSourceWithPlacementID:(NSString *)placementID extra:(NSDictionary *)extra {
+    NSLog(@"-----%s______", __func__);
+}
+
+
+
+#pragma mark -- ATSplashDelegate
+
+- (void)splashDidClickForPlacementID:(nonnull NSString *)placementID extra:(nonnull NSDictionary *)extra {
+    NSLog(@"-----%s______", __func__);
+}
+
+- (void)splashDidCloseForPlacementID:(nonnull NSString *)placementID extra:(nonnull NSDictionary *)extra {
+    NSLog(@"-----%s______", __func__);
+}
+
+- (void)splashDidShowForPlacementID:(nonnull NSString *)placementID extra:(nonnull NSDictionary *)extra {
+    NSLog(@"-----%s______", __func__);
+}
+
+- (void)splashCountdownTime:(NSInteger)countdown forPlacementID:(NSString *)placementID extra:(NSDictionary *)extra {
+    NSLog(@"-----splash count down time = %d", countdown);
+}
+
+- (void)didFinishLoadingSplashADWithPlacementID:(NSString *)placementID
+                                      isTimeout:(BOOL)isTimeout {
+    NSLog(@"------%s______-splash isTimeout = %d", __func__, isTimeout);
+    
+    BOOL isReady = [[ATAdManager sharedManager] splashReadyForPlacementID:kAttSplashId];
+    // 展示前需判断广告是否填充
+    if (isReady) {
+       // 广告已填充，展示广告
+       ATShowConfig *config = [[ATShowConfig alloc] init];
+       [[ATAdManager sharedManager] showSplashWithPlacementID:kAttSplashId
+                                                       config:config
+                                                       window:self.window
+                                             inViewController:self.window.rootViewController
+                                                        extra:@{}
+                                                     delegate:self];
+   }
+
+}
+
 
 #pragma mark - lazy
 - (UIView *)bottomView {
