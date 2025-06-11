@@ -45,8 +45,8 @@
     _splash.delegate = self;
     _splash.zoomController = vc;
     _splash.customBottomView = self.bottomView;
-//    [_splash MY_loadAd];
-    [self initTKSDK];
+    [_splash MY_loadAd];
+//    [self initTKSDK];
     
     return YES;
 }

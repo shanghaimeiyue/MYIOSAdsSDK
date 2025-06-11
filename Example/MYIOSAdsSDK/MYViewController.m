@@ -25,6 +25,7 @@
 //#import <KSAdSDK/KSAdSDK.h>
 #import <UbiXMediation/UbiXMediation.h>
 #import <UbiXAdSDK/UbiXAdSDK.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 @interface MYViewController ()<UITableViewDelegate,UITableViewDataSource>{
     NSArray *listArray;

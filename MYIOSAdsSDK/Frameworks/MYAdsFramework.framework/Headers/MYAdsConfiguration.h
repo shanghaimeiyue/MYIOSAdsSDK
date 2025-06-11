@@ -29,6 +29,14 @@
 - (NSString *)sdkVersion;
 
 /**
+ 获取用户耐受度
+ 
+ @return 1或0
+ */
+-(NSString *)getGMPolicy;
+
+
+/**
 是否允许定位
 
 @param enabled 默认为NO

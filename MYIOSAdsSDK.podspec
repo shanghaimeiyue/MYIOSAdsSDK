@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYIOSAdsSDK'
-  s.version          = '5.7.18'
+  s.version          = '5.7.19'
   s.summary          = 'A short description of MYIOSAdsSDK.'
 
 # This description is used to generate tags and improve search results.

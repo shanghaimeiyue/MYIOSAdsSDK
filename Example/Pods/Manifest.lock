@@ -6,6 +6,12 @@ PODS:
     - AnyThinkiOS/AnyThinkSDK (= 6.4.76)
   - AnyThinkiOS/AnyThinkSDK (6.4.76)
   - CocoaAsyncSocket (7.6.5)
+  - CocoaHTTPServer (2.4):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (3.8.5):
+    - CocoaLumberjack/Core (= 3.8.5)
+  - CocoaLumberjack/Core (3.8.5)
   - GDTMobSDK (4.15.40)
   - HRAdSDK/HR (1.7.19.0)
   - JADYun (2.6.6)
@@ -97,6 +103,7 @@ DEPENDENCIES:
   - Ads-CN-Beta/BUAdSDK (~> 6.8.0.6)
   - Ads-CN-Beta/CSJMediation (~> 6.8.0.6)
   - AnyThinkiOS (= 6.4.76)
+  - CocoaHTTPServer
   - GDTMobSDK (~> 4.15.40)
   - HRAdSDK/HR (= 1.7.19.0)
   - JADYun (= 2.6.6)
@@ -113,6 +120,8 @@ SPEC REPOS:
     - Ads-CN-Beta
     - AnyThinkiOS
     - CocoaAsyncSocket
+    - CocoaHTTPServer
+    - CocoaLumberjack
     - GDTMobSDK
     - HRAdSDK
     - JADYun
@@ -135,6 +144,8 @@ SPEC CHECKSUMS:
   Ads-CN-Beta: d60eb96212ab21533ce80247a28533c61aa9da45
   AnyThinkiOS: 628392cb255ed455b4cb86a446c596242b625c45
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CocoaHTTPServer: 71538be9be526cf950cb4d9c9465153ea45cac99
+  CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
   GDTMobSDK: ec2e9b392268a556e4d5e6ade6d00885d76a2cc5
   HRAdSDK: 09312f6d54397da0e0b3929eeb522039a869930c
   JADYun: ee47d9a4d8de06fdc51d904103d156037cbb34d8
@@ -150,6 +161,6 @@ SPEC CHECKSUMS:
   UBiXMUBiXAdapter: dc0bd3536fd8002dae28398f3b388033e1de2084
   WechatOpenSDK: 290989072e87b79d52225a01bb4e5e58f6f88593
 
-PODFILE CHECKSUM: 6a5c9590d9d6a2099525ef69979caa3728f9df4c
+PODFILE CHECKSUM: 180ae864b395e5d758da0d846df8c2d8586706c8
 
 COCOAPODS: 1.16.2

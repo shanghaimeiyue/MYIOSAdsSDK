@@ -16,7 +16,7 @@ target 'MYIOSAdsSDK_Example' do
   pod 'JADYun', '2.6.6'
   pod 'UBiXMediationSDK', '2.8.1'
   pod 'UBiXMUBiXAdapter'
-
+  pod 'CocoaHTTPServer'
   target 'MYIOSAdsSDK_Tests' do
     inherit! :search_paths
 
