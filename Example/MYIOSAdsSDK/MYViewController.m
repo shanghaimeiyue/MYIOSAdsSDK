@@ -26,6 +26,7 @@
 #import <UbiXMediation/UbiXMediation.h>
 #import <UbiXAdSDK/UbiXAdSDK.h>
 #import <CocoaLumberjack/CocoaLumberjack.h>
+#import <CocoaHTTPServer/CocoaHTTPServer-umbrella.h>
 
 @interface MYViewController ()<UITableViewDelegate,UITableViewDataSource>{
     NSArray *listArray;
@@ -49,6 +50,7 @@
     NSLog(@"MYAdsConfiguration sdkVersion - %@",[MYAdsConfiguration.shareInstance sdkVersion]);
     NSLog(@"EMSDKConfig sdkVersion - %@",[EMSDKConfig.shareInstance sdkVersion]);
     NSLog(@"[JADYunSDK sdkVersion] = %@",[JADYunSDK sdkVersion]);
+//    NSLog(@"[CocoaHTTPServerVersionString] = %f",Cocoa);
 //    NSLog(@"[QMAdSDKManager sdkVersion] = %@",[QMAdSDKManager sdkVersion]);
 //    NSLog(@"[HRAdSDK sdkVersion] = %@",[HRAdSDK getVersionName]);
 //    NSLog(@"[BeiZiSDKManager sdkVersion] = %@",[BeiZiSDKManager sdkVersion]);

@@ -80,8 +80,7 @@ PODS:
   - KSCrash/Reporting/Tools (1.17.7):
     - KSCrash/Recording
   - Masonry (1.1.0)
-  - MYIOSAdsSDK (5.7.18):
-    - CocoaAsyncSocket
+  - MYIOSAdsSDK (5.7.21):
     - KSCrash (~> 1.17.7)
     - Masonry
     - SDWebImage
@@ -152,7 +151,7 @@ SPEC CHECKSUMS:
   KSAdSDK: 209b3b1b6b392f06cb8b67966139cf6859174455
   KSCrash: ea6fc545b7dbb916a141aaadd4343fb891141290
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MYIOSAdsSDK: d14b0609109406e24e0ce73a2efb526ca26142bd
+  MYIOSAdsSDK: 7d21e751d48e603dff55f5e23e64de53f4f85cdc
   QMAdSDK: 4af9116596cc11095bb80b194aa155e50ee6b325
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
   UBiXDaq: 8cadda28547c9ea8124cdbcfc9da63493b168858

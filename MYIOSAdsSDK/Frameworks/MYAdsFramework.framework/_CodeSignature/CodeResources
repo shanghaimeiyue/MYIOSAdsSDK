@@ -407,7 +407,7 @@
 		</dict>
 		<key>Frameworks/EdiMobSDK.framework/EdiMobSDK</key>
 		<data>
-		7frs7DhwNf0yZxLlOH2F10tYUXk=
+		Gmi1HcYqvNWppMOd2Sza+4qtT2k=
 		</data>
 		<key>Frameworks/EdiMobSDK.framework/Info.plist</key>
 		<data>
@@ -563,7 +563,7 @@
 		</data>
 		<key>Headers/MyAdProtocol.h</key>
 		<data>
-		rrZnmBs/0hwfzRlJ20ToJ+2v6w0=
+		fak49Lx9KqgJn2LjXq8jqBszL8I=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -1624,11 +1624,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7frs7DhwNf0yZxLlOH2F10tYUXk=
+			Gmi1HcYqvNWppMOd2Sza+4qtT2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			6+sc8v7gQcHtLB5K9QvypV/Pcg2yAxl63LmMBSKhk2U=
+			XdrRMZRI/KXIWTNe9DATxDis4SDNRNpzYqliZjI3gFQ=
 			</data>
 		</dict>
 		<key>Frameworks/EdiMobSDK.framework/Info.plist</key>
@@ -2053,11 +2053,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rrZnmBs/0hwfzRlJ20ToJ+2v6w0=
+			fak49Lx9KqgJn2LjXq8jqBszL8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			liLDmJhck9GY5Qe+i1alThxfdkPFocCE83xeF2xa3eI=
+			S7o4WEnbjMuEryuplSaYBxzsrs34pGTcp0dl0FbS5f8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
