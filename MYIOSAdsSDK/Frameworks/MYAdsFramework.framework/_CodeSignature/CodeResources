@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		zRWrJOUzH7+e15YTL746Y8sxGac=
+		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
 		fWiM0q7tOHdPeB/1MPQSiZdZLkA=
@@ -407,7 +411,7 @@
 		</dict>
 		<key>Frameworks/EdiMobSDK.framework/EdiMobSDK</key>
 		<data>
-		YnS/3WgHkD/gFg+Ci9hBUvmfqs4=
+		8BA4vjDXzZu8ikyI3MFiXwYgX00=
 		</data>
 		<key>Frameworks/EdiMobSDK.framework/Info.plist</key>
 		<data>
@@ -1624,11 +1628,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YnS/3WgHkD/gFg+Ci9hBUvmfqs4=
+			8BA4vjDXzZu8ikyI3MFiXwYgX00=
 			</data>
 			<key>hash2</key>
 			<data>
-			hjaxEPMQwqyRYxuID0jv7uz8TmsX38otOGJoikZhJYE=
+			J+ieImF6ETK3LZfLwSK9D2svQfhoqXOLERKws0ocKcU=
 			</data>
 		</dict>
 		<key>Frameworks/EdiMobSDK.framework/Info.plist</key>

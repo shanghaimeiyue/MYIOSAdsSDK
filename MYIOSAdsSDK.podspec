@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
   s.resources = 'MYIOSAdsSDK/Resources/*.bundle'
   s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/*.framework'
   
+  
   s.dependency 'CocoaAsyncSocket'
   #s.dependency 'WechatOpenSDK_UnPay'
   s.dependency 'SDWebImage'
