@@ -33,6 +33,17 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8C9EE3796433B00C1B5ED351 /* Pods_MYIOSAdsSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDF1445D576EFFBC3E4C23F /* Pods_MYIOSAdsSDK_Example.framework */; };
 		929B1BB92DE47B5A001244C6 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B1BB82DE47B5A001244C6 /* LogManager.m */; };
+		92A81DAD2E0A563100A6149C /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81DA52E0A563100A6149C /* UITabBarController+MemoryLeak.m */; };
+		92A81DAE2E0A563100A6149C /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81D9D2E0A563100A6149C /* UIApplication+MemoryLeak.m */; };
+		92A81DAF2E0A563100A6149C /* UINavigationController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81D9F2E0A563100A6149C /* UINavigationController+MemoryLeak.m */; };
+		92A81DB02E0A563100A6149C /* MLeaksMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81D992E0A563100A6149C /* MLeaksMessenger.m */; };
+		92A81DB12E0A563100A6149C /* UITouch+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81DA72E0A563100A6149C /* UITouch+MemoryLeak.m */; };
+		92A81DB22E0A563100A6149C /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81D9B2E0A563100A6149C /* NSObject+MemoryLeak.m */; };
+		92A81DB32E0A563100A6149C /* UISplitViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81DA32E0A563100A6149C /* UISplitViewController+MemoryLeak.m */; };
+		92A81DB42E0A563100A6149C /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81DAB2E0A563100A6149C /* UIViewController+MemoryLeak.m */; };
+		92A81DB52E0A563100A6149C /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81DA92E0A563100A6149C /* UIView+MemoryLeak.m */; };
+		92A81DB62E0A563100A6149C /* MLeakedObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81D962E0A563100A6149C /* MLeakedObjectProxy.m */; };
+		92A81DB72E0A563100A6149C /* UIPageViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81DA12E0A563100A6149C /* UIPageViewController+MemoryLeak.m */; };
 		E4EF48DE64E4C49FEB6CB466 /* Pods_MYIOSAdsSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33A3EA3ED80A6C4545BF70F /* Pods_MYIOSAdsSDK_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,7 +92,7 @@
 		31C8097B96696949A8C9BE7C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		412D88A24E160BA5DDE44034 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		55A4AAADD128206E79B9B035 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* ubix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ubix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* xcf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -104,6 +115,29 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		929B1BB72DE47B5A001244C6 /* LogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
 		929B1BB82DE47B5A001244C6 /* LogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
+		92A81D952E0A563100A6149C /* MLeakedObjectProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLeakedObjectProxy.h; sourceTree = "<group>"; };
+		92A81D962E0A563100A6149C /* MLeakedObjectProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLeakedObjectProxy.m; sourceTree = "<group>"; };
+		92A81D972E0A563100A6149C /* MLeaksFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLeaksFinder.h; sourceTree = "<group>"; };
+		92A81D982E0A563100A6149C /* MLeaksMessenger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLeaksMessenger.h; sourceTree = "<group>"; };
+		92A81D992E0A563100A6149C /* MLeaksMessenger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLeaksMessenger.m; sourceTree = "<group>"; };
+		92A81D9A2E0A563100A6149C /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
+		92A81D9B2E0A563100A6149C /* NSObject+MemoryLeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MemoryLeak.m"; sourceTree = "<group>"; };
+		92A81D9C2E0A563100A6149C /* UIApplication+MemoryLeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+MemoryLeak.h"; sourceTree = "<group>"; };
+		92A81D9D2E0A563100A6149C /* UIApplication+MemoryLeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MemoryLeak.m"; sourceTree = "<group>"; };
+		92A81D9E2E0A563100A6149C /* UINavigationController+MemoryLeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MemoryLeak.h"; sourceTree = "<group>"; };
+		92A81D9F2E0A563100A6149C /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
+		92A81DA02E0A563100A6149C /* UIPageViewController+MemoryLeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		92A81DA12E0A563100A6149C /* UIPageViewController+MemoryLeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		92A81DA22E0A563100A6149C /* UISplitViewController+MemoryLeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		92A81DA32E0A563100A6149C /* UISplitViewController+MemoryLeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		92A81DA42E0A563100A6149C /* UITabBarController+MemoryLeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+MemoryLeak.h"; sourceTree = "<group>"; };
+		92A81DA52E0A563100A6149C /* UITabBarController+MemoryLeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+MemoryLeak.m"; sourceTree = "<group>"; };
+		92A81DA62E0A563100A6149C /* UITouch+MemoryLeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITouch+MemoryLeak.h"; sourceTree = "<group>"; };
+		92A81DA72E0A563100A6149C /* UITouch+MemoryLeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITouch+MemoryLeak.m"; sourceTree = "<group>"; };
+		92A81DA82E0A563100A6149C /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MemoryLeak.h"; sourceTree = "<group>"; };
+		92A81DA92E0A563100A6149C /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MemoryLeak.m"; sourceTree = "<group>"; };
+		92A81DAA2E0A563100A6149C /* UIViewController+MemoryLeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		92A81DAB2E0A563100A6149C /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
 		C33A3EA3ED80A6C4545BF70F /* Pods_MYIOSAdsSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYIOSAdsSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB2184857E38662C71AE27E /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYIOSAdsSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDDF1445D576EFFBC3E4C23F /* Pods_MYIOSAdsSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYIOSAdsSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,7 +206,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* ubix.app */,
+				6003F58A195388D20070C39A /* xcf.app */,
 				6003F5AE195388D20070C39A /* MYIOSAdsSDK_Tests.xctest */,
 			);
 			name = Products;
@@ -194,6 +228,7 @@
 		6003F593195388D20070C39A /* Example for MYIOSAdsSDK */ = {
 			isa = PBXGroup;
 			children = (
+				92A81DAC2E0A563100A6149C /* MLeaksFinder */,
 				929B1BB72DE47B5A001244C6 /* LogManager.h */,
 				929B1BB82DE47B5A001244C6 /* LogManager.m */,
 				0479BCD02CF81EBA0016A7CC /* ViewController */,
@@ -261,6 +296,36 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		92A81DAC2E0A563100A6149C /* MLeaksFinder */ = {
+			isa = PBXGroup;
+			children = (
+				92A81D952E0A563100A6149C /* MLeakedObjectProxy.h */,
+				92A81D962E0A563100A6149C /* MLeakedObjectProxy.m */,
+				92A81D972E0A563100A6149C /* MLeaksFinder.h */,
+				92A81D982E0A563100A6149C /* MLeaksMessenger.h */,
+				92A81D992E0A563100A6149C /* MLeaksMessenger.m */,
+				92A81D9A2E0A563100A6149C /* NSObject+MemoryLeak.h */,
+				92A81D9B2E0A563100A6149C /* NSObject+MemoryLeak.m */,
+				92A81D9C2E0A563100A6149C /* UIApplication+MemoryLeak.h */,
+				92A81D9D2E0A563100A6149C /* UIApplication+MemoryLeak.m */,
+				92A81D9E2E0A563100A6149C /* UINavigationController+MemoryLeak.h */,
+				92A81D9F2E0A563100A6149C /* UINavigationController+MemoryLeak.m */,
+				92A81DA02E0A563100A6149C /* UIPageViewController+MemoryLeak.h */,
+				92A81DA12E0A563100A6149C /* UIPageViewController+MemoryLeak.m */,
+				92A81DA22E0A563100A6149C /* UISplitViewController+MemoryLeak.h */,
+				92A81DA32E0A563100A6149C /* UISplitViewController+MemoryLeak.m */,
+				92A81DA42E0A563100A6149C /* UITabBarController+MemoryLeak.h */,
+				92A81DA52E0A563100A6149C /* UITabBarController+MemoryLeak.m */,
+				92A81DA62E0A563100A6149C /* UITouch+MemoryLeak.h */,
+				92A81DA72E0A563100A6149C /* UITouch+MemoryLeak.m */,
+				92A81DA82E0A563100A6149C /* UIView+MemoryLeak.h */,
+				92A81DA92E0A563100A6149C /* UIView+MemoryLeak.m */,
+				92A81DAA2E0A563100A6149C /* UIViewController+MemoryLeak.h */,
+				92A81DAB2E0A563100A6149C /* UIViewController+MemoryLeak.m */,
+			);
+			path = MLeaksFinder;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -282,7 +347,7 @@
 			);
 			name = MYIOSAdsSDK_Example;
 			productName = MYIOSAdsSDK;
-			productReference = 6003F58A195388D20070C39A /* ubix.app */;
+			productReference = 6003F58A195388D20070C39A /* xcf.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* MYIOSAdsSDK_Tests */ = {
@@ -488,6 +553,17 @@
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				0479BCD42CF81EBA0016A7CC /* MYInterstitialViewController.m in Sources */,
 				0479BCD52CF81EBA0016A7CC /* MYVideoViewController.m in Sources */,
+				92A81DAD2E0A563100A6149C /* UITabBarController+MemoryLeak.m in Sources */,
+				92A81DAE2E0A563100A6149C /* UIApplication+MemoryLeak.m in Sources */,
+				92A81DAF2E0A563100A6149C /* UINavigationController+MemoryLeak.m in Sources */,
+				92A81DB02E0A563100A6149C /* MLeaksMessenger.m in Sources */,
+				92A81DB12E0A563100A6149C /* UITouch+MemoryLeak.m in Sources */,
+				92A81DB22E0A563100A6149C /* NSObject+MemoryLeak.m in Sources */,
+				92A81DB32E0A563100A6149C /* UISplitViewController+MemoryLeak.m in Sources */,
+				92A81DB42E0A563100A6149C /* UIViewController+MemoryLeak.m in Sources */,
+				92A81DB52E0A563100A6149C /* UIView+MemoryLeak.m in Sources */,
+				92A81DB62E0A563100A6149C /* MLeakedObjectProxy.m in Sources */,
+				92A81DB72E0A563100A6149C /* UIPageViewController+MemoryLeak.m in Sources */,
 				0479BCD62CF81EBA0016A7CC /* MYNativeViewController.m in Sources */,
 				0479BCD72CF81EBA0016A7CC /* MYBannerViewController.m in Sources */,
 				929B1BB92DE47B5A001244C6 /* LogManager.m in Sources */,
@@ -630,7 +706,7 @@
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.edimob.ssp;
-				PRODUCT_NAME = ubix;
+				PRODUCT_NAME = xcf;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -652,7 +728,7 @@
 				INFOPLIST_FILE = "MYIOSAdsSDK/MYIOSAdsSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.edimob.ssp;
-				PRODUCT_NAME = ubix;
+				PRODUCT_NAME = xcf;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
