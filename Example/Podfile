@@ -5,7 +5,7 @@ platform :ios, '12.0'
 target 'MYIOSAdsSDK_Example' do
   pod 'MYIOSAdsSDK', :path => '../'
   
-  pod 'Ads-CN-Beta', '~> 6.8.0.6', :subspecs => ['BUAdSDK', 'CSJMediation']
+  pod 'Ads-CN-Beta', '~> 7.0.0.3', :subspecs => ['BUAdSDK', 'CSJMediation']
   pod 'HRAdSDK/HR','1.7.19.0'
   pod 'WechatOpenSDK'
   pod 'KSCrash', '~> 1.17.7'
@@ -14,9 +14,10 @@ target 'MYIOSAdsSDK_Example' do
   pod 'QMAdSDK', '~> 1.3.4'
   pod 'AnyThinkiOS','6.4.76'
   pod 'JADYun', '2.6.6'
-  pod 'UBiXMediationSDK', '2.8.1'
-  pod 'UBiXMUBiXAdapter'
-  pod 'CocoaHTTPServer'
+  pod 'BeiZiSDK-iOS/BeiZiSDK-iOS', '4.90.4.36'
+#  pod 'UBiXMediationSDK', '2.8.1'
+#  pod 'UBiXMUBiXAdapter'
+#  pod 'CocoaHTTPServer'
   target 'MYIOSAdsSDK_Tests' do
     inherit! :search_paths
 
@@ -26,10 +27,11 @@ end
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
-    if ['Masonry', 'MBProgressHUD'].include?(target.name)
+    if ['CocoaLumberjack','CocoaHTTPServer','Masonry', 'MBProgressHUD', 'MLeaksFinder', 'FBRetainCycleDetector'].include?(target.name)
       target.build_configurations.each do |config|
         config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
       end
     end
   end
 end
+

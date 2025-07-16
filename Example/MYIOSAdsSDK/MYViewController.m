@@ -23,10 +23,10 @@
 //#import <BUAdSDK/BUAdSDK.h>
 //#import <GDTMobSDK/GDTMobSDK.h>
 //#import <KSAdSDK/KSAdSDK.h>
-#import <UbiXMediation/UbiXMediation.h>
-#import <UbiXAdSDK/UbiXAdSDK.h>
-#import <CocoaLumberjack/CocoaLumberjack.h>
-#import <CocoaHTTPServer/CocoaHTTPServer-umbrella.h>
+//#import <UbiXMediation/UbiXMediation.h>
+//#import <UbiXAdSDK/UbiXAdSDK.h>
+//#import <CocoaLumberjack/CocoaLumberjack.h>
+//#import <CocoaHTTPServer/CocoaHTTPServer-umbrella.h>
 
 @interface MYViewController ()<UITableViewDelegate,UITableViewDataSource>{
     NSArray *listArray;

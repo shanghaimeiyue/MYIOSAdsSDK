@@ -13,6 +13,7 @@
 #import "MYViewController.h"
 #import "LogManager.h"
 #import<AnyThinkSplash/AnyThinkSplash.h>
+#import <Bugly/Bugly.h>
 
 #define kScreenWidth [[UIApplication sharedApplication]keyWindow].bounds.size.width
 #define kScreenHeight [[UIApplication sharedApplication]keyWindow].bounds.size.height
@@ -38,7 +39,7 @@
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
-    
+    [Bugly startWithAppId:@"ba0b16458b"];
     [[MYAdsConfiguration shareInstance] initConfigurationWithAppId:MYMobAdsAppID];
     _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
     _splash.fetchDelay = 10;
@@ -94,11 +95,30 @@
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
-- (void)applicationWillEnterForeground:(UIApplication *)application
-{
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+-(void)applicationWillEnterForeground:(UIApplication *)application{
+    Class view = NSClassFromString(@"ViewController");
+    UIViewController *vc = [[view alloc] init];
+    _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
+    _splash.fetchDelay = 10;
+    _splash.delegate = self;
+    _splash.zoomController = vc;
+    CGRect spRect = CGRectMake(0, 0, CGRectGetWidth(UIScreen.mainScreen.bounds), 120);
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(UIScreen.mainScreen.bounds), 120)];
+    label.text = @"MYMobAds";
+    label.textAlignment = NSTextAlignmentCenter;
+    label.font = [UIFont boldSystemFontOfSize:40];
+    label.backgroundColor = [UIColor whiteColor];
+    UIView * SplashContainer = [[UIView alloc]initWithFrame:spRect];
+    [SplashContainer addSubview:label];
+    
+    
+//    baiduSplashContainer.alpha = 0;
+//    baiduSplashContainer.hidden = YES;
+    
+    self.bottomView = SplashContainer;
+    _splash.customBottomView = self.bottomView;
+    [_splash MY_loadAd];
 }
-
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     if (@available(iOS 14, *)) {
         [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {

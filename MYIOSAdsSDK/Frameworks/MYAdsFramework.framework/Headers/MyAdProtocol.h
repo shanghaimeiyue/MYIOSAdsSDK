@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-/// 竞胜成功后第二高的价格
+/// 竞胜成功第二高的价格
 #define MY_M_W_H_LOSS_PRICE @"upperPrice"
 
 /// 竞价失败时候，获胜方价格

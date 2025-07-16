@@ -6,7 +6,7 @@
 	<dict>
 		<key>.DS_Store</key>
 		<data>
-		zRWrJOUzH7+e15YTL746Y8sxGac=
+		jZM94Bqj46hjWg05mgp/76Ca9sk=
 		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
@@ -389,7 +389,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		lqTJ+1W682fkbvyIUKHIg7S+9D4=
+		M8A3bXRK2bgDjOWcJHlQJfWG4vY=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -409,18 +409,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Frameworks/EdiMobSDK.framework/EdiMobSDK</key>
-		<data>
-		8BA4vjDXzZu8ikyI3MFiXwYgX00=
-		</data>
-		<key>Frameworks/EdiMobSDK.framework/Info.plist</key>
-		<data>
-		jZEXT7g/elJPqkcVBAsq3q3UOfY=
-		</data>
-		<key>Frameworks/EdiMobSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		uImxGUyt9n9kBfY9a6ESix9Cp/I=
-		</data>
 		<key>HRAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		9mBNp6TjxMX/flIBAd1lrEvGEKM=
@@ -535,7 +523,7 @@
 		</data>
 		<key>Headers/MYAdsFramework.h</key>
 		<data>
-		cSPIqVPQbMLaWrOAer9bX/TRr7Q=
+		qDGm1J8lmLgXF8nlUcJrpX0JlnQ=
 		</data>
 		<key>Headers/MYBannerView.h</key>
 		<data>
@@ -551,7 +539,7 @@
 		</data>
 		<key>Headers/MYNativeExpressAdView.h</key>
 		<data>
-		txVIzrPoVgPhMLKHCp3HYqzDmkY=
+		lbB2L7/NgygU47ckx5xtgKuDaJ0=
 		</data>
 		<key>Headers/MYRewardedVideoAd.h</key>
 		<data>
@@ -567,15 +555,19 @@
 		</data>
 		<key>Headers/MyAdProtocol.h</key>
 		<data>
-		fak49Lx9KqgJn2LjXq8jqBszL8I=
+		rrZnmBs/0hwfzRlJ20ToJ+2v6w0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tpCc2Ebn911UZiv+/PLMu3QdAls=
+		jQ34Mmq/E1taaQDdQpYyydiUHxA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		DjK1nAWbXrAnXgByWvoP5Wm5Q4A=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		1e79ag5LWxLBD6Q37zhOdpKBryc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1591,11 +1583,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lqTJ+1W682fkbvyIUKHIg7S+9D4=
+			M8A3bXRK2bgDjOWcJHlQJfWG4vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			+zTWfkVphtpfqwyGApvVxj6oQA1YBbLnLPG09bnVnPM=
+			SFeYf5r1Cufvl7+eXJwle6Mmz9y2MY5/jMCvZo8+19A=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -1623,39 +1615,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>Frameworks/EdiMobSDK.framework/EdiMobSDK</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8BA4vjDXzZu8ikyI3MFiXwYgX00=
-			</data>
-			<key>hash2</key>
-			<data>
-			J+ieImF6ETK3LZfLwSK9D2svQfhoqXOLERKws0ocKcU=
-			</data>
-		</dict>
-		<key>Frameworks/EdiMobSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jZEXT7g/elJPqkcVBAsq3q3UOfY=
-			</data>
-			<key>hash2</key>
-			<data>
-			gJ0Y+X2AbB9WNLbssmnbB2b/0OkL0xKl3C87TCCIxoI=
-			</data>
-		</dict>
-		<key>Frameworks/EdiMobSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uImxGUyt9n9kBfY9a6ESix9Cp/I=
-			</data>
-			<key>hash2</key>
-			<data>
-			kacW/rYIQxdPEtE1mIS0zsmZQYV7mSXLjZ/B24M185g=
-			</data>
 		</dict>
 		<key>HRAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
@@ -1969,11 +1928,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cSPIqVPQbMLaWrOAer9bX/TRr7Q=
+			qDGm1J8lmLgXF8nlUcJrpX0JlnQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			7aGI1yOr0HNBAybriYsYHx3mSeotnepGc+g3ED5a1ZA=
+			xbI5b3pH3pMhRaRsdbBTiAJvK1pcMUMDLLCRmMOHotU=
 			</data>
 		</dict>
 		<key>Headers/MYBannerView.h</key>
@@ -2013,11 +1972,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			txVIzrPoVgPhMLKHCp3HYqzDmkY=
+			lbB2L7/NgygU47ckx5xtgKuDaJ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			hx+hioQpXiFWUVEhxk9Horwx19PLfGSVXxmwX6JJNwM=
+			8QNl+C93gQ8pexfsxGwE+LKGS57Xc9W+zOePAfr28VM=
 			</data>
 		</dict>
 		<key>Headers/MYRewardedVideoAd.h</key>
@@ -2057,11 +2016,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fak49Lx9KqgJn2LjXq8jqBszL8I=
+			rrZnmBs/0hwfzRlJ20ToJ+2v6w0=
 			</data>
 			<key>hash2</key>
 			<data>
-			S7o4WEnbjMuEryuplSaYBxzsrs34pGTcp0dl0FbS5f8=
+			liLDmJhck9GY5Qe+i1alThxfdkPFocCE83xeF2xa3eI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2073,6 +2032,17 @@
 			<key>hash2</key>
 			<data>
 			G4paLa6GCKS3dpQimH+n4w9ZayMgkYZ57s3xZm0/UBM=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1e79ag5LWxLBD6Q37zhOdpKBryc=
+			</data>
+			<key>hash2</key>
+			<data>
+			pj6YvnUXVtyWK1OF1ZubAzvIbOAOnmmtEBQHAJYtcb4=
 			</data>
 		</dict>
 	</dict>
