@@ -39,7 +39,7 @@
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
-    [Bugly startWithAppId:@"ba0b16458b"];
+    [Bugly startWithAppId:@"fb87855988"];
     [[MYAdsConfiguration shareInstance] initConfigurationWithAppId:MYMobAdsAppID];
     _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
     _splash.fetchDelay = 10;
