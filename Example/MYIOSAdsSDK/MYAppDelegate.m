@@ -96,28 +96,38 @@
 }
 
 -(void)applicationWillEnterForeground:(UIApplication *)application{
-    Class view = NSClassFromString(@"ViewController");
-    UIViewController *vc = [[view alloc] init];
-    _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
-    _splash.fetchDelay = 10;
-    _splash.delegate = self;
-    _splash.zoomController = vc;
-    CGRect spRect = CGRectMake(0, 0, CGRectGetWidth(UIScreen.mainScreen.bounds), 120);
-    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(UIScreen.mainScreen.bounds), 120)];
-    label.text = @"MYMobAds";
-    label.textAlignment = NSTextAlignmentCenter;
-    label.font = [UIFont boldSystemFontOfSize:40];
-    label.backgroundColor = [UIColor whiteColor];
-    UIView * SplashContainer = [[UIView alloc]initWithFrame:spRect];
-    [SplashContainer addSubview:label];
+    NSDate *startTime = [[NSUserDefaults standardUserDefaults] valueForKey:@"showTime"];
+    NSDate *endTime = [NSDate date];
+    // 计算时间差（单位：秒）
+    NSTimeInterval timeInterval = [endTime timeIntervalSinceDate:startTime];
+
+    // 判断是否超过五分钟（300秒）
+    if (timeInterval > 20) {
+        Class view = NSClassFromString(@"ViewController");
+        UIViewController *vc = [[view alloc] init];
+        _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
+        _splash.fetchDelay = 10;
+        _splash.delegate = self;
+        _splash.zoomController = vc;
+        CGRect spRect = CGRectMake(0, 0, CGRectGetWidth(UIScreen.mainScreen.bounds), 120);
+        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(UIScreen.mainScreen.bounds), 120)];
+        label.text = @"MYMobAds";
+        label.textAlignment = NSTextAlignmentCenter;
+        label.font = [UIFont boldSystemFontOfSize:40];
+        label.backgroundColor = [UIColor whiteColor];
+        UIView * SplashContainer = [[UIView alloc]initWithFrame:spRect];
+        [SplashContainer addSubview:label];
+        self.bottomView = SplashContainer;
+        _splash.customBottomView = self.bottomView;
+        [_splash MY_loadAd];
+    }
+   
     
     
 //    baiduSplashContainer.alpha = 0;
 //    baiduSplashContainer.hidden = YES;
     
-    self.bottomView = SplashContainer;
-    _splash.customBottomView = self.bottomView;
-    [_splash MY_loadAd];
+   
 }
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     if (@available(iOS 14, *)) {

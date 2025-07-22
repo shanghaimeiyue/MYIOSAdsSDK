@@ -41,6 +41,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSDate *showTime = [NSDate date];
+    [[NSUserDefaults standardUserDefaults] setValue:showTime forKey:@"showTime"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"MYMobAds广告样式";
