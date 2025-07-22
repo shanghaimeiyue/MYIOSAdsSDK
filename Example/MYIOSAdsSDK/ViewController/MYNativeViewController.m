@@ -136,7 +136,7 @@
 #pragma mark - lazy
 - (MYNativeExpressAd *)expressAd{
     if (!_expressAd) {
-        _expressAd = [[MYNativeExpressAd alloc]initWithExpressWithAppId:MYMobAdsAppID spaceId:NativeID adSize:CGSizeMake(375, 508)];
+        _expressAd = [[MYNativeExpressAd alloc]initWithExpressWithAppId:MYMobAdsAppID spaceId:NativeID adSize:CGSizeMake(375, 200)];
         _expressAd.currentController = self;
         _expressAd.delegate = self;
     }
