@@ -43,7 +43,7 @@
     }
 }
 - (void)laterLoad{
-    [self.expressAd MY_loadAd:3];
+    [self.expressAd MY_loadAd:2];
 }
 
 
@@ -82,6 +82,7 @@
 #pragma mark - 原生模板代理方法
 - (void)MY_nativeExpressAdSuccessToViews:(NSArray<__kindof MYNativeExpressAdView *> *)views{
     NSLog(@"原生模板广告加载成功");
+    [[LogManager shared] logToTextView:@"原生模板广告加载成功"];
     [_data removeAllObjects];
     [_data addObjectsFromArray:views];
     dispatch_async(dispatch_get_main_queue(), ^{
@@ -97,6 +98,7 @@
 
 - (void)MY_nativeExpressAdViewRenderSuccess{
     NSLog(@"原生模板广告渲染成功");
+    [[LogManager shared] logToTextView:@"原生模板广告渲染成功"];
     [self.listTable reloadData];
 }
 - (void)MY_nativeExpressAdFailToLoad:(NSError *)error{
