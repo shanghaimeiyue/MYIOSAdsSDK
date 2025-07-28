@@ -3,15 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
 		0EDBF06E2CE6AC8500856BFDBE38B936 /* BeiZiSDK-iOS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C46229DE7DFBD2DA2C0C797BC5DB4135 /* Build configuration list for PBXAggregateTarget "BeiZiSDK-iOS" */;
+			buildConfigurationList = DB007B00B58DCD06F77A867A77335A41 /* Build configuration list for PBXAggregateTarget "BeiZiSDK-iOS" */;
 			buildPhases = (
-				039207AD8F50D6CA2CE3993F8931E52B /* [CP] Copy XCFrameworks */,
+				B2D0AE45B9B30A9C92C30F613E5BA9D4 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -19,9 +19,9 @@
 		};
 		3A103CA398934C2E9D2691DE6A367B51 /* QMAdSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = CEC6B5B46A8707A50F05ADC61B607A9E /* Build configuration list for PBXAggregateTarget "QMAdSDK" */;
+			buildConfigurationList = 4D1A468750A2CBAEB9475870F863B720 /* Build configuration list for PBXAggregateTarget "QMAdSDK" */;
 			buildPhases = (
-				250414331E009B3C8C63BE68FC8E5829 /* [CP] Copy XCFrameworks */,
+				3769938B12894EC5664B5DF96427B8A8 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -29,9 +29,9 @@
 		};
 		53DB8EFBB54B636ACDC70272323792EC /* KSAdSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4C520112CBE951086C70C7E7454E1E8D /* Build configuration list for PBXAggregateTarget "KSAdSDK" */;
+			buildConfigurationList = 02C8AF3CDE69331D4B06B672866E726A /* Build configuration list for PBXAggregateTarget "KSAdSDK" */;
 			buildPhases = (
-				5A8259F6757B3ADD322D7FAEB90C60B6 /* [CP] Copy XCFrameworks */,
+				B1947AD203DD5E46A044F6BFA28FC5E1 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -39,9 +39,9 @@
 		};
 		6F2BDBDBBAD8487EF4614E1D729C5DD0 /* GDTMobSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 78741371A3F2A9B3F3B5D2079C6FC6E4 /* Build configuration list for PBXAggregateTarget "GDTMobSDK" */;
+			buildConfigurationList = C03A40A3EBAF3E85F23D68142B78A141 /* Build configuration list for PBXAggregateTarget "GDTMobSDK" */;
 			buildPhases = (
-				A898C4D2EDC42356AF1A6C968411C06D /* [CP] Copy XCFrameworks */,
+				C5D8A1615AFD6C46C1EEDFAE8F632BAB /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -71,20 +71,20 @@
 		};
 		940F0EDB82A2640A378CA0D36C9E53F7 /* JADYun */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E6C02A030A6898A66CD6171A08E447DC /* Build configuration list for PBXAggregateTarget "JADYun" */;
+			buildConfigurationList = EFA45B9671866F97F73A94AD821B3A74 /* Build configuration list for PBXAggregateTarget "JADYun" */;
 			buildPhases = (
-				F7E5B12641174EFC1D5DE61C4BBE42F4 /* [CP] Copy XCFrameworks */,
+				E0B04BBADC7CDF3764F073937C827E8A /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				F0FF9E255B9FAA45AC3F71AE9551FA42 /* PBXTargetDependency */,
+				787EEE21D7AB3F9969BBDA7F19048001 /* PBXTargetDependency */,
 			);
 			name = JADYun;
 		};
 		95879C6BC2518BD5106FDDED5426633B /* HRAdSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 503FB3D08B699AFA0EBF83C6250E056A /* Build configuration list for PBXAggregateTarget "HRAdSDK" */;
+			buildConfigurationList = 7D5737B078852E373271E2B5457C59BB /* Build configuration list for PBXAggregateTarget "HRAdSDK" */;
 			buildPhases = (
-				DD9A687F283CF49377DBC6D5E71F8089 /* [CP] Copy XCFrameworks */,
+				3EEA2681270DEBB3C0565478590F7ECE /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -92,20 +92,20 @@
 		};
 		9822EC319158EDF9A392330FE643BC4E /* Ads-CN-Beta */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 1A668F85DE610E45B26B2A0908DD5F6B /* Build configuration list for PBXAggregateTarget "Ads-CN-Beta" */;
+			buildConfigurationList = FFBFA7B0BE328D3AA1EE9722EBDAFA83 /* Build configuration list for PBXAggregateTarget "Ads-CN-Beta" */;
 			buildPhases = (
-				E6C058054B4C4D7E3F602FEAD6E53401 /* [CP] Copy XCFrameworks */,
+				69D401368707E7777528AD39F9585769 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				7281495270EABC487E0C4699F92BDDF5 /* PBXTargetDependency */,
+				873662DFFF8C07C406DA185D088769CD /* PBXTargetDependency */,
 			);
 			name = "Ads-CN-Beta";
 		};
 		F50E9FD6951069AF0D316E257D27E271 /* AnyThinkiOS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 55489EEDA322577263A37826D00E3E98 /* Build configuration list for PBXAggregateTarget "AnyThinkiOS" */;
+			buildConfigurationList = CD8DC394D808A7028C291EEDF67CAE21 /* Build configuration list for PBXAggregateTarget "AnyThinkiOS" */;
 			buildPhases = (
-				E995F025CF7A3A4666C5EA08B61FEA92 /* [CP] Copy XCFrameworks */,
+				9DD7CC7FED3C639D9B9424FEEF4B55E0 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -114,7 +114,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		01CDCCA235C70DE9576DC07D7C05ED35 /* JADYun.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF8B9BA89EA9C42BCEF718DA26BAFC07 /* JADYun.bundle */; };
 		02CFF7DDFCD38B29EAF3586BD5106562 /* KSDynamicLinker.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C860E931691FD0983E8BCDEC0A4467 /* KSDynamicLinker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0321D69FC096511A8153D9FDFB678C74 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B004D14C480BBA4012168F937E171923 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		032A20FAA6A09BDA90921F5B5D054BE6 /* NSBezierPath+SDRoundedCorners.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF52F5A9EF6DBC8548B59550B78DD5B /* NSBezierPath+SDRoundedCorners.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -124,7 +123,6 @@
 		04E87633D26EB8C893F0797204E0B9B1 /* KSCrashDoctor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EDAEB18805CE8D35A7CC88C258AEE9B /* KSCrashDoctor.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		057D677FE53AFA15BADFEDE2F402FAF6 /* KSMachineContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 2341B7AF1167551D02BF099301D30076 /* KSMachineContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		057F91ADE8C2E243D6115BF078EECBD0 /* KSSysCtl.c in Sources */ = {isa = PBXBuildFile; fileRef = 37D7BB7310655B5F50737CE7067E949A /* KSSysCtl.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
-		05ABEB479A3999DFA1AB711A981D0B94 /* TTSDKFramework_Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F4F5B0E48B8FE4C38392D8FE9DEA0A /* TTSDKFramework_Dummy.m */; };
 		06208EDE53EA6303F3C18E619A46142C /* KSCrashReportFilterAppleFmt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE71BE502585D6802C7795CD760F348 /* KSCrashReportFilterAppleFmt.m */; };
 		066548814CD370FB53B6555242C17447 /* KSObjCApple.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A3DB2EA778D4C102ACAB0475CACFBC /* KSObjCApple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		069110219BA6013B71C36BBDF18D5A85 /* Platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6BFA890EA2E1FA0A2D5086736F1E9B /* Platform.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -147,6 +145,7 @@
 		0CD72127DA641AD9C10CF2DB2D352C6D /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE68E00F051C545021AC81718D2F492 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CE5116DD27D9159DBE49B26C5745ED0 /* KSCrashReportFilterGZip.h in Headers */ = {isa = PBXBuildFile; fileRef = B7301641342FAA04D4B22CDFABB63C65 /* KSCrashReportFilterGZip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D128ECC39D48936DA79E9B22F569AD7 /* SDImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B5A8256111F9884C70F9A2037C8DCC /* SDImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E5FE75CC3A291583CE27D9964CC243B /* TTSDKFramework_Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F4F5B0E48B8FE4C38392D8FE9DEA0A /* TTSDKFramework_Dummy.m */; };
 		0E88BEF2600D10B68694F8F01D22B0E2 /* Punycode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF75B3C8C2715D96A932F480F6A53B66 /* Punycode.cpp */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		0F053EB0366417F22A6CDA1EEAD7E67B /* KSLogger.c in Sources */ = {isa = PBXBuildFile; fileRef = 772F32FF59990A96248550D8D2BE3D93 /* KSLogger.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		0F74E9F803BF9303D7BD6542D7EB249B /* NSMutableData+AppendUTF8.m in Sources */ = {isa = PBXBuildFile; fileRef = B48EF2793DF90126F102D312392D4846 /* NSMutableData+AppendUTF8.m */; };
@@ -195,7 +194,6 @@
 		2DB445C1FA8C5A77136C59C733749768 /* KSThread.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DB41BF1F55A962288916D5A25972DF5 /* KSThread.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		2E442D595A489CDC45C9AC2AF1724237 /* STLExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 478273C25C808B804E05F3BC1DACD871 /* STLExtras.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2EFD89211A6632406C4D4708A3272DAD /* ManglingMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FD4DC0513C7201E20C4ADFDB2C1B28 /* ManglingMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2F51FA645FED9891CE568638E5A56F16 /* BUTTSDKFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4BE8D27F3A481A4480D7957FEDF306 /* BUTTSDKFramework-dummy.m */; };
 		2F95004EA51EF7726FB6A7C2D1A47387 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DD0C67EA563F87F639BE21D21C6FFB /* SDWebImageManager.m */; };
 		302EF34ED8D0848C45BE5DDAE4298F1E /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 77616D035AEE253FDE3BB0FC71CD7D65 /* MASViewAttribute.m */; };
 		3046A2118592B20C2482A3E010A5E734 /* KSCrashMonitor_MachException.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EB8E91B927773D95DCCF753FDD45E /* KSCrashMonitor_MachException.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
@@ -207,6 +205,7 @@
 		346B8E03A98017CDA306DB4187FFC3DC /* KSCString.m in Sources */ = {isa = PBXBuildFile; fileRef = 761F62363C571E5C88E8B28399E1DDA5 /* KSCString.m */; };
 		357253261C0F282F716F9DFA2E09F93D /* KSStackCursor_MachineContext.h in Headers */ = {isa = PBXBuildFile; fileRef = EA46CCD7F0381EFC6E6F3F2CE3753DF2 /* KSStackCursor_MachineContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35A64FCE2F11E198E5E2BA398C2666A8 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 388C6C8CC8AF74A482C029EDC0F4A39B /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35C0BE799116F1B7431C3AED1A5D6E2F /* TTSDKLiveBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D07AD541ED71BFA118237A1FAE7C206 /* TTSDKLiveBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37A4E2DD83326FE57D4EA9A887AB89EC /* KSDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0884EA78CE4EF61D230214410F5AF02A /* KSDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38BACF2739CBA90528F1B3C6E8951346 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = FE79315CA829DEE491E22D05D7CC973C /* UIImage+ForceDecode.m */; };
 		38EF8EAB3FB49DC8DBD5EF3B0FC89AC6 /* KSCrashInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA35F314D3C942F5793CA663830D1E5 /* KSCrashInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -240,7 +239,6 @@
 		4E7EBEA51A30F98E1D08F2037A24B543 /* KSMach.h in Headers */ = {isa = PBXBuildFile; fileRef = E271541564E38D5D01AB392ACD69B80A /* KSMach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EC06E8C82C6DB8498561A68D2F780A5 /* NodePrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9AB96ED48B239470136E219C32C16B1 /* NodePrinter.cpp */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		4F50C72E71932ED1BB55D923A6CC43C2 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB0A5F505CE2D8DF78C0DA72ADFE1AA /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F630AD7A9A7EE1D8D74E2FD0BBD5CFD /* TTLicenseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB7C6333FC3E547B05B481D70618B68 /* TTLicenseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F6A0321F0D30CD4CC89F61DAB21D990 /* SDWebImageDownloaderDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D72BFF56CD7D3CF87D9DB91D1C15AB1D /* SDWebImageDownloaderDecryptor.m */; };
 		4FDC90C73099618CDFAF4A1326FF7EFC /* KSJSONCodecObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = F70422D3FF655048316286315FB08D2B /* KSJSONCodecObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FE38AF3AA7AA5B08A8086BE886E3B35 /* SDImageAPNGCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF62B693889669FEE36DB52AFADBA5 /* SDImageAPNGCoder.m */; };
@@ -292,6 +290,7 @@
 		6958940264CBCBF36530335037F93FD9 /* KSCString.h in Headers */ = {isa = PBXBuildFile; fileRef = CE890E12019D9F3F6A210EBB008CC591 /* KSCString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69B92D1883A2D2069444FAE5AAE6272A /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B5EA78D143A6F44AF3CFAE043524D9 /* CocoaAsyncSocket-dummy.m */; };
 		6A866F633DAF0A064F5FF515B007E9C3 /* KSCrashMonitor_CPPException.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C46DDB84041091A703FE4182B3E3B73 /* KSCrashMonitor_CPPException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AF05CCC3D659CFA853D3B5514680820 /* VeLiveCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 189D7841856A870308FDB3061A94FD72 /* VeLiveCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B7749457B53E36709C0F81B001F5B8A /* KSCrashMonitor_Signal.c in Sources */ = {isa = PBXBuildFile; fileRef = 09837F7FAA95ACC12DD0F17C97CE0542 /* KSCrashMonitor_Signal.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		6C094BBD92EDEB14CB4EA1BAF15160DE /* KSCPU.c in Sources */ = {isa = PBXBuildFile; fileRef = C6DA24BADD622296D5DFB1AC4EDF9805 /* KSCPU.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		6C52018065424E60ECDF70CC38E3345A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD365B39F7BDFBE8FECBE8803367B70 /* Foundation.framework */; };
@@ -319,29 +318,29 @@
 		7A5A49F98D2A829FC5849EB423333D9F /* KSCrashInstallationConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 29047C9FA2039B50DFB75222A542C9B5 /* KSCrashInstallationConsole.m */; };
 		7C5A7CFE08F38CD3514A3293686900CF /* SDImageHEICCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F9A3E970EB848BB36619D8AFDB9B8D /* SDImageHEICCoder.m */; };
 		7C6DF8A10ED354831E71B471C0B90784 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CB520ABCB673611BDFC0BCAFD272220B /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C93888A93FC54C9759CF9323CA83CF7 /* JADYun.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF8B9BA89EA9C42BCEF718DA26BAFC07 /* JADYun.bundle */; };
 		7CB98FA9EEE2BA0ED3970A994D0B58F5 /* SDWebImageDownloaderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 675D4A32067D72212AF04E614F4C57DF /* SDWebImageDownloaderConfig.m */; };
 		7D6644CF443EB726FFE169BBC526F270 /* SDAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79632998843F870CABB3CEB5FC8DE209 /* SDAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D915CFA514A8B9F8F475AAF8CF79BBE /* KSCrashInstallationEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5B35C56A9DC8C6078C93E1E72A28A /* KSCrashInstallationEmail.m */; };
 		7D91AC0780D4F2C7AB266DC8E65E0579 /* KSStackCursor_Backtrace.c in Sources */ = {isa = PBXBuildFile; fileRef = DDDF59C7E9ECF77A41E0ADF9637C2AE9 /* KSStackCursor_Backtrace.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
+		7D9607EA3CFD9C58D28A5FD4CB6A5BDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD365B39F7BDFBE8FECBE8803367B70 /* Foundation.framework */; };
 		7DB377C0172C76CDE35BEF5519D09291 /* KSCPU.h in Headers */ = {isa = PBXBuildFile; fileRef = BEEF00B61BD6AC9D0DC1F8AEBE13C41B /* KSCPU.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F2443BA0470C31BB3A8BC1968B29164 /* KSCxaThrowSwapper.c in Sources */ = {isa = PBXBuildFile; fileRef = EB74B8111BCA30D36D0B40AA37691602 /* KSCxaThrowSwapper.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		7F5A91725F4F48E788342338EB6EAF24 /* KSObjC.c in Sources */ = {isa = PBXBuildFile; fileRef = AFAB940A61D6EC83B2D036AF11BBDC4A /* KSObjC.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		7F812CE26BB6D6057931880FB97F5200 /* KSCrashMonitor_MachException.h in Headers */ = {isa = PBXBuildFile; fileRef = 756734E7F66780EDC04224415D3F04F4 /* KSCrashMonitor_MachException.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7FBF710D1E7DA459B9773D5CBF403110 /* KSCrashMonitor_Zombie.h in Headers */ = {isa = PBXBuildFile; fileRef = 713D5976974AEF0EE5E2115031082561 /* KSCrashMonitor_Zombie.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7FC0CA1BDEC5389ED937D51986A13BEC /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5928B26CA5C4EB3763502F749F0435C6 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FC3F3089898554FA3142C058B58C876 /* BUTTSDKFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 951889CD936F9EADF9BBD77428FC6554 /* BUTTSDKFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8043A7E142058F70FCCC8D2E1C8BB438 /* UIImage+MemoryCacheCost.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E3363FD884D4B970274FCABA2F5B68 /* UIImage+MemoryCacheCost.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8060A70D012C21A56C3FD8B8F8DB7DF7 /* SDAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C522ED5E7571557FBE71B8BBA42FAE /* SDAnimatedImageView+WebCache.m */; };
 		814A4722A990C88AC42AA9D2BCA030AC /* UIImage+Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = F529554A1B639DEC59F8B2E3BACE34E9 /* UIImage+Metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81707F74382C6E321874EEE1E01B83B1 /* SDImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7E0D07907EBF6994FFB495F38B543A /* SDImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82D7BFEEE07C8892EADE9BBE567714C1 /* UIImage+Metadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC37EBEF9963010682D0484A3A06E76 /* UIImage+Metadata.m */; };
 		82F58BCE390081D2B2F96B5E16B766E5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FF88CBEC98E516D98A06C9B69B931C74 /* PrivacyInfo.xcprivacy */; };
-		83ADF4791821C4BBEBF0D5B51C663018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD365B39F7BDFBE8FECBE8803367B70 /* Foundation.framework */; };
 		8418A826877312B16B84FF539EE4B638 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 160F12FBBF5188281D7C0FF389080213 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8420E250396C2B7BE3EB0D2A35C576C5 /* TTSDKLiveBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D07AD541ED71BFA118237A1FAE7C206 /* TTSDKLiveBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		849272F32D87357519C2B90922E30A45 /* TTSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 736ABF2DABD383E8D55BA668872DA4B2 /* TTSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		852ED9953D744458EE7D5C6A1C0E8285 /* SDImageIOAnimatedCoderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 76DBDFAC9729D6808F19C697BA1E7D01 /* SDImageIOAnimatedCoderInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		859EBFD3CFEE451D6A5C411FB33C59E9 /* BUTTSDKFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4BE8D27F3A481A4480D7957FEDF306 /* BUTTSDKFramework-dummy.m */; };
 		86331DADEF342389127DA175ECCD91EC /* KSFileUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 150F1090C45863F250A16A5E6C0A7593 /* KSFileUtils.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
+		86DE640A534B3C76C82F5D0BDB294F33 /* VeLiveCommonProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BD0DE9C2727584161E1255A0775F8D /* VeLiveCommonProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		881272EADF1574DF3C4E42377FC5B9CB /* UIView+WebCacheState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0471103FC2B94111A2AE10AF6B8F62FB /* UIView+WebCacheState.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8830205859766BD0C5EF25BBD8F88F98 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ECF063DBB9AFA8922AE14291441ECB8 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		888CF12D18B59DF9FD06783801C0A798 /* SDImageCacheDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3D90B44E64D221725929BCAA8FE88A /* SDImageCacheDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -349,13 +348,10 @@
 		88E8C2714DDF63464EA7F53B3F6A3F8D /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A69F4EFECAFCAAF2A81ADD348DABB1B7 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		897B554260B35003F8412ED28D6FF6F7 /* KSCrashInstallationConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 287BE0A55DF3DC87885DDAC793BF6F57 /* KSCrashInstallationConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A397DFD9F12E37CDCE1315EE9C2B42E /* KSCrashMonitorContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B30105CD9D275D989F185E28026BC81 /* KSCrashMonitorContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8B09DB5ED3FFE4FE3286D5BB94A2E41B /* TTSDKFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B963C3AD175E40F30EA1316D6B635E6 /* TTSDKFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B5C415D5D05815CDBF0D1131BB2EC97 /* KSCrashReportSinkStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = AE871741AD08C7FF31AB5B60BCDB95A1 /* KSCrashReportSinkStandard.m */; };
 		8BDCFF1F98773B2FDBD5DF645C84664A /* SDAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = E65D5A6B5DEA3B56DD73C299D854EA4D /* SDAnimatedImageRep.m */; };
 		8CAD1D69C887E4F128F32800ED4D472E /* ValueWitnessMangling.def in Headers */ = {isa = PBXBuildFile; fileRef = 2C711C13F4FA933FF83CB6C1CB7AD1C5 /* ValueWitnessMangling.def */; settings = {ATTRIBUTES = (Project, ); }; };
-		8CF3F2CCF5EA95513228A4FEFEA77DAF /* VeLiveCommonProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BD0DE9C2727584161E1255A0775F8D /* VeLiveCommonProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D518239CA1372D18785F26337EA7A13 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3988C1B8E10765DE252E917ADB0 /* ViewController+MASAdditions.m */; };
-		8F5D0F421EFE6E121333BD0818EDB1FE /* TTSDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9C9AEDFEB451A3E52EBC52FC8B7D8C /* TTSDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F95D0FF11AF64362F6FAA5E105A9C1D /* KSStackCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 653FEA9523E4E342A3DB782B8B1E35F0 /* KSStackCursor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FF762D22EC53D5460B3823611C0CCDB /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1CB53F761F7CAD29E414B39F27C64D /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		907742F2AD20ED2F4780502D22834F78 /* SDImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C204B62D3095334E31839F950D3B34 /* SDImageTransformer.m */; };
@@ -442,6 +438,7 @@
 		C9D41A10455CE48859210D4332A625F8 /* KSMachineContext.c in Sources */ = {isa = PBXBuildFile; fileRef = FBB9A2D95CC33C0AA15B9EAD997558BA /* KSMachineContext.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		CBD04D461504151DB2E803A91FC10631 /* SDWebImageCacheSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C595B0BD23826A7B80595D07F2DD7880 /* SDWebImageCacheSerializer.m */; };
 		CC109B9B71D14C523EDCA87DABAC8E3F /* SDAsyncBlockOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2CD82FB9C112F8D6E9097BC8B2ACCF /* SDAsyncBlockOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CC31EDDB270B34CE99D47CF14F51C66E /* TTSDKFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B963C3AD175E40F30EA1316D6B635E6 /* TTSDKFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE466437C5FB08256DABC954B328C320 /* KSCrashMonitor_User.h in Headers */ = {isa = PBXBuildFile; fileRef = 893537B4093C64572231116002127A3F /* KSCrashMonitor_User.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CE61C624C52925ABC1747C133084A04F /* KSDate.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F6BA8AE04D4F8B0CD9FC3676663FF /* KSDate.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		CE7687EABCC7DB14B4A5B641C97116D2 /* KSCrashInstallationStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E8B2D520500C2BC3D18DEEA240DF41 /* KSCrashInstallationStandard.m */; };
@@ -453,10 +450,10 @@
 		D5677A88F81933B8EA4A0D05CDF393D8 /* KSStackCursor_MachineContext.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A1964A2705C413DE99DB18BEF5DB548 /* KSStackCursor_MachineContext.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		D5A361188EB55AD6F36B1C5E8EE369DD /* KSString.c in Sources */ = {isa = PBXBuildFile; fileRef = 9EB81826C434ED1D5A22675FFF731C2B /* KSString.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		D6033B756DB1A8452FA51A9934F6E8BB /* ReferenceStorage.def in Headers */ = {isa = PBXBuildFile; fileRef = 4AF02912817A48DFD8B68C3F2EC5CDE9 /* ReferenceStorage.def */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6A8890C4B676B416517D7C9875DD42A /* TTSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 736ABF2DABD383E8D55BA668872DA4B2 /* TTSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6C2121613B1D9FE76492847EC5FACB2 /* KSCrashMonitor_AppState.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A65D6CF4C4D628482E1F0C2B337C3CF /* KSCrashMonitor_AppState.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		D7366CD99695EA86D9C3D418200F488C /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = DB12D33C65CE8591E1F9BECACB0165AA /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D74831E70AF2681940F609B3010F6C07 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E51DAA52BEDEE4AEBC525E5A09BA03AC /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D750AFB521608E040C9EE28760C14D73 /* VeLiveCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 189D7841856A870308FDB3061A94FD72 /* VeLiveCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D965DD8C3779505C24BD8C032C699ED6 /* KSCrashMonitor_System.h in Headers */ = {isa = PBXBuildFile; fileRef = 292C7E0B846ACFD89C826F78E356D91A /* KSCrashMonitor_System.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D9DFC595B2F4521741F8A21DD55BBA82 /* KSJSONCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = F31373B854FC40D5CDB851104B356BF6 /* KSJSONCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9ED0E98F4F756FE29DFAADD3D27E6A3 /* KSHTTPMultipartPostBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E93C5C521A9608545BBC277064AB738 /* KSHTTPMultipartPostBody.m */; };
@@ -472,6 +469,7 @@
 		DD76AA244AD8852BD67FB9CD8BA16011 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DDC43CD39FA97F52E215779CA2F2F57 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD9445C41093E84151FF8C19AC8C7938 /* AlignOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D88CFC2BF083EEDD47D50E8AACA93C /* AlignOf.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DEC15A5297B6EEED507A059341844F40 /* SDImageAWebPCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = AE65B833A2487B69F1F8B3A0E19311E8 /* SDImageAWebPCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF00DC9EB517752D36C5C76FB39BE16A /* TTSDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9C9AEDFEB451A3E52EBC52FC8B7D8C /* TTSDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF07B73B0EACEAF7D80853EB8151F5F3 /* type_traits.h in Headers */ = {isa = PBXBuildFile; fileRef = 3369BDAD673065E0EBB9830AFE7A9A72 /* type_traits.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DF98D700A15B30855A410EEA11140611 /* KSCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEBC587FD31C17E85464AE39481DDB3 /* KSCrash.m */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		E2747BF1C1072C31B70621A15365230C /* SDAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF0D48F182D42283B133E667C4F410 /* SDAnimatedImage.m */; };
@@ -505,6 +503,7 @@
 		F16F1DF7C11E1FC8FB11FF7E2B8D9855 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F613F84D313C93217B9DBBA049845A /* MASCompositeConstraint.m */; };
 		F1D6DA5A4DB64004F53A159B89406B5E /* KSCrashReport.c in Sources */ = {isa = PBXBuildFile; fileRef = EA5E0F1B7A8BBF8534C15EDBEC80C5F1 /* KSCrashReport.c */; settings = {COMPILER_FLAGS = "-fno-optimize-sibling-calls"; }; };
 		F20B8BFFFD92C953FF8083D25A57993D /* Container+DeepSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A45283FC5E404C0C9F3C17ADC5E65D0 /* Container+DeepSearch.m */; };
+		F298B8F6637B0E655AD2CDF9E0563074 /* TTLicenseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB7C6333FC3E547B05B481D70618B68 /* TTLicenseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F38A2BBBB5EC0D2D5C3177292A014420 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D2BBAAA6A175A3D17A756491E80EFF /* UIImage+MultiFormat.m */; };
 		F4761D5ECF5EB93E2B7359AA5260D7CE /* SDImageCachesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 705393E308DB7C203E728D3BEC015FA3 /* SDImageCachesManager.m */; };
 		F50E73E199E4F31DE7D33E17E98DE1B0 /* SDImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D34F83877B290D5AA938958CB020514 /* SDImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -523,6 +522,7 @@
 		FD46F87FC4482604D969C08A4B78FCF8 /* KSStackCursor_SelfThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 4593BF25415B9CBBFCA1A4D4AF160090 /* KSStackCursor_SelfThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE3D02807EEF21DFC0D1ACD3E87F6DC1 /* UIImage+MemoryCacheCost.m in Sources */ = {isa = PBXBuildFile; fileRef = CA63CFE9D850021072F91BFD2B82FFB9 /* UIImage+MemoryCacheCost.m */; };
 		FE58173132C9A66C5673859EC20A5A18 /* KSCrash-KSCrashPrivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A68906BD01BF1D9AB5F4597CBD2AD /* KSCrash-KSCrashPrivacy */; };
+		FE668820181710014F231889D951047E /* BUTTSDKFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 951889CD936F9EADF9BBD77428FC6554 /* BUTTSDKFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF217670ED1E85B195E1F090F815C7E1 /* SDImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB375E0A0AC78EB94ADF2F7B4727B93 /* SDImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF2A3C06C61D9293F394D3F88EF0CDAE /* KSCrashReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F2A9F47EC0CE1C282CBF0078AD0C4A /* KSCrashReport.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
@@ -570,14 +570,14 @@
 			remoteGlobalIDString = 94CFBA7D633ECA58DF85C327B035E6A3;
 			remoteInfo = "SDWebImage-SDWebImage";
 		};
-		4CF011DD21DF692F7701627B7EEE6C71 /* PBXContainerItemProxy */ = {
+		4C26EFAA05A1C614B0FC8DE1BF76044A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E01160816B81860F99B1A8F9444635E6;
 			remoteInfo = BUTTSDKFramework;
 		};
-		5D8ED461A4A220C8FECECE4E59DDCECD /* PBXContainerItemProxy */ = {
+		4CF011DD21DF692F7701627B7EEE6C71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -590,13 +590,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = FD07EC49298502B8F38E5A3FFC08F2D0;
 			remoteInfo = KSCrash;
-		};
-		7951E1936F3B7390802C95666FAF4409 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83991D7087135270E2E4B7CBD5B9489D;
-			remoteInfo = "JADYun-JADYun";
 		};
 		826ED34DED9E46798A30847BD5142EC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -639,6 +632,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
 			remoteInfo = CocoaAsyncSocket;
+		};
+		B6E0F8E5B7AF7AA8523EBAD8CFDC1480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83991D7087135270E2E4B7CBD5B9489D;
+			remoteInfo = "JADYun-JADYun";
 		};
 		BD245882DA72226F7FA5CF45F1910035 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1254,18 +1254,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		628F9290E97589C5A8FFA1A231F55CC0 /* Frameworks */ = {
+		60C37A36D5927B857F166F211C08ED22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83ADF4791821C4BBEBF0D5B51C663018 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76681B4C027B652732FE6E285C60F54E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7D9607EA3CFD9C58D28A5FD4CB6A5BDC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1284,6 +1277,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B35A31C341FCB20260C91BF590DD8A0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3CB9CA365426C59932FE8B03CD42ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2750,21 +2750,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C0EE62755D089C0236ABEAF25E15D5B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FC3F3089898554FA3142C058B58C876 /* BUTTSDKFramework-umbrella.h in Headers */,
-				4F630AD7A9A7EE1D8D74E2FD0BBD5CFD /* TTLicenseManager.h in Headers */,
-				8F5D0F421EFE6E121333BD0818EDB1FE /* TTSDKCore.h in Headers */,
-				8B09DB5ED3FFE4FE3286D5BB94A2E41B /* TTSDKFramework.h in Headers */,
-				8420E250396C2B7BE3EB0D2A35C576C5 /* TTSDKLiveBase.h in Headers */,
-				849272F32D87357519C2B90922E30A45 /* TTSDKManager.h in Headers */,
-				D750AFB521608E040C9EE28760C14D73 /* VeLiveCommon.h in Headers */,
-				8CF3F2CCF5EA95513228A4FEFEA77DAF /* VeLiveCommonProtocol.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		76DFDEBC04ACBCDD4A09E0385E5207C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2976,6 +2961,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE48E3289D67D4581FB9441A15AD530F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE668820181710014F231889D951047E /* BUTTSDKFramework-umbrella.h in Headers */,
+				F298B8F6637B0E655AD2CDF9E0563074 /* TTLicenseManager.h in Headers */,
+				DF00DC9EB517752D36C5C76FB39BE16A /* TTSDKCore.h in Headers */,
+				CC31EDDB270B34CE99D47CF14F51C66E /* TTSDKFramework.h in Headers */,
+				35C0BE799116F1B7431C3AED1A5D6E2F /* TTSDKLiveBase.h in Headers */,
+				D6A8890C4B676B416517D7C9875DD42A /* TTSDKManager.h in Headers */,
+				6AF05CCC3D659CFA853D3B5514680820 /* VeLiveCommon.h in Headers */,
+				86DE640A534B3C76C82F5D0BDB294F33 /* VeLiveCommonProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E00DD05508D994002EFC16C8D151D97D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -3098,11 +3098,11 @@
 		};
 		83991D7087135270E2E4B7CBD5B9489D /* JADYun-JADYun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CC2B778EE4335A11247176110564A70 /* Build configuration list for PBXNativeTarget "JADYun-JADYun" */;
+			buildConfigurationList = 79CB258A3F1EEB8AADCAC73BEA05D009 /* Build configuration list for PBXNativeTarget "JADYun-JADYun" */;
 			buildPhases = (
-				595799E922A1487F38852D63C08A8444 /* Sources */,
-				76681B4C027B652732FE6E285C60F54E /* Frameworks */,
-				1A53B50A2ABA6D1511CFA6EC754AA95D /* Resources */,
+				45C518BE066E9AC5EC014BE07033B7CD /* Sources */,
+				EF3CB9CA365426C59932FE8B03CD42ED /* Frameworks */,
+				13585C88439449C5A3ACA0778F4F08AD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -3149,13 +3149,13 @@
 		};
 		E01160816B81860F99B1A8F9444635E6 /* BUTTSDKFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80DF05E964CED0C6BE183FADD0906E59 /* Build configuration list for PBXNativeTarget "BUTTSDKFramework" */;
+			buildConfigurationList = 4104B5CF05220D69571EA0DB2794BD1A /* Build configuration list for PBXNativeTarget "BUTTSDKFramework" */;
 			buildPhases = (
-				5C0EE62755D089C0236ABEAF25E15D5B /* Headers */,
-				67F5A23A0C6ADC72AFCFC0BC4B8FDF2D /* [CP] Copy XCFrameworks */,
-				9E8F1B93F30D98A42F791D5E7726FE9A /* Sources */,
-				628F9290E97589C5A8FFA1A231F55CC0 /* Frameworks */,
-				F2F674115DC4416BCB4D2C5A9FA9CA1E /* Resources */,
+				AE48E3289D67D4581FB9441A15AD530F /* Headers */,
+				F217D674A78D6A9494F7C56B10F54D9F /* [CP] Copy XCFrameworks */,
+				33940A87A531E7BD0FEC2E58F497F479 /* Sources */,
+				60C37A36D5927B857F166F211C08ED22 /* Frameworks */,
+				8518EDD34CD0BC6937EFA19C82E4538B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -3195,7 +3195,7 @@
 				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -3234,11 +3234,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A53B50A2ABA6D1511CFA6EC754AA95D /* Resources */ = {
+		13585C88439449C5A3ACA0778F4F08AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01CDCCA235C70DE9576DC07D7C05ED35 /* JADYun.bundle in Resources */,
+				7C93888A93FC54C9759CF9323CA83CF7 /* JADYun.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3279,6 +3279,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8518EDD34CD0BC6937EFA19C82E4538B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A7452F3955C936C739AD279A027AB42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3302,216 +3309,160 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2F674115DC4416BCB4D2C5A9FA9CA1E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		039207AD8F50D6CA2CE3993F8931E52B /* [CP] Copy XCFrameworks */ = {
+		3769938B12894EC5664B5DF96427B8A8 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/BeiZiSDK-iOS/BeiZiSDK-iOS-xcframeworks.sh",
-				"${PODS_ROOT}/BeiZiSDK-iOS/BeiZiSDK.xcframework",
-				"${PODS_ROOT}/BeiZiSDK-iOS/BeiZiFoundation.xcframework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/QMAdSDK/QMAdSDK-xcframeworks-input-files.xcfilelist",
 			);
 			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BeiZiSDK-iOS/BeiZiSDK-iOS/BeiZiSDK.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BeiZiSDK-iOS/BeiZiSDK-iOS/BeiZiFoundation.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/BeiZiSDK-iOS/BeiZiSDK-iOS-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		250414331E009B3C8C63BE68FC8E5829 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/QMAdSDK/QMAdSDK-xcframeworks.sh",
-				"${PODS_ROOT}/QMAdSDK/QMAdSDK.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/QMAdSDK/QMAdSDK.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/QMAdSDK/QMAdSDK-xcframeworks-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/QMAdSDK/QMAdSDK-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5A8259F6757B3ADD322D7FAEB90C60B6 /* [CP] Copy XCFrameworks */ = {
+		3EEA2681270DEBB3C0565478590F7ECE /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/KSAdSDK/KSAdSDK-xcframeworks.sh",
-				"${PODS_ROOT}/KSAdSDK/KSAdSDK.xcframework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/HRAdSDK/HRAdSDK-xcframeworks-input-files.xcfilelist",
 			);
 			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/KSAdSDK/KSAdSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/KSAdSDK/KSAdSDK-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		67F5A23A0C6ADC72AFCFC0BC4B8FDF2D /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/BUTTSDKFramework/BUTTSDKFramework-xcframeworks.sh",
-				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKCore/TTSDKCore.xcframework",
-				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKLiveBase/TTSDKLiveBase.xcframework",
-				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKLivePlayerLite/TTSDKLivePlayerLite.xcframework",
-				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKPlayerCoreLiveLite/TTSDKPlayerCoreLiveLite.xcframework",
-				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKReachability/TTSDKReachability.xcframework",
-				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKSSL/ttboringssl.xcframework",
-				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKSSL/ttcrypto.xcframework",
-				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKStrategyLite/TTSDKStrategyLite.xcframework",
-				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKTTFFmpegLiveLite/TTFFmpeg.xcframework",
-				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKTTFFmpegLiveLite/TTSDKTTFFmpegLiveLite.xcframework",
-				"${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKTools/TTSDKTools.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/Core/TTSDKCore.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/LiveBase/TTSDKLiveBase.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/LivePlayer/Lite/TTSDKLivePlayerLite.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/PlayerCore/LiveLite/TTSDKPlayerCoreLiveLite.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/Reachability/TTSDKReachability.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/SSL/ttboringssl.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/SSL/ttcrypto.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/Strategy/Lite/TTSDKStrategyLite.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/TTFFmpeg/LiveLite/TTFFmpeg.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/TTFFmpeg/LiveLite/TTSDKTTFFmpegLiveLite.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BUTTSDKFramework/Tools/TTSDKTools.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/BUTTSDKFramework/BUTTSDKFramework-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A898C4D2EDC42356AF1A6C968411C06D /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/GDTMobSDK/GDTMobSDK-xcframeworks.sh",
-				"${PODS_ROOT}/GDTMobSDK/GDTFramework/GDTMobSDK.xcframework",
-				"${PODS_ROOT}/GDTMobSDK/GDTFramework/Tquic.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GDTMobSDK/GDTMobSDK.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GDTMobSDK/Tquic.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/GDTMobSDK/GDTMobSDK-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD9A687F283CF49377DBC6D5E71F8089 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/HRAdSDK/HRAdSDK-xcframeworks.sh",
-				"${PODS_ROOT}/HRAdSDK/HRAdSDK/HRAdSDK.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/HRAdSDK/HR/HRAdSDK.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/HRAdSDK/HRAdSDK-xcframeworks-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/HRAdSDK/HRAdSDK-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E6C058054B4C4D7E3F602FEAD6E53401 /* [CP] Copy XCFrameworks */ = {
+		69D401368707E7777528AD39F9585769 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Ads-CN-Beta/Ads-CN-Beta-xcframeworks.sh",
-				"${PODS_ROOT}/Ads-CN-Beta/SDK/BUAdLive.xcframework",
-				"${PODS_ROOT}/Ads-CN-Beta/SDK/BUAdSDK.xcframework",
-				"${PODS_ROOT}/Ads-CN-Beta/SDK/CSJMediation.xcframework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Ads-CN-Beta/Ads-CN-Beta-xcframeworks-input-files.xcfilelist",
 			);
 			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Ads-CN-Beta/BUAdLive-Framework/BUAdLive.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Ads-CN-Beta/BUAdSDK/BUAdSDK.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Ads-CN-Beta/CSJMediation/CSJMediation.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Ads-CN-Beta/Ads-CN-Beta-xcframeworks-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Ads-CN-Beta/Ads-CN-Beta-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E995F025CF7A3A4666C5EA08B61FEA92 /* [CP] Copy XCFrameworks */ = {
+		9DD7CC7FED3C639D9B9424FEEF4B55E0 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/AnyThinkiOS/AnyThinkiOS-xcframeworks.sh",
-				"${PODS_ROOT}/AnyThinkiOS/core/AnyThinkBanner.xcframework",
-				"${PODS_ROOT}/AnyThinkiOS/core/AnyThinkInterstitial.xcframework",
-				"${PODS_ROOT}/AnyThinkiOS/core/AnyThinkMediaVideo.xcframework",
-				"${PODS_ROOT}/AnyThinkiOS/core/AnyThinkNative.xcframework",
-				"${PODS_ROOT}/AnyThinkiOS/core/AnyThinkRewardedVideo.xcframework",
-				"${PODS_ROOT}/AnyThinkiOS/core/AnyThinkSplash.xcframework",
-				"${PODS_ROOT}/AnyThinkiOS/core/AnyThinkSDK.xcframework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AnyThinkiOS/AnyThinkiOS-xcframeworks-input-files.xcfilelist",
 			);
 			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkBanner.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkInterstitial.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkMediaVideo.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkNative.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkRewardedVideo.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkSplash.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AnyThinkiOS/AnyThinkSDK/AnyThinkSDK.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AnyThinkiOS/AnyThinkiOS-xcframeworks-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/AnyThinkiOS/AnyThinkiOS-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F7E5B12641174EFC1D5DE61C4BBE42F4 /* [CP] Copy XCFrameworks */ = {
+		B1947AD203DD5E46A044F6BFA28FC5E1 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/JADYun/JADYun-xcframeworks.sh",
-				"${PODS_ROOT}/JADYun/JADYun.xcframework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/KSAdSDK/KSAdSDK-xcframeworks-input-files.xcfilelist",
 			);
 			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JADYun/JADYun.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/KSAdSDK/KSAdSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/KSAdSDK/KSAdSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D0AE45B9B30A9C92C30F613E5BA9D4 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BeiZiSDK-iOS/BeiZiSDK-iOS-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BeiZiSDK-iOS/BeiZiSDK-iOS-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/BeiZiSDK-iOS/BeiZiSDK-iOS-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D8A1615AFD6C46C1EEDFAE8F632BAB /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GDTMobSDK/GDTMobSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GDTMobSDK/GDTMobSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GDTMobSDK/GDTMobSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B04BBADC7CDF3764F073937C827E8A /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/JADYun/JADYun-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/JADYun/JADYun-xcframeworks-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/JADYun/JADYun-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F217D674A78D6A9494F7C56B10F54D9F /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BUTTSDKFramework/BUTTSDKFramework-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BUTTSDKFramework/BUTTSDKFramework-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/BUTTSDKFramework/BUTTSDKFramework-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -3527,7 +3478,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		595799E922A1487F38852D63C08A8444 /* Sources */ = {
+		33940A87A531E7BD0FEC2E58F497F479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859EBFD3CFEE451D6A5C411FB33C59E9 /* BUTTSDKFramework-dummy.m in Sources */,
+				0E5FE75CC3A291583CE27D9964CC243B /* TTSDKFramework_Dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C518BE066E9AC5EC014BE07033B7CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3663,15 +3623,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				205EFEA6499BE48CE30AAE7B69F2509A /* Pods-MYIOSAdsSDK_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E8F1B93F30D98A42F791D5E7726FE9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F51FA645FED9891CE568638E5A56F16 /* BUTTSDKFramework-dummy.m in Sources */,
-				05ABEB479A3999DFA1AB711A981D0B94 /* TTSDKFramework_Dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3837,11 +3788,11 @@
 			target = 53DB8EFBB54B636ACDC70272323792EC /* KSAdSDK */;
 			targetProxy = D99A64701F4BCD03BB15E2BDEB97A7ED /* PBXContainerItemProxy */;
 		};
-		7281495270EABC487E0C4699F92BDDF5 /* PBXTargetDependency */ = {
+		787EEE21D7AB3F9969BBDA7F19048001 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BUTTSDKFramework;
-			target = E01160816B81860F99B1A8F9444635E6 /* BUTTSDKFramework */;
-			targetProxy = 5D8ED461A4A220C8FECECE4E59DDCECD /* PBXContainerItemProxy */;
+			name = "JADYun-JADYun";
+			target = 83991D7087135270E2E4B7CBD5B9489D /* JADYun-JADYun */;
+			targetProxy = B6E0F8E5B7AF7AA8523EBAD8CFDC1480 /* PBXContainerItemProxy */;
 		};
 		7A90E157F13D1FEABD365EB493F31FE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3854,6 +3805,12 @@
 			name = SDWebImage;
 			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
 			targetProxy = D29C73742A337C135253F45C2A0CF847 /* PBXContainerItemProxy */;
+		};
+		873662DFFF8C07C406DA185D088769CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BUTTSDKFramework;
+			target = E01160816B81860F99B1A8F9444635E6 /* BUTTSDKFramework */;
+			targetProxy = 4C26EFAA05A1C614B0FC8DE1BF76044A /* PBXContainerItemProxy */;
 		};
 		8E7677B603F1C55E1BD1F702B6E05983 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3903,20 +3860,32 @@
 			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
 			targetProxy = 4979CE174EBFFB5679C74EEA0D3EB969 /* PBXContainerItemProxy */;
 		};
-		F0FF9E255B9FAA45AC3F71AE9551FA42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "JADYun-JADYun";
-			target = 83991D7087135270E2E4B7CBD5B9489D /* JADYun-JADYun */;
-			targetProxy = 7951E1936F3B7390802C95666FAF4409 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		014A9844585BE5315C39A40952206971 /* Release */ = {
+		034BECCF62DB5ADAB1A3BFCA3009B2C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9769095988A391050B3F213B9B2B472C /* CocoaAsyncSocket.release.xcconfig */;
+			baseConfigurationReference = 37F0336A2859CC5FA91A404BBAC09F7A /* WechatOpenSDK.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		080382A71FA07890AD9877F787CE27A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD3AA5F5CD0734627A45A8A4413630CF /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3927,43 +3896,46 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
-				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
-				PRODUCT_NAME = CocoaAsyncSocket;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		09D271C4BFEE6E06E1751E7983D6E9C0 /* Release */ = {
+		11D27D9759CDB0A95321E80A8D45ABCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C98F9846C06CCAFD4A11655EC76DCD2A /* HRAdSDK.release.xcconfig */;
+			baseConfigurationReference = 64DB46F050B338A176068CF0B6F9B918 /* Ads-CN-Beta.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		11DF45CBDD40937BF1FB9D20C919E952 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3982,77 +3954,10 @@
 			};
 			name = Debug;
 		};
-		1248442A3BF35120A9B72602AF3BAC6F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 608F774BD280E9AAF7731D1A8CC83983 /* JADYun.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JADYun";
-				IBSC_MODULE = JADYun;
-				INFOPLIST_FILE = "Target Support Files/JADYun/ResourceBundle-JADYun-JADYun-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = JADYun;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		15343C41A0D83349F80357FDBF45126C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E773B2B78DA99AC4881694B784B4DBEB /* BeiZiSDK-iOS.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		16F56DDE9414C7CD9811D9B5C3F6AE29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D16C7CFB7448DB45C012058606CEDD4 /* MYIOSAdsSDK.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1C9DD63EEB3CF7CAD45B272D64367893 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 608F774BD280E9AAF7731D1A8CC83983 /* JADYun.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1D9D3A5918EF672BA4AA109691D9BB86 /* Debug */ = {
+		146149FD082FDA2D3F4AD47ACAE32EE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0E9A328EA6241D9393BD9930EEF8777 /* CocoaAsyncSocket.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4068,7 +3973,11 @@
 				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
 				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
 				PRODUCT_NAME = CocoaAsyncSocket;
@@ -4083,16 +3992,190 @@
 			};
 			name = Debug;
 		};
-		21EF37387A7C290DBD4EAC404647EDA5 /* Debug */ = {
+		14B9E8CEACCA6F74A96739D228C11760 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F9897295EBC294F3FF88D21BCA18F03 /* KSAdSDK.debug.xcconfig */;
+			baseConfigurationReference = 02369AD7A143F86AD3FD80DE07F44257 /* KSAdSDK.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		157BB3445231B8E23A2B228C2C745F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED6D0BEB6B4C39C9533E572839DA561 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CDDB606168DF05361DCFA6CC73E1AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D12E1575010707314CE56DB7F8D69D /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2191E96ED32DF235D72A4007144106DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AED2BE8F852F3C087A48622B100FA64 /* KSCrash.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/KSCrash/KSCrash-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/KSCrash/KSCrash-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KSCrash/KSCrash.modulemap";
+				PRODUCT_MODULE_NAME = KSCrash;
+				PRODUCT_NAME = KSCrash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24505E0728CADEF7851EAEC705C7CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F05C3A25115CD7DD6FB8CDAC59C79B /* BeiZiSDK-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25DBE27DD82D1BD91FAF68BC6414BF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75DBC40153C292C64BDF54C2EE0ED371 /* HRAdSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29A86CD8B50559F554211A73AE4FDC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F30D54A828BF627228F6ECF1A454E6 /* GDTMobSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -4164,16 +4247,78 @@
 			};
 			name = Debug;
 		};
-		3018700AF8D314474FB6E98BDAA387F8 /* Release */ = {
+		2E0D93D350EC207D2DE0741AA7A00165 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2106A468C6888E9E052DFFC68329ECC /* WechatOpenSDK.release.xcconfig */;
+			baseConfigurationReference = 41E92F6F01E4458287EE7166F7CF3F88 /* BUTTSDKFramework.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BUTTSDKFramework/BUTTSDKFramework-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/BUTTSDKFramework/BUTTSDKFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/BUTTSDKFramework/BUTTSDKFramework.modulemap";
+				PRODUCT_MODULE_NAME = TTSDKFramework;
+				PRODUCT_NAME = TTSDKFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3189F5997EDC1B2DC3D0FD27DD105B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4260D84C5654F5D64B54E1DC1F3E4574 /* JADYun.debug.xcconfig */;
+			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33CD36FDC23D8093012457AD9CFF2655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 269381D8716E7534AC16EEA57CB27293 /* Ads-CN-Beta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -4197,60 +4342,10 @@
 			};
 			name = Debug;
 		};
-		3B933BC6394E3739E17E23142B339C3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4260D84C5654F5D64B54E1DC1F3E4574 /* JADYun.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3D04AA339F8D7DB296D7869CF79380D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 498080401110419035B93F920D41ED2F /* QMAdSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		415E03C5EF5DBC29E034F0F6167C122A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64DB46F050B338A176068CF0B6F9B918 /* Ads-CN-Beta.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4CADE3FA28764AB989F0E69E3EC374D5 /* Debug */ = {
+		36953807BE150DFD2A7DD7A9992980D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B648F4FA4919AED3DD745BA8AA54160 /* BUTTSDKFramework.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4267,7 +4362,11 @@
 				INFOPLIST_FILE = "Target Support Files/BUTTSDKFramework/BUTTSDKFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/BUTTSDKFramework/BUTTSDKFramework.modulemap";
 				PRODUCT_MODULE_NAME = TTSDKFramework;
@@ -4277,95 +4376,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		512352A0D180FF9C51A626B4F8DDCFB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2D12E1575010707314CE56DB7F8D69D /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		56B600464C01B8C5F122C69BB5F506E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 269381D8716E7534AC16EEA57CB27293 /* Ads-CN-Beta.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		609529EB4BE9B3C863034DC9611B45EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD3AA5F5CD0734627A45A8A4413630CF /* Pods-MYIOSAdsSDK_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -4434,47 +4444,10 @@
 			};
 			name = Release;
 		};
-		715E3A88C81C7F4C6581EDBF7384201D /* Debug */ = {
+		6C06556985F581C20163CCFB98C7FC22 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4260D84C5654F5D64B54E1DC1F3E4574 /* JADYun.debug.xcconfig */;
+			baseConfigurationReference = 04759DD14A7B285FC8E5141FE9F3DEC2 /* Masonry.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JADYun";
-				IBSC_MODULE = JADYun;
-				INFOPLIST_FILE = "Target Support Files/JADYun/ResourceBundle-JADYun-JADYun-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = JADYun;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		71FF6DADF1ACFB0FA989950BE5C3351E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB5A0070DDAC6BFC65936FAE29BBC81D /* MYIOSAdsSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		76DC8408DCCCA3D94BF48EB008753995 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 864CB9B5FAA319225E21BD26239CE71C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4485,99 +4458,19 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		797933DB011AB49347E55F20FDF1E8D5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75DBC40153C292C64BDF54C2EE0ED371 /* HRAdSDK.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		832AB67C533F8B349AE56F4F70080276 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2F117390E01A07E1728160FC965E63F /* GDTMobSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8538FB3BCEE5B99597435C984E3EB4F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71F05C3A25115CD7DD6FB8CDAC59C79B /* BeiZiSDK-iOS.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		85D581ACB899F03EA9D75B63F1248A4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26DC950B32C312CC533A072632E48175 /* SDWebImage.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
-				PRODUCT_MODULE_NAME = SDWebImage;
-				PRODUCT_NAME = SDWebImage;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -4589,12 +4482,11 @@
 			};
 			name = Debug;
 		};
-		8EA776F3F7B04298CF05470A4C73B938 /* Release */ = {
+		75DFFD46846509451B4E4E56920B6A3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54B87D60CC68DED2F56D08D03B68E418 /* Pods-MYIOSAdsSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4609,7 +4501,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Tests/Pods-MYIOSAdsSDK_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -4626,11 +4522,142 @@
 			};
 			name = Release;
 		};
-		90CF377F7E4374BCBA85CC66545DDEF9 /* Debug */ = {
+		77C5ADB20FB2A52AE0A60206E1A1E13E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AED2BE8F852F3C087A48622B100FA64 /* KSCrash.debug.xcconfig */;
+			baseConfigurationReference = 8D16C7CFB7448DB45C012058606CEDD4 /* MYIOSAdsSDK.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AC0EF7F29D431134C78AC3081EA5D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9769095988A391050B3F213B9B2B472C /* CocoaAsyncSocket.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82606DD36973B196DC133BA58F7B6E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608F774BD280E9AAF7731D1A8CC83983 /* JADYun.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JADYun";
+				IBSC_MODULE = JADYun;
+				INFOPLIST_FILE = "Target Support Files/JADYun/ResourceBundle-JADYun-JADYun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = JADYun;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		886A04E198E04F797F3600778B4063B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498080401110419035B93F920D41ED2F /* QMAdSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EE79EC88AFECF833D26959070F5B8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26DC950B32C312CC533A072632E48175 /* SDWebImage.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93356FDCB61288401AD1923365D4243B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864CB9B5FAA319225E21BD26239CE71C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4642,91 +4669,101 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/KSCrash/KSCrash-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/KSCrash/KSCrash-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KSCrash/KSCrash.modulemap";
-				PRODUCT_MODULE_NAME = KSCrash;
-				PRODUCT_NAME = KSCrash;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MYIOSAdsSDK_Example/Pods-MYIOSAdsSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		956D93C4E4596731B83D1D256D8CBFC6 /* Debug */ = {
+		948F00CDED0475BE17AFE054A206AF2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04759DD14A7B285FC8E5141FE9F3DEC2 /* Masonry.debug.xcconfig */;
+			baseConfigurationReference = A2106A468C6888E9E052DFFC68329ECC /* WechatOpenSDK.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		95B17643DAFD583C0EDC9E227A21EBF7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FFB3968F8BDEE7914B33CC58EC41B6F /* AnyThinkiOS.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B433FA473DE90892D4989CBA142DD17F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B83BD3D5294A523FF3D74B62EADE690 /* AnyThinkiOS.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		94F051031626A8F45D6D1823E8A64049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5A0070DDAC6BFC65936FAE29BBC81D /* MYIOSAdsSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C66B8A2811F6B60164E8890021CC556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E773B2B78DA99AC4881694B784B4DBEB /* BeiZiSDK-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B70EA3C18A7A2734D2AB5A1B299C15BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4260D84C5654F5D64B54E1DC1F3E4574 /* JADYun.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JADYun";
+				IBSC_MODULE = JADYun;
+				INFOPLIST_FILE = "Target Support Files/JADYun/ResourceBundle-JADYun-JADYun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = JADYun;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		BAC09C369014D1F74DD3D5197A8296DE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -4745,26 +4782,27 @@
 			};
 			name = Release;
 		};
-		BF52E8D450B5B0A8699615E400148679 /* Debug */ = {
+		BE8E7F80DE3B683AF244FF10B6C092DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56F30D54A828BF627228F6ECF1A454E6 /* GDTMobSDK.debug.xcconfig */;
+			baseConfigurationReference = 9FFB3968F8BDEE7914B33CC58EC41B6F /* AnyThinkiOS.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D0A705C0F942FDAA390A174984B94610 /* Release */ = {
+		BF606751693F3D9839ADFCC6D6F69C9C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1ED6D0BEB6B4C39C9533E572839DA561 /* Masonry.release.xcconfig */;
+			baseConfigurationReference = 27337529C399D6ABA3BAFB4D0B24EB35 /* SDWebImage.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -4775,15 +4813,19 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -4796,36 +4838,99 @@
 			};
 			name = Release;
 		};
-		D41CC5422DCEE3EA3D0EA8648CDCA546 /* Debug */ = {
+		C37535D759B2EB313D94D7720D5C03F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37F0336A2859CC5FA91A404BBAC09F7A /* WechatOpenSDK.debug.xcconfig */;
+			baseConfigurationReference = 9B83BD3D5294A523FF3D74B62EADE690 /* AnyThinkiOS.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBB8263DB415516ADB8F5915F8E43910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9897295EBC294F3FF88D21BCA18F03 /* KSAdSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D965B8EFE73267441A3B28719B4553AD /* Debug */ = {
+		D437481F4769FAF1998C1C24FCFB221D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F418E1895F1E9894A03626915BD9C8B /* QMAdSDK.debug.xcconfig */;
+			baseConfigurationReference = 608F774BD280E9AAF7731D1A8CC83983 /* JADYun.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
+		};
+		DE6428B502D2CEF359C5512E52D7F2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13FD894C24039FED796CD7192E349062 /* KSCrash.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/KSCrash/KSCrash-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/KSCrash/KSCrash-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KSCrash/KSCrash.modulemap";
+				PRODUCT_MODULE_NAME = KSCrash;
+				PRODUCT_NAME = KSCrash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		E10B0EA5CDAF4161BB771BD3074F1C82 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -4844,136 +4949,73 @@
 			};
 			name = Release;
 		};
-		E5F4B5B6BBA64C47B193DBDB9D7ECCCF /* Release */ = {
+		E2518CD9B051F758515EC29121931003 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13FD894C24039FED796CD7192E349062 /* KSCrash.release.xcconfig */;
+			baseConfigurationReference = C98F9846C06CCAFD4A11655EC76DCD2A /* HRAdSDK.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/KSCrash/KSCrash-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/KSCrash/KSCrash-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KSCrash/KSCrash.modulemap";
-				PRODUCT_MODULE_NAME = KSCrash;
-				PRODUCT_NAME = KSCrash;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E91EE3D0B5B5B435456FEB86FB1A9494 /* Release */ = {
+		EA151E16691032BFC029C450596E7518 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27337529C399D6ABA3BAFB4D0B24EB35 /* SDWebImage.release.xcconfig */;
+			baseConfigurationReference = F2F117390E01A07E1728160FC965E63F /* GDTMobSDK.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
-				PRODUCT_MODULE_NAME = SDWebImage;
-				PRODUCT_NAME = SDWebImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EC9A72FE47FAABD164A208A5D2F7DCB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41E92F6F01E4458287EE7166F7CF3F88 /* BUTTSDKFramework.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/BUTTSDKFramework/BUTTSDKFramework-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/BUTTSDKFramework/BUTTSDKFramework-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/BUTTSDKFramework/BUTTSDKFramework.modulemap";
-				PRODUCT_MODULE_NAME = TTSDKFramework;
-				PRODUCT_NAME = TTSDKFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EDBC6D164321BA28469EC4DD70776B57 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02369AD7A143F86AD3FD80DE07F44257 /* KSAdSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
+		EAEFA01246DD22EEC603709B53E38B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F418E1895F1E9894A03626915BD9C8B /* QMAdSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02C8AF3CDE69331D4B06B672866E726A /* Build configuration list for PBXAggregateTarget "KSAdSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB8263DB415516ADB8F5915F8E43910 /* Debug */,
+				14B9E8CEACCA6F74A96739D228C11760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0F35B0724AE623D1C75F3C6231CA000D /* Build configuration list for PBXNativeTarget "KSCrash-KSCrashPrivacy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4992,29 +5034,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A668F85DE610E45B26B2A0908DD5F6B /* Build configuration list for PBXAggregateTarget "Ads-CN-Beta" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				415E03C5EF5DBC29E034F0F6167C122A /* Debug */,
-				56B600464C01B8C5F122C69BB5F506E3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1CC2B778EE4335A11247176110564A70 /* Build configuration list for PBXNativeTarget "JADYun-JADYun" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				715E3A88C81C7F4C6581EDBF7384201D /* Debug */,
-				1248442A3BF35120A9B72602AF3BAC6F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3EB9BD6F346DA51755D033DB45E47BC5 /* Build configuration list for PBXAggregateTarget "MYIOSAdsSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16F56DDE9414C7CD9811D9B5C3F6AE29 /* Debug */,
-				71FF6DADF1ACFB0FA989950BE5C3351E /* Release */,
+				77C5ADB20FB2A52AE0A60206E1A1E13E /* Debug */,
+				94F051031626A8F45D6D1823E8A64049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4104B5CF05220D69571EA0DB2794BD1A /* Build configuration list for PBXNativeTarget "BUTTSDKFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36953807BE150DFD2A7DD7A9992980D7 /* Debug */,
+				2E0D93D350EC207D2DE0741AA7A00165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5022,8 +5055,8 @@
 		4516BE300C5E0ED958E92F4392718944 /* Build configuration list for PBXNativeTarget "KSCrash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90CF377F7E4374BCBA85CC66545DDEF9 /* Debug */,
-				E5F4B5B6BBA64C47B193DBDB9D7ECCCF /* Release */,
+				2191E96ED32DF235D72A4007144106DF /* Debug */,
+				DE6428B502D2CEF359C5512E52D7F2B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5040,35 +5073,17 @@
 		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D41CC5422DCEE3EA3D0EA8648CDCA546 /* Debug */,
-				3018700AF8D314474FB6E98BDAA387F8 /* Release */,
+				034BECCF62DB5ADAB1A3BFCA3009B2C8 /* Debug */,
+				948F00CDED0475BE17AFE054A206AF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C520112CBE951086C70C7E7454E1E8D /* Build configuration list for PBXAggregateTarget "KSAdSDK" */ = {
+		4D1A468750A2CBAEB9475870F863B720 /* Build configuration list for PBXAggregateTarget "QMAdSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21EF37387A7C290DBD4EAC404647EDA5 /* Debug */,
-				EDBC6D164321BA28469EC4DD70776B57 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		503FB3D08B699AFA0EBF83C6250E056A /* Build configuration list for PBXAggregateTarget "HRAdSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				797933DB011AB49347E55F20FDF1E8D5 /* Debug */,
-				09D271C4BFEE6E06E1751E7983D6E9C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55489EEDA322577263A37826D00E3E98 /* Build configuration list for PBXAggregateTarget "AnyThinkiOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				95B17643DAFD583C0EDC9E227A21EBF7 /* Debug */,
-				B433FA473DE90892D4989CBA142DD17F /* Release */,
+				EAEFA01246DD22EEC603709B53E38B64 /* Debug */,
+				886A04E198E04F797F3600778B4063B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5076,17 +5091,17 @@
 		60F4749AC6A6DAEF071F97E7C7DDEB37 /* Build configuration list for PBXNativeTarget "Pods-MYIOSAdsSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				609529EB4BE9B3C863034DC9611B45EF /* Debug */,
-				8EA776F3F7B04298CF05470A4C73B938 /* Release */,
+				080382A71FA07890AD9877F787CE27A4 /* Debug */,
+				75DFFD46846509451B4E4E56920B6A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78741371A3F2A9B3F3B5D2079C6FC6E4 /* Build configuration list for PBXAggregateTarget "GDTMobSDK" */ = {
+		79CB258A3F1EEB8AADCAC73BEA05D009 /* Build configuration list for PBXNativeTarget "JADYun-JADYun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF52E8D450B5B0A8699615E400148679 /* Debug */,
-				832AB67C533F8B349AE56F4F70080276 /* Release */,
+				B70EA3C18A7A2734D2AB5A1B299C15BD /* Debug */,
+				82606DD36973B196DC133BA58F7B6E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5094,17 +5109,17 @@
 		7C5D55F9FC3A8A30A56D403120D1C06B /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D9D3A5918EF672BA4AA109691D9BB86 /* Debug */,
-				014A9844585BE5315C39A40952206971 /* Release */,
+				146149FD082FDA2D3F4AD47ACAE32EE7 /* Debug */,
+				7AC0EF7F29D431134C78AC3081EA5D35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80DF05E964CED0C6BE183FADD0906E59 /* Build configuration list for PBXNativeTarget "BUTTSDKFramework" */ = {
+		7D5737B078852E373271E2B5457C59BB /* Build configuration list for PBXAggregateTarget "HRAdSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CADE3FA28764AB989F0E69E3EC374D5 /* Debug */,
-				EC9A72FE47FAABD164A208A5D2F7DCB4 /* Release */,
+				25DBE27DD82D1BD91FAF68BC6414BF83 /* Debug */,
+				E2518CD9B051F758515EC29121931003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5112,8 +5127,8 @@
 		92B162DE401869E7600D1CD1553450D9 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85D581ACB899F03EA9D75B63F1248A4C /* Debug */,
-				E91EE3D0B5B5B435456FEB86FB1A9494 /* Release */,
+				8EE79EC88AFECF833D26959070F5B8FC /* Debug */,
+				BF606751693F3D9839ADFCC6D6F69C9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5121,8 +5136,8 @@
 		AC5F99B4F82AC98C9FE73BA5BE273460 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				956D93C4E4596731B83D1D256D8CBFC6 /* Debug */,
-				D0A705C0F942FDAA390A174984B94610 /* Release */,
+				6C06556985F581C20163CCFB98C7FC22 /* Debug */,
+				157BB3445231B8E23A2B228C2C745F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -5130,35 +5145,53 @@
 		B1E14D1F5735FE6AF4A867C603E04F57 /* Build configuration list for PBXNativeTarget "Pods-MYIOSAdsSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				512352A0D180FF9C51A626B4F8DDCFB3 /* Debug */,
-				76DC8408DCCCA3D94BF48EB008753995 /* Release */,
+				1CDDB606168DF05361DCFA6CC73E1AF4 /* Debug */,
+				93356FDCB61288401AD1923365D4243B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C46229DE7DFBD2DA2C0C797BC5DB4135 /* Build configuration list for PBXAggregateTarget "BeiZiSDK-iOS" */ = {
+		C03A40A3EBAF3E85F23D68142B78A141 /* Build configuration list for PBXAggregateTarget "GDTMobSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15343C41A0D83349F80357FDBF45126C /* Debug */,
-				8538FB3BCEE5B99597435C984E3EB4F0 /* Release */,
+				29A86CD8B50559F554211A73AE4FDC57 /* Debug */,
+				EA151E16691032BFC029C450596E7518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEC6B5B46A8707A50F05ADC61B607A9E /* Build configuration list for PBXAggregateTarget "QMAdSDK" */ = {
+		CD8DC394D808A7028C291EEDF67CAE21 /* Build configuration list for PBXAggregateTarget "AnyThinkiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D965B8EFE73267441A3B28719B4553AD /* Debug */,
-				3D04AA339F8D7DB296D7869CF79380D6 /* Release */,
+				BE8E7F80DE3B683AF244FF10B6C092DC /* Debug */,
+				C37535D759B2EB313D94D7720D5C03F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6C02A030A6898A66CD6171A08E447DC /* Build configuration list for PBXAggregateTarget "JADYun" */ = {
+		DB007B00B58DCD06F77A867A77335A41 /* Build configuration list for PBXAggregateTarget "BeiZiSDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B933BC6394E3739E17E23142B339C3D /* Debug */,
-				1C9DD63EEB3CF7CAD45B272D64367893 /* Release */,
+				9C66B8A2811F6B60164E8890021CC556 /* Debug */,
+				24505E0728CADEF7851EAEC705C7CF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA45B9671866F97F73A94AD821B3A74 /* Build configuration list for PBXAggregateTarget "JADYun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3189F5997EDC1B2DC3D0FD27DD105B73 /* Debug */,
+				D437481F4769FAF1998C1C24FCFB221D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBFA7B0BE328D3AA1EE9722EBDAFA83 /* Build configuration list for PBXAggregateTarget "Ads-CN-Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D27D9759CDB0A95321E80A8D45ABCE /* Debug */,
+				33CD36FDC23D8093012457AD9CFF2655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
