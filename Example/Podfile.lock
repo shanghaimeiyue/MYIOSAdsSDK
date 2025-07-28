@@ -2,8 +2,13 @@ PODS:
   - Ads-CN-Beta/BUAdSDK (7.0.0.5)
   - Ads-CN-Beta/CSJMediation (7.0.0.5):
     - Ads-CN-Beta/BUAdSDK
+  - AnyThinkiOS (6.4.76):
+    - AnyThinkiOS/AnyThinkSDK (= 6.4.76)
+  - AnyThinkiOS/AnyThinkSDK (6.4.76)
+  - BeiZiSDK-iOS/BeiZiSDK-iOS (4.90.4.36)
   - CocoaAsyncSocket (7.6.5)
   - GDTMobSDK (4.15.50)
+  - JADYun (2.6.6)
   - KSAdSDK (3.3.76.5)
   - KSCrash (1.17.7):
     - KSCrash/Installations (= 1.17.7)
@@ -74,6 +79,7 @@ PODS:
     - KSCrash (~> 1.17.7)
     - Masonry
     - SDWebImage
+  - QMAdSDK (1.3.6)
   - SDWebImage (5.21.1):
     - SDWebImage/Core (= 5.21.1)
   - SDWebImage/Core (5.21.1)
@@ -82,19 +88,27 @@ PODS:
 DEPENDENCIES:
   - Ads-CN-Beta/BUAdSDK (~> 7.0.0.3)
   - Ads-CN-Beta/CSJMediation (~> 7.0.0.3)
+  - AnyThinkiOS (= 6.4.76)
+  - BeiZiSDK-iOS/BeiZiSDK-iOS (= 4.90.4.36)
   - GDTMobSDK (~> 4.15.40)
+  - JADYun (= 2.6.6)
   - KSAdSDK (~> 3.3.76)
   - MYIOSAdsSDK (from `../`)
+  - QMAdSDK (~> 1.3.4)
   - WechatOpenSDK
 
 SPEC REPOS:
   trunk:
     - Ads-CN-Beta
+    - AnyThinkiOS
+    - BeiZiSDK-iOS
     - CocoaAsyncSocket
     - GDTMobSDK
+    - JADYun
     - KSAdSDK
     - KSCrash
     - Masonry
+    - QMAdSDK
     - SDWebImage
     - WechatOpenSDK
 
@@ -104,15 +118,19 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Ads-CN-Beta: 8241d2648c05225d19f589d9553b18e5be91ed38
+  AnyThinkiOS: 628392cb255ed455b4cb86a446c596242b625c45
+  BeiZiSDK-iOS: 798c2fee3c650ff494ee0ee7a6a5a61d7a1a9125
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   GDTMobSDK: 9c8f21633121d4140e16dff2825dc3452cf993a2
+  JADYun: ee47d9a4d8de06fdc51d904103d156037cbb34d8
   KSAdSDK: 209b3b1b6b392f06cb8b67966139cf6859174455
   KSCrash: ea6fc545b7dbb916a141aaadd4343fb891141290
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MYIOSAdsSDK: d588b8a6ae27b464e41d2948344d3465cee92f54
+  QMAdSDK: 58f92f487431cc725f11bdbe0390d1cd673542af
   SDWebImage: f29024626962457f3470184232766516dee8dfea
   WechatOpenSDK: 290989072e87b79d52225a01bb4e5e58f6f88593
 
-PODFILE CHECKSUM: df6acc9060b0e493ff809aeaa0899804f7b82569
+PODFILE CHECKSUM: b0c6014278e2307c67e97a063a5f0d4ece47f99c
 
 COCOAPODS: 1.16.2

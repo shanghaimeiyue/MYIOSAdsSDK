@@ -183,6 +183,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/GDTMobSDK/GDTMobSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/GDTMobSDK/Tquic.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/KSAdSDK/KSAdSDK.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/QMAdSDK/QMAdSDK.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework"
@@ -192,6 +193,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/GDTMobSDK/GDTMobSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/GDTMobSDK/Tquic.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/KSAdSDK/KSAdSDK.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/QMAdSDK/QMAdSDK.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
