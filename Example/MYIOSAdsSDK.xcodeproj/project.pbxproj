@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,7 +33,6 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8C9EE3796433B00C1B5ED351 /* Pods_MYIOSAdsSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDF1445D576EFFBC3E4C23F /* Pods_MYIOSAdsSDK_Example.framework */; };
 		92351DE22E2734E50008AD5F /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92351DE12E2734E50008AD5F /* Bugly.framework */; };
-		92351DE92E27B0B10008AD5F /* CSJMediation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92351DE82E27B0B10008AD5F /* CSJMediation.xcframework */; };
 		929B1BB92DE47B5A001244C6 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B1BB82DE47B5A001244C6 /* LogManager.m */; };
 		92A81DAD2E0A563100A6149C /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81DA52E0A563100A6149C /* UITabBarController+MemoryLeak.m */; };
 		92A81DAE2E0A563100A6149C /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81D9D2E0A563100A6149C /* UIApplication+MemoryLeak.m */; };
@@ -116,7 +115,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92351DE12E2734E50008AD5F /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
-		92351DE82E27B0B10008AD5F /* CSJMediation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CSJMediation.xcframework; sourceTree = "<group>"; };
 		929B1BB72DE47B5A001244C6 /* LogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
 		929B1BB82DE47B5A001244C6 /* LogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
 		92A81D952E0A563100A6149C /* MLeakedObjectProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLeakedObjectProxy.h; sourceTree = "<group>"; };
@@ -157,7 +155,6 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				8C9EE3796433B00C1B5ED351 /* Pods_MYIOSAdsSDK_Example.framework in Frameworks */,
-				92351DE92E27B0B10008AD5F /* CSJMediation.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +231,6 @@
 		6003F593195388D20070C39A /* Example for MYIOSAdsSDK */ = {
 			isa = PBXGroup;
 			children = (
-				92351DE82E27B0B10008AD5F /* CSJMediation.xcframework */,
 				92351DE12E2734E50008AD5F /* Bugly.framework */,
 				92A81DAC2E0A563100A6149C /* MLeaksFinder */,
 				929B1BB72DE47B5A001244C6 /* LogManager.h */,
