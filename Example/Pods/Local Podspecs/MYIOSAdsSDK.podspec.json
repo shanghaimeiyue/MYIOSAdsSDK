@@ -22,6 +22,7 @@
   "resources": "MYIOSAdsSDK/Resources/*.bundle",
   "vendored_frameworks": "MYIOSAdsSDK/Frameworks/*.framework",
   "dependencies": {
+    "CocoaAsyncSocket": [],
     "SDWebImage": [],
     "Masonry": [],
     "KSCrash": [
