@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		w72wnk6vvTkN+OGhYWacVGW3/qM=
+		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
 		gIXNunjlmPT4B7iuJpDqvUC9hNo=
@@ -539,7 +543,7 @@
 		</data>
 		<key>Headers/MYNativeExpressAdView.h</key>
 		<data>
-		lbB2L7/NgygU47ckx5xtgKuDaJ0=
+		NT4MkY5SfLV51L5axvv2NTHmcx0=
 		</data>
 		<key>Headers/MYRewardedVideoAd.h</key>
 		<data>
@@ -1983,11 +1987,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lbB2L7/NgygU47ckx5xtgKuDaJ0=
+			NT4MkY5SfLV51L5axvv2NTHmcx0=
 			</data>
 			<key>hash2</key>
 			<data>
-			8QNl+C93gQ8pexfsxGwE+LKGS57Xc9W+zOePAfr28VM=
+			+G58QW23UeMoDDKalGbo62FWt0sMICSKxVlmP7OHSRU=
 			</data>
 		</dict>
 		<key>Headers/MYRewardedVideoAd.h</key>
