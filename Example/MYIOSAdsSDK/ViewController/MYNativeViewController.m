@@ -10,6 +10,8 @@
 #import <MYAdsFramework/MYAdsFramework.h>
 #import "MYNativeTableViewCell.h"
 #import "LogManager.h"
+#define kScreenWidth CGRectGetWidth([UIScreen mainScreen].bounds)
+#define kScreenHeight CGRectGetHeight([UIScreen mainScreen].bounds)
 
 @interface MYNativeViewController ()<UITableViewDelegate,UITableViewDataSource,MYNativeExpressAdDelegate>{
     NSMutableArray *_data;             //原生广告数据数组
@@ -119,10 +121,12 @@
 }
 - (void)MY_nativeExpressAdExposure{
     NSLog(@"原生模板广告曝光成功");
+    [[LogManager shared] logToTextView:@"原生模板广告曝光成功"];
 }
 
 - (void)MY_nativeExpressAdClick{
     NSLog(@"原生模板广告被点击");
+    [[LogManager shared] logToTextView:@"原生模板广告被点击"];
     MYAppDelegate *delegate = (MYAppDelegate *)[UIApplication sharedApplication].delegate;
     delegate.toastLab.text = @"原生模板广告被点击";
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(6.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -138,7 +142,7 @@
 #pragma mark - lazy
 - (MYNativeExpressAd *)expressAd{
     if (!_expressAd) {
-        _expressAd = [[MYNativeExpressAd alloc]initWithExpressWithAppId:MYMobAdsAppID spaceId:NativeID adSize:CGSizeMake(375, 200)];
+        _expressAd = [[MYNativeExpressAd alloc]initWithExpressWithAppId:MYMobAdsAppID spaceId:NativeID adSize:CGSizeMake(kScreenWidth, 200)];
         _expressAd.currentController = self;
         _expressAd.delegate = self;
     }

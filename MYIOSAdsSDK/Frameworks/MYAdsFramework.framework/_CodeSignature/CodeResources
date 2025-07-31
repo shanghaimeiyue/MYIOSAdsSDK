@@ -10,7 +10,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		gIXNunjlmPT4B7iuJpDqvUC9hNo=
+		fWiM0q7tOHdPeB/1MPQSiZdZLkA=
 		</data>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/bu_dynamic_default.json</key>
 		<data>
-		ma9QiG/dWeVDJZkcTGq4zWAU0yI=
+		DAeP39VTu0dkkHCXvZ0qDi9/ePs=
 		</data>
 		<key>CSJAdSDK.bundle/bu_dynamic_user.png</key>
 		<data>
@@ -327,7 +327,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/image_assets.json</key>
 		<data>
-		/5uVpY+9lZYxdf8asLfRkwicqcM=
+		1NOILQatbZ0f57NnC3BSokUvrJ4=
 		</data>
 		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
 		<dict>
@@ -393,7 +393,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		H++Smb6Z69OgZMEXhLzc0hMGvl8=
+		M8A3bXRK2bgDjOWcJHlQJfWG4vY=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -555,7 +555,7 @@
 		</data>
 		<key>Headers/MYSplashAd.h</key>
 		<data>
-		EQqlCF+4ZVZpdmWCZ6zkVd9Co3g=
+		Fd4wbvYKCVuyM+Spa7gpS1IN6u0=
 		</data>
 		<key>Headers/MyAdProtocol.h</key>
 		<data>
@@ -580,11 +580,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gIXNunjlmPT4B7iuJpDqvUC9hNo=
+			fWiM0q7tOHdPeB/1MPQSiZdZLkA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nr8sPNGEEXZ7WnxSKuqoIh+G2T5kbypjCiiOE3+jr+Y=
+			vq8nr6QavBbow5nSRZa1XRS1rrMWlw8mVDTicoSi5BU=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -789,11 +789,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ma9QiG/dWeVDJZkcTGq4zWAU0yI=
+			DAeP39VTu0dkkHCXvZ0qDi9/ePs=
 			</data>
 			<key>hash2</key>
 			<data>
-			j4tqAwu+h6IiJE48EXwjPvfWNOFP5NkHmYDchlQJ7gs=
+			mfk5o3jiQhVzaRiwpLEYGUOTuXqnrcu2Dfxdo+GotJ4=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/bu_dynamic_user.png</key>
@@ -1440,11 +1440,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/5uVpY+9lZYxdf8asLfRkwicqcM=
+			1NOILQatbZ0f57NnC3BSokUvrJ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fEFQMUuHScRxgdE9MaLc2W2aqqdyFA1fWRuiSSsotG4=
+			QEdDslvZbP4I5lHP1NIBR51MtM2enwshApMXUtv8eJs=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/ja.lproj/BULanguage.strings</key>
@@ -1598,11 +1598,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H++Smb6Z69OgZMEXhLzc0hMGvl8=
+			M8A3bXRK2bgDjOWcJHlQJfWG4vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			d/48DHDWZPoqmYcWvgTLOXZVKRdxZRia6fLBOrL9kKs=
+			SFeYf5r1Cufvl7+eXJwle6Mmz9y2MY5/jMCvZo8+19A=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -2020,11 +2020,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EQqlCF+4ZVZpdmWCZ6zkVd9Co3g=
+			Fd4wbvYKCVuyM+Spa7gpS1IN6u0=
 			</data>
 			<key>hash2</key>
 			<data>
-			CqDXTZZJ3p+uAhRwVeUVOdnP708qVS+KJkl5IaxlwMo=
+			maBABfHe4+D3AAQImgzQtflfgRaE5g/zIGyknnCi504=
 			</data>
 		</dict>
 		<key>Headers/MyAdProtocol.h</key>

@@ -164,6 +164,7 @@
     [[LogManager shared] logToTextView:err];
 }
 - (void)MY_splashAdSuccessPresentScreen{
+    [[LogManager shared] logToTextView:@"开屏广告加载成功"];
    NSLog(@"开屏广告加载成功");
 }
 - (void)MY_splashAdWillClose{
@@ -171,15 +172,18 @@
 }
 - (void)MY_splashAdClosed{
     NSLog(@"开屏广告关闭");
+    [[LogManager shared] logToTextView:@"开屏广告关闭"];
     [self rmoveAdWindow];
     self.splash = nil;
     self.splash.delegate = nil;
 }
 - (void)MY_splashAdClicked{
     NSLog(@"开屏广告点击");
+    [[LogManager shared] logToTextView:@"开屏广告点击"];
 }
 - (void)MY_splashAdExposured{
     NSLog(@"开屏广告曝光");
+    [[LogManager shared] logToTextView:@"开屏广告曝光"];
 }
 - (void)MY_splashAdLifeTime:(NSUInteger)time{
     NSLog(@"开屏广告剩余时间：%lu",(unsigned long)time);
