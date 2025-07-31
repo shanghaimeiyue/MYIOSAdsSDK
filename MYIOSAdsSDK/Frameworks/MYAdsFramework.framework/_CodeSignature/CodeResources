@@ -6,7 +6,7 @@
 	<dict>
 		<key>.DS_Store</key>
 		<data>
-		w72wnk6vvTkN+OGhYWacVGW3/qM=
+		Vt4OR/IpJcNJtU9cp1zgEgVA+d0=
 		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
@@ -321,10 +321,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>CSJAdSDK.bundle/heart_beat.json</key>
-		<data>
-		BYy0J7+EmI+Ws9wp1Q8LQ2XUGOY=
-		</data>
 		<key>CSJAdSDK.bundle/image_assets.json</key>
 		<data>
 		1NOILQatbZ0f57NnC3BSokUvrJ4=
@@ -1424,17 +1420,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>CSJAdSDK.bundle/heart_beat.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BYy0J7+EmI+Ws9wp1Q8LQ2XUGOY=
-			</data>
-			<key>hash2</key>
-			<data>
-			lG0WlJ0MNn9g6gLsFd1ed8gzepkQn5iPzzAuULTcOKA=
-			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/image_assets.json</key>
 		<dict>
