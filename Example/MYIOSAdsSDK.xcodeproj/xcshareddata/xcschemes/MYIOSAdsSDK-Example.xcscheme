@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "qf.app"
+               BuildableName = "xcf.app"
                BlueprintName = "MYIOSAdsSDK_Example"
                ReferencedContainer = "container:MYIOSAdsSDK.xcodeproj">
             </BuildableReference>
@@ -31,7 +31,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "qf.app"
+            BuildableName = "xcf.app"
             BlueprintName = "MYIOSAdsSDK_Example"
             ReferencedContainer = "container:MYIOSAdsSDK.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "qf.app"
+            BuildableName = "xcf.app"
             BlueprintName = "MYIOSAdsSDK_Example"
             ReferencedContainer = "container:MYIOSAdsSDK.xcodeproj">
          </BuildableReference>
@@ -81,7 +81,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "qf.app"
+            BuildableName = "xcf.app"
             BlueprintName = "MYIOSAdsSDK_Example"
             ReferencedContainer = "container:MYIOSAdsSDK.xcodeproj">
          </BuildableReference>
