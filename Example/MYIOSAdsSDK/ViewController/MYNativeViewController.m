@@ -45,7 +45,7 @@
     }
 }
 - (void)laterLoad{
-    [self.expressAd MY_loadAd:2];
+    [self.expressAd MY_loadAd:1];
 }
 
 
