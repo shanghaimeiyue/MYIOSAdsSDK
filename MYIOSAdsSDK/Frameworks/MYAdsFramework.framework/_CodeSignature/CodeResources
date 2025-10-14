@@ -6,7 +6,7 @@
 	<dict>
 		<key>.DS_Store</key>
 		<data>
-		90O0hmyqkibARHjGNsnVVpe2kZs=
+		ej/rJBH72AgG5W3JKjTsSFc9EmE=
 		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
@@ -572,14 +572,6 @@
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		1e79ag5LWxLBD6Q37zhOdpKBryc=
-		</data>
-		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		f7tABLrB9oK2NQF1kNJvG+RR3gc=
-		</data>
-		<key>ttplayer.metallib</key>
-		<data>
-		ADLHpACALRgTq1buVTKjHWrPsXk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2066,28 +2058,6 @@
 			<key>hash2</key>
 			<data>
 			pj6YvnUXVtyWK1OF1ZubAzvIbOAOnmmtEBQHAJYtcb4=
-			</data>
-		</dict>
-		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			f7tABLrB9oK2NQF1kNJvG+RR3gc=
-			</data>
-			<key>hash2</key>
-			<data>
-			Q3VRH0z1+tx2WuPB5YpySUWeeN8GH1ZVQOG2AWloBtU=
-			</data>
-		</dict>
-		<key>ttplayer.metallib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ADLHpACALRgTq1buVTKjHWrPsXk=
-			</data>
-			<key>hash2</key>
-			<data>
-			9ICUAM/ryJakLbkqgmVoKepYMUELT73Ynad3RJlhvik=
 			</data>
 		</dict>
 	</dict>

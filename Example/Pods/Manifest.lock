@@ -74,7 +74,7 @@ PODS:
   - KSCrash/Reporting/Tools (1.17.7):
     - KSCrash/Recording
   - Masonry (1.1.0)
-  - MYIOSAdsSDK (5.8.18):
+  - MYIOSAdsSDK (5.8.26):
     - CocoaAsyncSocket
     - KSCrash (~> 1.17.7)
     - Masonry
@@ -83,7 +83,6 @@ PODS:
   - SDWebImage (5.21.1):
     - SDWebImage/Core (= 5.21.1)
   - SDWebImage/Core (5.21.1)
-  - WechatOpenSDK (2.0.4)
 
 DEPENDENCIES:
   - Ads-CN-Beta/BUAdSDK (~> 7.0.0.3)
@@ -95,7 +94,6 @@ DEPENDENCIES:
   - KSAdSDK (~> 3.3.76)
   - MYIOSAdsSDK (from `../`)
   - QMAdSDK (~> 1.3.4)
-  - WechatOpenSDK
 
 SPEC REPOS:
   trunk:
@@ -110,7 +108,6 @@ SPEC REPOS:
     - Masonry
     - QMAdSDK
     - SDWebImage
-    - WechatOpenSDK
 
 EXTERNAL SOURCES:
   MYIOSAdsSDK:
@@ -126,11 +123,10 @@ SPEC CHECKSUMS:
   KSAdSDK: 209b3b1b6b392f06cb8b67966139cf6859174455
   KSCrash: ea6fc545b7dbb916a141aaadd4343fb891141290
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MYIOSAdsSDK: d588b8a6ae27b464e41d2948344d3465cee92f54
+  MYIOSAdsSDK: 449a156687b04e7792d9c73ba51da085caeba1c6
   QMAdSDK: 58f92f487431cc725f11bdbe0390d1cd673542af
   SDWebImage: f29024626962457f3470184232766516dee8dfea
-  WechatOpenSDK: 290989072e87b79d52225a01bb4e5e58f6f88593
 
-PODFILE CHECKSUM: 3027e6a8a7abbc2f69933ee666206cabf83944bd
+PODFILE CHECKSUM: 08b0eb2c80d21a32b2ce49254a87a6663c9c771c
 
 COCOAPODS: 1.16.2

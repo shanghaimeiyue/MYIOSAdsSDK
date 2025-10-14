@@ -7,7 +7,7 @@ target 'MYIOSAdsSDK_Example' do
   
   pod 'Ads-CN-Beta', '~> 7.0.0.3', :subspecs => ['BUAdSDK', 'CSJMediation']
 #  pod 'HRAdSDK/HR','1.7.19.0'
-  pod 'WechatOpenSDK'
+#  pod 'WechatOpenSDK'
   #pod 'KSCrash', '~> 1.17.7'
   pod 'GDTMobSDK', '~> 4.15.40'
   pod 'KSAdSDK', '~> 3.3.76'
