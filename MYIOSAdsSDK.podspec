@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   
   s.dependency 'CocoaAsyncSocket'
   #s.dependency 'WechatOpenSDK_UnPay'
-  s.dependency 'SDWebImage'
+  s.dependency 'SDWebImage','~> 5.21.1'
   s.dependency 'Masonry'
   s.dependency 'KSCrash', '~> 1.17.7'
 end
