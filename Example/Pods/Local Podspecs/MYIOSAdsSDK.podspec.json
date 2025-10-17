@@ -1,6 +1,6 @@
 {
   "name": "MYIOSAdsSDK",
-  "version": "5.8.26",
+  "version": "5.8.27",
   "summary": "A short description of MYIOSAdsSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/shanghaimeiyue/MYIOSAdsSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/shanghaimeiyue/MYIOSAdsSDK.git",
-    "tag": "5.8.26"
+    "tag": "5.8.27"
   },
   "platforms": {
     "ios": "11.0"
@@ -23,7 +23,9 @@
   "vendored_frameworks": "MYIOSAdsSDK/Frameworks/*.framework",
   "dependencies": {
     "CocoaAsyncSocket": [],
-    "SDWebImage": [],
+    "SDWebImage": [
+      "~> 5.21.1"
+    ],
     "Masonry": [],
     "KSCrash": [
       "~> 1.17.7"
