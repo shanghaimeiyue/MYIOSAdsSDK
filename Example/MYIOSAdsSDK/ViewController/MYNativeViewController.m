@@ -45,7 +45,7 @@
     }
 }
 - (void)laterLoad{
-    [self.expressAd MY_loadAd:1];
+    [self.expressAd MY_loadAd:3];
 }
 
 
@@ -142,7 +142,7 @@
 #pragma mark - lazy
 - (MYNativeExpressAd *)expressAd{
     if (!_expressAd) {
-        _expressAd = [[MYNativeExpressAd alloc]initWithExpressWithAppId:MYMobAdsAppID spaceId:NativeID adSize:CGSizeMake(kScreenWidth, 250)];
+        _expressAd = [[MYNativeExpressAd alloc]initWithExpressWithAppId:MYMobAdsAppID spaceId:NativeID adSize:CGSizeMake(kScreenWidth, 280)];
         _expressAd.currentController = self;
         _expressAd.delegate = self;
     }

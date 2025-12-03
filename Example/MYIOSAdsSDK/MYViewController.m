@@ -14,6 +14,7 @@
 #import "MYNativeViewController.h"
 #import "MYVideoViewController.h"
 #import "MYAdInfoViewController.h"
+#import "myWebViewController.h"
 
 //#import <HRAdSDK/HRAdSDK.h>
 //#import <BeiZiSDK/BeiZiSDK.h>
@@ -47,7 +48,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"MYMobAds广告样式";
-    listArray = @[@"横幅广告",@"插屏广告",@"原生模板广告",@"激励视频",@"基础信息"];
+    listArray = @[@"横幅广告",@"插屏广告",@"原生模板广告",@"激励视频",@"基础信息",@"web跳转"];
     [self.view addSubview:self.adList];
     
     NSLog(@"MYAdsConfiguration sdkVersion - %@",[MYAdsConfiguration.shareInstance sdkVersion]);
@@ -91,6 +92,9 @@
     }else if (indexPath.row == 3){
         MYVideoViewController *video = [[MYVideoViewController alloc]init];
         [self.navigationController pushViewController:video animated:YES];
+    }else if (indexPath.row == 5){
+        myWebViewController *vc = [[myWebViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
     }else{
         MYAdInfoViewController *vc = [[MYAdInfoViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
