@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,6 +33,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8C9EE3796433B00C1B5ED351 /* Pods_MYIOSAdsSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDF1445D576EFFBC3E4C23F /* Pods_MYIOSAdsSDK_Example.framework */; };
 		92351DE22E2734E50008AD5F /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92351DE12E2734E50008AD5F /* Bugly.framework */; };
+		9243C3362EE3FC2D00E8345C /* CSJMediation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9243C3352EE3FC2D00E8345C /* CSJMediation.xcframework */; };
 		929B1BB92DE47B5A001244C6 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B1BB82DE47B5A001244C6 /* LogManager.m */; };
 		92A81DAD2E0A563100A6149C /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81DA52E0A563100A6149C /* UITabBarController+MemoryLeak.m */; };
 		92A81DAE2E0A563100A6149C /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A81D9D2E0A563100A6149C /* UIApplication+MemoryLeak.m */; };
@@ -116,6 +117,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92351DE12E2734E50008AD5F /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+		9243C3352EE3FC2D00E8345C /* CSJMediation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CSJMediation.xcframework; sourceTree = "<group>"; };
 		929B1BB72DE47B5A001244C6 /* LogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
 		929B1BB82DE47B5A001244C6 /* LogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
 		92A81D952E0A563100A6149C /* MLeakedObjectProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLeakedObjectProxy.h; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				8C9EE3796433B00C1B5ED351 /* Pods_MYIOSAdsSDK_Example.framework in Frameworks */,
+				9243C3362EE3FC2D00E8345C /* CSJMediation.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +239,7 @@
 		6003F593195388D20070C39A /* Example for MYIOSAdsSDK */ = {
 			isa = PBXGroup;
 			children = (
+				9243C3352EE3FC2D00E8345C /* CSJMediation.xcframework */,
 				92351DE12E2734E50008AD5F /* Bugly.framework */,
 				92A81DAC2E0A563100A6149C /* MLeaksFinder */,
 				929B1BB72DE47B5A001244C6 /* LogManager.h */,
@@ -390,6 +394,7 @@
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = 8UR33FSGUM;
+						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
 						DevelopmentTeam = 8UR33FSGUM;
@@ -731,6 +736,8 @@
 			baseConfigurationReference = 17981957C958DBDDC1339C78 /* Pods-MYIOSAdsSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UR33FSGUM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -743,6 +750,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiachufang.recipe;
 				PRODUCT_NAME = xcf;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -753,7 +761,9 @@
 			baseConfigurationReference = 31C8097B96696949A8C9BE7C /* Pods-MYIOSAdsSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8UR33FSGUM;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7YPGSUK4T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MYIOSAdsSDK",
@@ -765,6 +775,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiachufang.recipe;
 				PRODUCT_NAME = xcf;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

@@ -103,7 +103,7 @@
 
     // 判断是否超过五分钟（300秒）
     if (timeInterval > 20) {
-        Class view = NSClassFromString(@"ViewController");
+        Class view = NSClassFromString(@"MYViewController");
         UIViewController *vc = [[view alloc] init];
         _splash = [[MYSplashAd alloc] initWithSpaceId:SplashID];
         _splash.fetchDelay = 10;

@@ -150,6 +150,7 @@ SPEC REPOS:
     - BUTTSDKFramework
     - KSAdSDK
     - OctopusSDK
+    - WechatOpenSDK
   trunk:
     - AnyThinkiOS
     - BeiZiSDK-iOS
@@ -161,7 +162,6 @@ SPEC REPOS:
     - Masonry
     - QMAdSDK
     - SDWebImage
-    - WechatOpenSDK
 
 EXTERNAL SOURCES:
   MYIOSAdsSDK:
