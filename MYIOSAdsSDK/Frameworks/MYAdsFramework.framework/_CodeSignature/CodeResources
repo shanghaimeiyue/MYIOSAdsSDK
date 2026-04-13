@@ -6,11 +6,11 @@
 	<dict>
 		<key>.DS_Store</key>
 		<data>
-		c6xTlq9wgQmeAsxElkR3p9XnMfg=
+		na6/BYcag3paz7p9WVdr+2nap6Q=
 		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
-		b2/Ly/gmtAm7dJIvWMiuMkFAKGU=
+		CnwdKMgcR7IKsNXKywnEo1yTWQ0=
 		</data>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -393,7 +393,7 @@
 		</data>
 		<key>CSJAdSDK.bundle/version.txt</key>
 		<data>
-		hZpLZ3YkOahGvObIybr6wzy4jVo=
+		YV0EPaQT6DLGSdGYWQHr2yz+Rnk=
 		</data>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
 		<dict>
@@ -523,11 +523,11 @@
 		</data>
 		<key>Headers/MYBannerView.h</key>
 		<data>
-		xt4zIxFxTEZ0JfgDKClUXhZpfIM=
+		CKLak5QYZWvi9ViVHC3ARm4jxj4=
 		</data>
 		<key>Headers/MYInterstitialAd.h</key>
 		<data>
-		dME4VkayPSDIfVp5lBz27CX/1zA=
+		Q7q9KYGF+/PlIGJQMQyUvZka6II=
 		</data>
 		<key>Headers/MYNativeExpressAd.h</key>
 		<data>
@@ -535,11 +535,11 @@
 		</data>
 		<key>Headers/MYNativeExpressAdView.h</key>
 		<data>
-		P9cmxySjELChlmGfFnreoFLoELM=
+		WJe37wn0gBBlNFuMruBGfh1U8O0=
 		</data>
 		<key>Headers/MYRewardedVideoAd.h</key>
 		<data>
-		Dv/rMsZwWq1ruaBhs+wM5KKr0xQ=
+		uSaV0fpOMsy2QbToCKrErEXsuPM=
 		</data>
 		<key>Headers/MYRewardedVideoModel.h</key>
 		<data>
@@ -547,7 +547,7 @@
 		</data>
 		<key>Headers/MYSplashAd.h</key>
 		<data>
-		vWE+95jzydrNYm+HCZV7lhUsCco=
+		WbaeibANt68n12uXkzmQZLMGpLc=
 		</data>
 		<key>Headers/MyAdProtocol.h</key>
 		<data>
@@ -555,11 +555,215 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		39W/KFs+O40F7I3eq3CmT5DG0Xg=
+		f9BQi68iyUz5VgOZHenLLsgjVhc=
+		</data>
+		<key>JADYun.bundle/Info.plist</key>
+		<data>
+		np2d0SseV5ZjCCAX1Dr7/E0Ry9k=
+		</data>
+		<key>JADYun.bundle/JADYun.bundle/Info.plist</key>
+		<data>
+		lUv/+lypp6WPdsZWZGWTqwgnLYo=
+		</data>
+		<key>JADYun.bundle/JADYun.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		v8md+F1FHCbMMJ6E/DwgTKFeiG4=
+		</data>
+		<key>MSAdSDK.bundle/Info.plist</key>
+		<data>
+		oPwpQjsyXpNtWNIRBtffoQgl154=
+		</data>
+		<key>MSAdSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		9mBNp6TjxMX/flIBAd1lrEvGEKM=
+		</data>
+		<key>MSAdSDK.bundle/adBackGround.jpg</key>
+		<data>
+		Sn3EsfmX2two37B+doYOnezX9B4=
+		</data>
+		<key>MSAdSDK.bundle/ad_back_black_blod.png</key>
+		<data>
+		6SNjAsUMOYsIledy5Vj96P+hqco=
+		</data>
+		<key>MSAdSDK.bundle/ad_back_white_blod.png</key>
+		<data>
+		wAN+7yTGoDznaS0beGSg3r2da8Q=
+		</data>
+		<key>MSAdSDK.bundle/ad_close_blod.png</key>
+		<data>
+		blbHratsTWdyTpl0uKnnyxQMc5M=
+		</data>
+		<key>MSAdSDK.bundle/ad_page_loadingerr.png</key>
+		<data>
+		B6PuYbYy7NPvTqc9YqNgvZTFOaM=
+		</data>
+		<key>MSAdSDK.bundle/ad_reward_giftpack.png</key>
+		<data>
+		rpSz9Whff95IcxgLlHjZyhe8xWs=
+		</data>
+		<key>MSAdSDK.bundle/close_btn_prerender.png</key>
+		<data>
+		vB8g9TAFIXnJ7lavN6uZG2RFQWc=
+		</data>
+		<key>MSAdSDK.bundle/ms_ad@2x.png</key>
+		<data>
+		uWuF+9g/GA+OAFmGABsK/wUBto4=
+		</data>
+		<key>MSAdSDK.bundle/ms_back@3x.png</key>
+		<data>
+		NZAFYDyxT5OQJoxHKGLJlxsckwU=
+		</data>
+		<key>MSAdSDK.bundle/ms_close@2x.png</key>
+		<data>
+		0gJ+UKvaKs7i/qEHQrikfn5cz0g=
+		</data>
+		<key>MSAdSDK.bundle/ms_close_btn@3x.png</key>
+		<data>
+		sYjC7/p1KQbYHj9A+/F2HfbEsqA=
+		</data>
+		<key>MSAdSDK.bundle/ms_play@3x.png</key>
+		<data>
+		hB1T7TYozqlqdHnV2kWwJyngXk0=
+		</data>
+		<key>MSAdSDK.bundle/ms_sound_close.png</key>
+		<data>
+		QWsR/0Q0UpvHhpW0YYoRmu8uanU=
+		</data>
+		<key>MSAdSDK.bundle/ms_sound_open.png</key>
+		<data>
+		vYpMblQfp5uLNOKbkdjJL/nY73I=
+		</data>
+		<key>MSAdSDK.bundle/ms_video_back@3x.png</key>
+		<data>
+		gLNMmmGi15jxWF05oqYO8r9yhLI=
+		</data>
+		<key>MSAdSDK.bundle/rockBtn.png</key>
+		<data>
+		hml6tkga53stbkN3PFMxgYQvrvg=
+		</data>
+		<key>MSAdSDK.bundle/rockSmallIcon.png</key>
+		<data>
+		iyXbIicgpQq6RjY//KwWJmMTLcE=
+		</data>
+		<key>MSAdSDK.bundle/splashDirection.png</key>
+		<data>
+		/PsLzYoBchX97Qu6KM1RvN5nrbI=
+		</data>
+		<key>MSAdSDK.bundle/splashRock.gif</key>
+		<data>
+		YB4HvPcu1XvMw+hmA2Pq2eaU/QI=
+		</data>
+		<key>MSAdSDK.bundle/splashRock1.png</key>
+		<data>
+		uDSs6Oo0H98wezIc1kbHlROBrK4=
+		</data>
+		<key>MSAdSDK.bundle/splash_arrow.png</key>
+		<data>
+		as281X54k1CfYP4E2AQMNMnL9b4=
+		</data>
+		<key>MSAdSDK.bundle/splash_directions_small.png</key>
+		<data>
+		zA0OP9WbTNyCdI1w7+cu0C+fsDA=
+		</data>
+		<key>MSAdSDK.bundle/star.png</key>
+		<data>
+		w16gHNOf/EeSOTrJ3PB6mC9RjFI=
+		</data>
+		<key>MSAdSDK.bundle/twistSmallIcon.png</key>
+		<data>
+		iFkxTbIIVbdTP6zADnUUEQteYUY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		DjK1nAWbXrAnXgByWvoP5Wm5Q4A=
+		</data>
+		<key>OctAdSDK.bundle/Info.plist</key>
+		<data>
+		cuE8jUTxhfKKSItfvx9hmFBXilE=
+		</data>
+		<key>OctAdSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		PFHYbs0V3eUFDWQyYQcwEetuqEk=
+		</data>
+		<key>OctAdSDK.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		YuGtBdjU2KbTol37O+pPk4uSKcU=
+		</data>
+		<key>OctAdSDK.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		UFQw9MItbBDBywMrtsf5aOAqZR8=
+		</data>
+		<key>OctAdSDK.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		YDajS+VexNJH1Ye1TPGezhYlnNQ=
+		</data>
+		<key>OctAdSDK.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		LCRJbxYdJwwNi4cKywasOOcjv/I=
+		</data>
+		<key>OctAdSDK.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		6eo+HBffK+NHpNIsSLInRCoeRiY=
+		</data>
+		<key>OctCore.bundle/Info.plist</key>
+		<data>
+		1x5ZXQKRf6CG/3CnUuHbSVRyO84=
+		</data>
+		<key>OctCore.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		zUHyXw38WAU/pysNeGJjFf3HAeg=
+		</data>
+		<key>OctCore.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		0gXRk9ik9Vd22XgFPdW2z1DEWf4=
+		</data>
+		<key>OctCore.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		jSBlJjuhlk0iHk4Yqcn+6KsOrEk=
+		</data>
+		<key>OctCore.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		xgBal0/D6hGXooGkV//S6g/OKbU=
+		</data>
+		<key>OctCore.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		Xz1idCw7pNgBcIWyZJR8+Hj/7/c=
+		</data>
+		<key>OctCore.bundle/icon_alert_click.png</key>
+		<data>
+		OjQdT27kgbixnmYbN8GWB38sFPM=
+		</data>
+		<key>OctCore.bundle/icon_alert_finger.png</key>
+		<data>
+		fzgEpq61Ck/FKJOswJIYB1mjdWo=
+		</data>
+		<key>OctCore.bundle/icon_alert_logo.png</key>
+		<data>
+		C7Z3Pe1TzTR/QXPmvlDPgiz4w+Q=
+		</data>
+		<key>OctCore.bundle/oct_rotate_01.png</key>
+		<data>
+		+frDPCeSIke4gsW1QYEeB/wowdQ=
+		</data>
+		<key>OctCore.bundle/oct_rotate_02.png</key>
+		<data>
+		ODSAnwLljjqFTZ1UqwOjAwZWpVc=
+		</data>
+		<key>OctCore.bundle/oct_rotate_03.png</key>
+		<data>
+		yOK1FjmPYtzffVj+DLc+jC7DQnc=
+		</data>
+		<key>OctCore.bundle/oct_rotate_04.png</key>
+		<data>
+		nu/qt2FmlSxlEQL9AwiL1vuv2Ho=
+		</data>
+		<key>OctCore.bundle/octlogo.png</key>
+		<data>
+		loe9PmO7hPQsrcxudqANHOUbkgk=
+		</data>
+		<key>OctCore.bundle/remdad.png</key>
+		<data>
+		yXw+FeK8qnpWkG2fqY3SNoUMDXQ=
 		</data>
 		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -567,7 +771,7 @@
 		</data>
 		<key>ttplayer.metallib</key>
 		<data>
-		ADLHpACALRgTq1buVTKjHWrPsXk=
+		GOHJXyboIM6vh5JicNZPOzq8Qyk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -576,7 +780,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jb+y9pMUMIlFxULW9PkkBNfmncAZwBd+HIktJwODCIM=
+			9HpaRtgqa8ndupCK+vILWQOHWAhgjHcIEYiulgRsquw=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -1226,7 +1430,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IakpV/EmZWVz0vFjO8SF8N8lZ8v4Y3u7e9JgPfZRJtw=
+			MZ9APa0O+7jUa+H54QAvdEwuM3+6NY6+O5JKNer7BxE=
 			</data>
 		</dict>
 		<key>CSJAdSDK.bundle/zh-Hans.lproj/BULanguage.strings</key>
@@ -1440,14 +1644,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P8Q5bo8ngiHp6XxCka4hbi+eWHSKlbSt9Gjej7MvcnI=
+			oC7XsEFDgreWUxjrKZ7YIYCYI5Vm7jKiOMaRCcFYJJk=
 			</data>
 		</dict>
 		<key>Headers/MYInterstitialAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5SpUXz45DDwgQTj4Oc+s/P0MrveMMKNYnd81gj3czBs=
+			XF7wvRNyS3BwSDGgq6k08jTKYaCoXOg+EFh0UVz1ffA=
 			</data>
 		</dict>
 		<key>Headers/MYNativeExpressAd.h</key>
@@ -1461,14 +1665,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BJLAA+X2NFKfqo1QAs/2oKRF5IVDpMe+/gmCHgVxhAg=
+			tvTx4ZHhEHxkDPGViz4t9MLsyR5bXNo1AVHG4o8/MQg=
 			</data>
 		</dict>
 		<key>Headers/MYRewardedVideoAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bArH5BmFkjBhXmfxjr+fnQGQ+VpaePWWhBYjoKReeG4=
+			Q4FHxCHUT/77CsXWtP0i0eErT36Obtcxa2uHJzADuIw=
 			</data>
 		</dict>
 		<key>Headers/MYRewardedVideoModel.h</key>
@@ -1482,7 +1686,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uCdmVygXqPB7msucFHYXfQfSLdf+GVr5+X61plMPNII=
+			UyycWe0o2X/2qy5Jg7F6FijxGM4ixOM248vTgWi1UzE=
 			</data>
 		</dict>
 		<key>Headers/MyAdProtocol.h</key>
@@ -1492,11 +1696,368 @@
 			liLDmJhck9GY5Qe+i1alThxfdkPFocCE83xeF2xa3eI=
 			</data>
 		</dict>
+		<key>JADYun.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K2r6JCNXD5er7Cy3wdbJzz/J1fAL8V8rm9cT4hAzB9g=
+			</data>
+		</dict>
+		<key>JADYun.bundle/JADYun.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cLYZqZqiBMLrHEtveU5IyrN8OokwHOmIPIIsskyhY+k=
+			</data>
+		</dict>
+		<key>JADYun.bundle/JADYun.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pixpNLo+HMG31t+6H3hHw09ZMgcl1iIFiGhgo753wNw=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BHXjr6owwPEWSYoG8+X+I/hHtTzGE9WHrs8/qr4CXS0=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nzJ6oWTPqY2KQxD+Lz6cDjHkhASWiMgCQVXXYviuXPQ=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/adBackGround.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QOj2g3iQKfsX3arQZR2EdkGYQD5reYQRy1zvvR9k4xU=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ad_back_black_blod.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qiTOsNuedk9ZuBJ+P6+a3tKKn3doRUgo+v+RREPWdNM=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ad_back_white_blod.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qmqFz1Rf8bIz+FaH5Q80VRDPN0xL7gksmIDQt/EmiWI=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ad_close_blod.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			25RZKWuKVtWpJtBIQX6eXFwOgCBCf5QgmwdGwb/Mc+I=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ad_page_loadingerr.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LJXVmnkmRRnfO45mfoLt/8l1xZa/4ErHYEue4xoMUwQ=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ad_reward_giftpack.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R19lKU8o3AYe0++3TREH/wSDV87AlFNx8jAU0qdNp6Y=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/close_btn_prerender.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UaLzujaLkhUIxKn6Un6t84pMcwL0CIPvPx10CLTvBDE=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ms_ad@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a+zOJkpy56Sc/1JoOt9X+HOf59sKiOU2jinGPOoAV18=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ms_back@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6y0tNG8OFk8/eK8undjYw1TX1fNcGskmosMWpCFfvJg=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ms_close@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/OZt3JZ8x6ia2iV1JnqvvMYIri5R1HpH6jM71A9FG/I=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ms_close_btn@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ybkpBmR0cHnknkdnbLtXANsg61o/sbBLnUuT6uHdd6Q=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ms_play@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z8olMe2FBl1+mcoxb8WD4/Ko00rN2tpV9+IVjycoZDI=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ms_sound_close.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VX6K1/i/HeZAbT0UrtmLdgWMlM4TIiugecD8xmPPEIs=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ms_sound_open.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U9ECvkXnr6DyhKBxkFQ/vo4+7lZBDbwimYRY1wXosdE=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ms_video_back@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0rA266Es9v+QQH51i+SrkUOKZm1czUXoUAum7RIpsIs=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/rockBtn.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XJjvwwKdLC8hYTYz9TN21tfG6LACU6Xd4RVDseAU134=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/rockSmallIcon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SsmFKLNejka9Ys/AK0LVNL+YARo8x5IAftO5ksv9QmY=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/splashDirection.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nxOfIYurkRDdDIyBI7Nbh2FKZWr4qnPrypdv7nMJKTU=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/splashRock.gif</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YigDsszVGrnUehQMnZDPeYAI5jKbUna7sNmxhuMxKMA=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/splashRock1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jzKpWBZ4F05bi8meZak3PjcmcEYeB6N7e9HxCcCd8c4=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/splash_arrow.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LInlBXncqGgLICQGPYDZwppKqK4b3pkJNdX2u6J+VaM=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/splash_directions_small.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0dKdLLOUMYWNjwp2S6ZB3jAzCsD1dw3L5VMESSWDEkY=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/star.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sMC33fhsBWQowzrjPAu+QgbQyLaBl0bQweejY/Xlxcs=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/twistSmallIcon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7jCwKmAzUIGtMXp9Yic2L8QuigcqIyAEMW8JzbmCuhA=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			G4paLa6GCKS3dpQimH+n4w9ZayMgkYZ57s3xZm0/UBM=
+			</data>
+		</dict>
+		<key>OctAdSDK.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uHk5zkCosToQt/SQgNpAy9NSgds4Aa2wfGn9zv2oGZg=
+			</data>
+		</dict>
+		<key>OctAdSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A7LHCDOjMaKx79Ef8WjtAqjq39Xn0fvzDuzHUJpK6kc=
+			</data>
+		</dict>
+		<key>OctAdSDK.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UpxOB/wG73kXXMbv91LDDB1ZkLgYxLla/gYHRIE4x3g=
+			</data>
+		</dict>
+		<key>OctAdSDK.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Idwc07w0dwxyfp4LfYsPR2ApQXyF7r4FcvQ/x82z8SY=
+			</data>
+		</dict>
+		<key>OctAdSDK.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3aVUfGiAQs4MaiKCHDoCsGZkibSJ+4sGh3MhgYCjoi0=
+			</data>
+		</dict>
+		<key>OctAdSDK.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mSuAAmd7twZr2StmdViVW3Tq+i1lbxxxoQQ3sgoXSS0=
+			</data>
+		</dict>
+		<key>OctAdSDK.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CsfhymiRy34QQWq/QZWK3axbp/PwFQHerQmJyTZ488Y=
+			</data>
+		</dict>
+		<key>OctCore.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			35N7G8PwVhS8oakZd1yXDytdWRLAsBhxVbbHXGv+kLo=
+			</data>
+		</dict>
+		<key>OctCore.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qzQ391bHS8TE3RZMNuIx+10qtShT0HLgWgW/cPikMQQ=
+			</data>
+		</dict>
+		<key>OctCore.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vvZQX9eqhZLJBOCpcF0o2fXgmT4DTH34g/Bgnqz10SU=
+			</data>
+		</dict>
+		<key>OctCore.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QQjBgBIGidyXZbous77VFm2KiW9A6iADMxq6II6KYXM=
+			</data>
+		</dict>
+		<key>OctCore.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MUCjAsVCuz1V0M9bBb0laTIJfATU6YcoVSWPn4JUxcU=
+			</data>
+		</dict>
+		<key>OctCore.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EpfkRxzQOjwUmrzfM9rIKm4ZqcdA4WLFSA+YaFAfhYk=
+			</data>
+		</dict>
+		<key>OctCore.bundle/icon_alert_click.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AIoIpQCQZ9PnFwTB8NBOPTK9O6w4J8h3Tf59/LIeQqE=
+			</data>
+		</dict>
+		<key>OctCore.bundle/icon_alert_finger.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aRuxai7k5Q2sHBUy4y2rwCrxxmYeAxFQt0cxVOkZRy0=
+			</data>
+		</dict>
+		<key>OctCore.bundle/icon_alert_logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V7+nFkCvivF+oSZaejaLC9US4Ga0Mo1cx30THWV/R10=
+			</data>
+		</dict>
+		<key>OctCore.bundle/oct_rotate_01.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uLR1JUd5W8/BznF/emLwbzCXbTxkJg31FxRKwcyi4ww=
+			</data>
+		</dict>
+		<key>OctCore.bundle/oct_rotate_02.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v2/8CPzRCQWVSaoaRga+At9FlLh+dwcv27diiOtpH84=
+			</data>
+		</dict>
+		<key>OctCore.bundle/oct_rotate_03.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L3+VhQMQT3E8fv8HO4pDI/hu6xCTsnJS8SxrnabsS0Y=
+			</data>
+		</dict>
+		<key>OctCore.bundle/oct_rotate_04.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yzQrHQmdnQkcQDfJ6LO0vtINaTamuYCdl1c47SwLYB0=
+			</data>
+		</dict>
+		<key>OctCore.bundle/octlogo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aPGTYQgn/Btf3P4ELr+bycSVAkk1FhYkXXJTFaAKPLs=
+			</data>
+		</dict>
+		<key>OctCore.bundle/remdad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qCtIgoW/cLa7R+5NjQshhA1Q+1INYR9K+uNofFJOcEA=
 			</data>
 		</dict>
 		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>
@@ -1510,7 +2071,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ICUAM/ryJakLbkqgmVoKepYMUELT73Ynad3RJlhvik=
+			yOkqQcrkH4IvAsqk7zgZy/UkavfZTREXIgpRvQKxo4w=
 			</data>
 		</dict>
 	</dict>
