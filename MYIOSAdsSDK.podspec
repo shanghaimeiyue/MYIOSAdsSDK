@@ -26,15 +26,15 @@ TODO: Add long description of the pod here.
   s.author           = { 'shanghaimeiyue' => 'karl@edimob.com' }
   s.source           = { :git => 'https://github.com/shanghaimeiyue/MYIOSAdsSDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
 
   s.static_framework = true
   s.resources = 'MYIOSAdsSDK/Resources/*.bundle'
   s.vendored_frameworks = 'MYIOSAdsSDK/Frameworks/*.framework'
   
   
-  s.dependency 'CocoaAsyncSocket'
-  s.dependency 'CocoaLumberjack'
+  #s.dependency 'CocoaAsyncSocket'
+  #s.dependency 'CocoaLumberjack'
   #s.dependency 'WechatOpenSDK_UnPay'
   s.dependency 'SDWebImage','~> 5.21.1'
   s.dependency 'Masonry'
